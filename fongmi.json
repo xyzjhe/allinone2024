@@ -12,7 +12,7 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "豆瓣",
+      "name": "🐵豆瓣|蜜蜂线路🐵",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -33,7 +33,7 @@
     },
     {
       "key": "盤99",
-      "name": "🐂盘ali99|4K🐂",
+      "name": "盘Ali99|4K",
       "type": 3,
       "api": "csp_Pan99",
       "searchable": 1,
@@ -41,73 +41,13 @@
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
     },
     {
-      "key": "商店",
-      "name": "商店",
-      "type": 3,
-      "api": "csp_Market",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": "https://fm.t4tv.hz.cz/json/market.json"
-    },
-    {
       "key": "賤賤",
-      "name": "賤賤",
+      "name": "荐片",
       "type": 3,
       "api": "csp_Jianpian",
       "searchable": 1,
       "changeable": 1,
-      "ext": "https://fm.t4tv.hz.cz/json/jianpian.json"
-    },
-    {
-      "key": "獨播",
-      "name": "獨播",
-      "type": 3,
-      "api": "csp_XPathMacFilter",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "https://fm.t4tv.hz.cz/json/duboku.json"
-    },
-    {
-      "key": "haiwaikan",
-      "name": "海外看",
-      "type": 1,
-      "api": "https://haiwaikan.com/api.php/provide/vod",
-      "searchable": 1,
-      "changeable": 1,
-      "categories": [
-        "日本动漫",
-        "国产动漫",
-        "欧美动漫",
-        "国产剧",
-        "韩剧",
-        "日剧",
-        "台剧",
-        "泰剧",
-        "港剧",
-        "欧美剧",
-        "动画电影",
-        "韩国综艺",
-        "国产综艺",
-        "日本综艺",
-        "欧美综艺",
-        "冒险片",
-        "剧情片",
-        "动作片",
-        "同性片",
-        "喜剧片",
-        "奇幻片",
-        "恐怖片",
-        "悬疑片",
-        "惊悚片",
-        "战争片",
-        "歌舞片",
-        "灾难片",
-        "爱情片",
-        "犯罪片",
-        "科幻片",
-        "纪录片",
-        "经典片"
-      ]
+      "ext": "./json/jianpian.json"
     },
     {
       "key": "996影院",
@@ -125,7 +65,6 @@
       "searchable": 1,
       "changeable": 0
     },
-    
     {
       "key": "新6V",
       "name": "新6V",
@@ -148,7 +87,7 @@
     },
     {
       "key": "暴風",
-      "name": "暴風",
+      "name": "暴風|采集",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod",
       "searchable": 1,
@@ -156,7 +95,7 @@
     },
     {
       "key": "索尼",
-      "name": "索尼 ",
+      "name": "索尼|采集 ",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod",
       "searchable": 1,
@@ -164,7 +103,7 @@
     },
     {
       "key": "快帆",
-      "name": "快帆",
+      "name": "快帆|采集",
       "type": 1,
       "api": "https://api.kuaifan.tv/api.php/provide/vod",
       "searchable": 1,
@@ -172,15 +111,15 @@
     },
     {
       "key": "量子",
-      "name": "量子",
-      "type": 1,
-      "api": "https://cj.lziapi.com/api.php/provide/vod",
+      "name": "量子|采集",
+      "type": 0,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
       "changeable": 1
     },
     {
       "key": "非凡",
-      "name": "非凡",
+      "name": "非凡|采集",
       "type": 1,
       "api": "http://cj.ffzyapi.com/api.php/provide/vod",
       "searchable": 1,
@@ -188,7 +127,7 @@
     },
     {
       "key": "櫻花",
-      "name": "櫻花",
+      "name": "櫻花|动漫",
       "type": 3,
       "api": "csp_Ying",
       "searchable": 1,
@@ -196,7 +135,7 @@
     },
     {
       "key": "巴士",
-      "name": "巴士",
+      "name": "巴士|动漫",
       "type": 3,
       "api": "csp_Dm84",
       "searchable": 1,
@@ -204,40 +143,24 @@
     },
     {
       "key": "異界",
-      "name": "異界",
+      "name": "異界|动漫",
       "type": 3,
       "api": "csp_Ysj",
       "searchable": 1,
       "changeable": 1
     },
     {
-      "key": "哔哩",
-      "name": "哔哩",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "json": "https://fm.t4tv.hz.cz/json/bili.json",
-        "type": "帕梅拉#太极拳#广场舞#演唱会",
-        "cookie": ""
-      }
-    },
-    {
-      "key": "bili_open",
-      "name": "哔哩貓",
-      "type": 3,
-      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/bili_open.js",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "categories": "短剧#沙雕动画#沙雕穿越#沙雕",
-        "cookie": ""
-      }
+         "key": "哔哩",
+         "name": "🅱️┃哔哩【FM】┃4K🅱️",
+         "type": 3,
+         "api": "csp_Bili",
+         "searchable": 1,
+         "changeable": 0,
+	 "style": {
+            "type": "rect",
+            "ratio": 1.433
+                  },
+         "ext": { "json": "./json/bili_FM.json", "type": "帕梅拉#太极拳#广场舞#演唱会","cookie": "http://127.0.0.1:9978/file/tvbox/bilicookie.txt" }
     },
     {
       "key": "酷狗",
@@ -262,7 +185,7 @@
       "api": "csp_AList",
       "searchable": 1,
       "changeable": 0,
-      "ext": "https://fm.t4tv.hz.cz/json/alist.json"
+      "ext": "./json/alist.json"
     },
     {
       "key": "WebDAV",
@@ -271,7 +194,7 @@
       "api": "csp_WebDAV",
       "searchable": 0,
       "changeable": 0,
-      "ext": "https://fm.t4tv.hz.cz/json/webdav.json"
+      "ext": "./json/webdav.json"
     },
     {
       "key": "JustLive",
@@ -283,60 +206,66 @@
     },
     {
       "key": "七夜",
-      "name": "七夜",
+      "name": "七夜|4K",
       "type": 3,
       "api": "csp_Dovx",
       "searchable": 1,
-      "changeable": 0
+      "changeable": 0,
+      "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
     },
     {
       "key": "易搜",
-      "name": "易搜",
+      "name": "易搜|4K",
       "type": 3,
       "api": "csp_YiSo",
       "searchable": 1,
-      "changeable": 0
+      "changeable": 0,
+      "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
     },
     {
       "key": "雲搜",
-      "name": "雲搜",
+      "name": "云搜|4K",
       "type": 3,
       "api": "csp_UpYun",
       "searchable": 1,
-      "changeable": 0
+      "changeable": 0,
+      "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
     },
     {
       "key": "盤搜",
-      "name": "盤搜",
+      "name": "盘搜|4K",
       "type": 3,
       "api": "csp_PanSou",
       "searchable": 1,
-      "changeable": 0
+      "changeable": 0,
+      "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
     },
     {
       "key": "紙條搜",
-      "name": "紙條搜",
+      "name": "纸条搜|4K",
       "type": 3,
       "api": "csp_XiaoZhiTiao",
       "searchable": 1,
-      "changeable": 0
+      "changeable": 0,
+      "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
     },
     {
       "key": "盤搜索",
-      "name": "盤搜索",
+      "name": "盘搜索|4K",
       "type": 3,
       "api": "csp_PanSearch",
       "searchable": 1,
-      "changeable": 0
+      "changeable": 0,
+      "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt" 
     },
     {
       "key": "找資源",
-      "name": "找資源",
+      "name": "找资源|4K",
       "type": 3,
       "api": "csp_Zhaozy",
       "searchable": 1,
       "changeable": 0,
-      "ext": "影視天下第一$$$test2$$$test2"
+      "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt$$$zzyali$$$555555"
     },
     {
       "key": "push_agent",
