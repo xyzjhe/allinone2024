@@ -3,7 +3,7 @@
   "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
 
   "sites": [
-    {"key":"豆瓣","name":"豆瓣","type":3,"api":"csp_Douban","searchable":0,"changeable":1},
+    {"key":"豆瓣","name":"豆瓣|OK线路","type":3,"api":"csp_Douban","searchable":0,"changeable":1},
     {"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.43}},
     {"key":"应用商店","name":"应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"https://fm.t4tv.hz.cz/json/market.json","style":{"type":"rect","ratio":1}},
     {"key":"玩偶弹幕版","name":"玩偶哥哥弹幕|4K","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":1, "ext": {
