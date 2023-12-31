@@ -434,6 +434,41 @@
 	
   "doh": [
     {
+      "name": "OpenDNS",
+      "url": "https://dns.www.opendns.com/dns-query",
+      "ips":[
+      "208.67.222.222",
+      "208.67.220.220"
+      ]
+    },
+      {
+      "name": "114dns",
+      "url": "https://dns.114dns.com/dns-query",
+      "ips":[
+      "114.114.114.114",
+      "114.114.115.115"
+      ]
+    },
+    {
+      "name": "騰訊",
+      "url": "https://doh.pub/dns-query",
+      "ips":[
+      "119.29.29.29"
+      ]
+    },
+    {
+      "name": "阿里",
+      "url": "https://dns.alidns.com/dns-query",
+      "ips":[
+      "223.6.6.6",
+      "223.5.5.5"
+      ]
+    },
+    {
+      "name": "360",
+      "url": "https://doh.360.cn/dns-query"
+    },
+    {
       "name": "Google",
       "url": "https://dns.google/dns-query",
       "ips": [
