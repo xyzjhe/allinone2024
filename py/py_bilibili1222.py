@@ -26,9 +26,9 @@ class Spider(Spider):
     defaultConfig = {
         'currentVersion': "20231222_1",
         #【建议通过扫码确认】设置Cookie，在双引号内填写
-        'raw_cookie_line': "",
+        'raw_cookie_line': "SESSDATA=7624af93%2C1696008331%2C862c8%2A42; bili_jct=141a474ef3ce8cf2fedf384e68f6625d; DedeUserID=3493271303096985; DedeUserID__ckMd5=212a836c164605b7",
         #如果主cookie没有vip，可以设置第二cookie，仅用于播放会员番剧，所有的操作、记录还是在主cookie，不会同步到第二cookie
-        'raw_cookie_vip': "",
+        'raw_cookie_vip': "SESSDATA=7624af93%2C1696008331%2C862c8%2A42; bili_jct=141a474ef3ce8cf2fedf384e68f6625d; DedeUserID=3493271303096985; DedeUserID__ckMd5=212a836c164605b7",
         #主页默认显示20图
         'maxHomeVideoContent': '20',
         #收藏标签默认显示追番1，追剧2，默认收藏夹0
