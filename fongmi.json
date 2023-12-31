@@ -1,7 +1,45 @@
 {
-  "spider": "https://fm.t4tv.hz.cz/jar/custom_spider.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab",
+  "spider": "./jar/FM1231.jar",
+  
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+
+  "lives": [
+	  
+	  {"name": "live","type": 0,"url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wlcmc1972/tvbox/main/tv/live1.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+          {"name":"央视嗅探","ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0","type":0,"timeout": 40,"url":"./ysp.m3u","boot":false} 
+  ],
+  
   "sites": [
+    {
+      "key": "豆瓣",
+      "name": "豆瓣",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0,
+      "changeable": 1,
+      "ext": "./json/douban.json"
+    },
+    {
+      "key": "玩偶",
+      "name": "🎯玩偶哥哥|4K",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
+        "filter": "./json/wogg.json"
+      }
+    },
+    {
+      "key": "盤99",
+      "name": "🐂盘ali99|4K🐂",
+      "type": 3,
+      "api": "csp_Pan99",
+      "searchable": 1,
+      "changeable": 0,
+      "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
+    },
     {
       "key": "商店",
       "name": "商店",
@@ -10,43 +48,6 @@
       "searchable": 0,
       "changeable": 0,
       "ext": "https://fm.t4tv.hz.cz/json/market.json"
-    },
-    {
-      "key": "泥巴",
-      "name": "泥巴",
-      "type": 3,
-      "api": "csp_NiNi",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "星星",
-      "name": "星星",
-      "type": 3,
-      "api": "csp_Star",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "玩偶",
-      "name": "玩偶",
-      "type": 3,
-      "api": "csp_Wogg",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "token": "影視天下第一",
-        "filter": "https://fm.t4tv.hz.cz/json/wogg.json"
-      }
-    },
-    {
-      "key": "盤99",
-      "name": "盤99",
-      "type": 3,
-      "api": "csp_Pan99",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": "影視天下第一"
     },
     {
       "key": "賤賤",
@@ -124,15 +125,7 @@
       "searchable": 1,
       "changeable": 0
     },
-    {
-      "key": "豆瓣",
-      "name": "豆瓣",
-      "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0,
-      "changeable": 1,
-      "ext": "https://fm.t4tv.hz.cz/json/douban.json"
-    },
+    
     {
       "key": "新6V",
       "name": "新6V",
