@@ -1,5 +1,5 @@
 {
-	"spider": "http://like.xn--z7x900a.live:66/jar/PandaQ231205.jar;md5;9cc29f6286b2fe7910628852929c4bdb",
+	"spider": "./jar/PandaQ231205.jar;md5;9cc29f6286b2fe7910628852929c4bdb",
 	"wallpaper": "http://我不是.肥猫.live/ppic/feimao.php",
 	"sites": [{
 		"key": "drpy_js_豆瓣",
