@@ -3,7 +3,7 @@
 	"wallpaper": "http://我不是.肥猫.live/ppic/feimao.php",
 	"sites": [{
 		"key": "drpy_js_豆瓣",
-		"name": "🐼┃豆瓣┃微信公众号：肥猫宝贝",
+		"name": "🐼┃豆瓣┃肥猫线路🐼",
 		"type": 3,
 		"api": "./feimao/js/lib/drpy2.min.js",
 		"searchable": 1,
