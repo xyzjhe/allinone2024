@@ -184,7 +184,8 @@
       "api": "csp_XBPQ",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./json/qiyoudy.json"
+      "ext": "./json/qiyoudy.json",
+      "jar":"./jar/xBPQ.jar"
     },	    
     {
       "key": "骚火",
@@ -205,7 +206,8 @@
         "跳转播放链接": "<iframe*src=\"&&\"",
         "二次跳转播放链接": "https://hhjx.hhplayer.com/api.php;post;url=+var url*\"&&\"+&t=+var t*\"&&\"+&key=+var key*\"&&\"+&act=0+&play=1",
         "三次跳转播放链接": "\"url\"*\"&&\""
-      }
+      },
+      "jar":"./jar/xBPQ.jar"
     },
     {
       "key": "云播",
@@ -239,7 +241,8 @@
         "播放列表": "<a&&/a>",
         "分类url": "http://www.hktvyun.com/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html;;a",
         "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
-      }
+      },
+    "jar":"./jar/xBPQ.jar"
     },
     {
       "key": "Freeok",
@@ -261,7 +264,8 @@
         "导演": "导演：&&</div>",
         "主演": "主演：&&</div>",
         "简介": "<p>&&</p>"
-      }
+      },
+    "jar":"./jar/xBPQ.jar"
     },
         
         //B站系列
