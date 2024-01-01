@@ -476,16 +476,7 @@
 		},
 		{"key": "push_agent","name": "推送","type": 3,"api": "csp_Push","changeable":0, "timeout":30, "ext":"http://127.0.0.1:9978/file/XYQTVBox/tokenm.json"},
 		/*{"key":"PikPakShare","name":"PikPak分享","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":0, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/XYQTVBox/tokenm.json$$$./lib/pikpakclass.json$$$./lib/pikpakclass.json.txt.gz"},*/
-		{
-                 "key": "PikPakShare",
-                 "name": "PikPak分享-4872",
-                 "type": 3,
-                 "api": "csp_PikPakShare",
-                 "searchable": 1,
-                 "changeable": 1,
-                 "timeout": 60,
-                 "ext": "https://ghproxy.net/https://raw.githubusercontent.com/13998394872/TVBox/main/ext/tokenm.json$$$https://ghproxy.net/https://raw.githubusercontent.com/13998394872/TVBox/main/ext/pikpakclass.json$$$https://ghproxy.net/https://raw.githubusercontent.com/13998394872/TVBox/main/ext/pikpakclass.json.txt.gz"
-                },
+		
 		{
 			"key": "應用商店",
 			"name": "應用商店",
