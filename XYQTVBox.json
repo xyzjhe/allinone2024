@@ -176,6 +176,24 @@
     {"key": "drpy_js_博看听书", "name": "博看听书(js)","type": 3,"api": "./drpy_js/libs/drpy2.min.js","ext": "./drpy_js/js/博看听书.js", "playerType": "2" },
     {"key": "drpy_js_喜马拉雅","name": "喜马拉雅(js)","type": 3,"api": "./drpy_js/libs/drpy2.min.js","ext": "./drpy_js/js/喜马拉雅.js","playerType": "2"},
 
+    {
+      "key": "快影",
+      "name": "快影┃YsV2",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "http://iosa.xn--654a.cc/api.php/app/"
+    },
+    {
+      "key": "ytvip",
+      "name": "探影┃YsV2",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "http://wipcms.lyyytv.cn/api.php/app/"
+    },
     
     {
       "key": "奇优",
