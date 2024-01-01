@@ -82,7 +82,7 @@
 			"changeable": 0,
 			"ext":{
 				"type":"演唱会#电影#电视剧#帕梅拉#广场舞#纪录片#综艺#鬼畜#音乐#舞蹈#影视#知识#美食#风光#田园#户外#8K#徐云",
-				"cookie":""
+				"cookie":"http://127.0.0.1:9978/file/XYQTVBox/bili_cookie.txt"
 			}
 		},
 		{"key":"Wogg","name":"玩偶哥哥|阿里","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/XYQTVBox/tokenm.json$$$https://api.wogg.xyz/$$$null$$$1$$$./lib/wogg.json"},
