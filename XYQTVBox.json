@@ -95,7 +95,7 @@
     },
    
     {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃热搜","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
-    {"key":"cctv","name":"📺央视大全┃sp📺","type":3,"api":"csp_CCTV","searchable":0,"filterable":0,"ext":"./json/央视大全.json","jar":"./jar/cctv.jar"},
+    {"key":"cctv","name":"📺央视大全┃sp📺","type":3,"api":"csp_CCTV","searchable":0,"filterable":0,"ext":"./json/央视大全.json"},
     {"key":"py_cctv","name":"📺CCTV┃py📺","type": 3,"api": "py_cctv","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/py_cctv1231.py"},
     {"key":"py_m1905","name":"🌎M1905┃py🌎","type": 3,"api": "py_m1905","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/m1905.py"},
     {"key":"py_Bilibili","name":"哔哩聚合4K|py","type":3,"api":"./py/py_bilibili1222.py","searchable":1,"changeable":1,"ext":""},
@@ -134,12 +134,12 @@
         "体育"
 	]
     },
-    {"key": "csp_SP2345", "name": "🐕┃2345影视┃SP", "type": 3, "api": "csp_SP2345", "playerType": 2, "searchable": 1, "quickSearch": 1, "filterable": 1, "jar":"./jar/GUAN1201.jar" },
-    {"key": "csp_qq","name": "🐧┃腾讯视频┃SP", "type": 3, "api": "csp_QQ", "searchable": 1, "quickSearch": 1,"filterable": 1,"jar":"./jar/GUAN1201.jar" },
-    {"key": "csp_iqiyi","name": "🥝┃奇艺影视┃SP", "type": 3,"api": "csp_IQIYI","searchable": 1, "quickSearch": 1,"filterable": 1, "jar":"./jar/GUAN1201.jar"},
-    {"key": "csp_mgtv","name": "🍋┃芒果电影┃SP","type": 3,"api": "csp_MGTV", "searchable": 1, "quickSearch": 1,"filterable": 1,"jar":"./jar/GUAN1201.jar" },
-    {"key": "csp_youku","name": "👔┃优酷电影┃SP","type": 3,"api": "csp_YOUKU","searchable": 1,"quickSearch": 1, "filterable": 1,"jar":"./jar/GUAN1201.jar"},
-    {"key": "csp_SP360","name": "🌐┃360影视┃SP", "type": 3,"api": "csp_SP360", "playerType": 2, "searchable": 1, "quickSearch": 1,"filterable": 1, "jar":"./jar/GUAN1201.jar" },
+    {"key": "csp_SP2345", "name": "🐕┃2345影视┃SP", "type": 3, "api": "csp_SP2345", "playerType": 2, "searchable": 1, "quickSearch": 1, "filterable": 1},
+    {"key": "csp_qq","name": "🐧┃腾讯视频┃SP", "type": 3, "api": "csp_QQ", "searchable": 1, "quickSearch": 1,"filterable": 1 },
+    {"key": "csp_iqiyi","name": "🥝┃奇艺影视┃SP", "type": 3,"api": "csp_IQIYI","searchable": 1, "quickSearch": 1,"filterable": 1},
+    {"key": "csp_mgtv","name": "🍋┃芒果电影┃SP","type": 3,"api": "csp_MGTV", "searchable": 1, "quickSearch": 1,"filterable": 1 },
+    {"key": "csp_youku","name": "👔┃优酷电影┃SP","type": 3,"api": "csp_YOUKU","searchable": 1,"quickSearch": 1, "filterable": 1},
+    {"key": "csp_SP360","name": "🌐┃360影视┃SP", "type": 3,"api": "csp_SP360", "playerType": 2, "searchable": 1, "quickSearch": 1,"filterable": 1 },
    
     {"key":"drpy_js_腾云驾雾","name":"🐧腾讯官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "./drpy_js/js/腾讯_new.js"},
     {"key":"drpy_js_百忙无果","name":"🍋芒果官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/百忙无果.js"},
