@@ -177,6 +177,22 @@
     {"key": "drpy_js_喜马拉雅","name": "喜马拉雅(js)","type": 3,"api": "./drpy_js/libs/drpy2.min.js","ext": "./drpy_js/js/喜马拉雅.js","playerType": "2"},
 
     {
+     "key":"Watch the drama",
+     "name": |Watch the drama",
+     "type": 3,
+     "api": "csp_XBPQ",
+     "ext": {
+     "Categoryurl":"https://www.jukankan.me/2 vodtype/{cateld}-{catePg}.html" }
+    },
+    {
+     "key":"Coke",
+     "name":"COKEBY",
+     "type": 3,
+     "api": "csp_XBPQ",
+     "ext": {
+     "Category url":"http://cokeby.com/vodshow/2 {cateld}-{catePg}---.html }
+    },
+    {
       "key": "快影",
       "name": "快影┃YsV2",
       "type": 3,
