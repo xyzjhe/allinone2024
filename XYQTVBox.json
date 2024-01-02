@@ -181,6 +181,7 @@
      "name": "Watch the drama",
      "type": 3,
      "api": "csp_XBPQ",
+     "jar":"./jar/xBPQ.jar",
      "ext": {
      "Categoryurl":"https://www.jukankan.me/2 vodtype/{cateld}-{catePg}.html"}
     },
@@ -189,6 +190,7 @@
      "name":"COKEBY",
      "type": 3,
      "api": "csp_XBPQ",
+     "jar":"./jar/xBPQ.jar",
      "ext": {
      "Category url":"http://cokeby.com/2 vodshow/{cateld}--------{catePg}---.html" }
     },
