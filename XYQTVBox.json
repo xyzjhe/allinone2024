@@ -183,7 +183,7 @@
      "api": "csp_XBPQ",
      "jar":"./jar/xBPQ.jar",
      "ext": {
-     "Categoryurl":"https://www.jukankan.me/2 vodtype/{cateld}-{catePg}.html"}
+     "Categoryurl":"https://www.jukankan.me/vodtype/{cateld}-{catePg}.html"}
     },
     {
      "key":"Coke",
@@ -192,7 +192,7 @@
      "api": "csp_XBPQ",
      "jar":"./jar/xBPQ.jar",
      "ext": {
-     "Category url":"http://cokeby.com/2 vodshow/{cateld}--------{catePg}---.html" }
+     "Category url":"http://cokeby.com/vodshow/{cateld}--------{catePg}---.html" }
     },
     {
       "key": "快影",
