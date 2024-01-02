@@ -178,11 +178,11 @@
 
     {
      "key":"Watch the drama",
-     "name": |Watch the drama",
+     "name": "Watch the drama",
      "type": 3,
      "api": "csp_XBPQ",
      "ext": {
-     "Categoryurl":"https://www.jukankan.me/2 vodtype/{cateld}-{catePg}.html" }
+     "Categoryurl":"https://www.jukankan.me/vodtype/{cateld}-{catePg}.html" }
     },
     {
      "key":"Coke",
@@ -190,7 +190,7 @@
      "type": 3,
      "api": "csp_XBPQ",
      "ext": {
-     "Category url":"http://cokeby.com/vodshow/2 {cateld}-{catePg}---.html }
+     "Category url":"http://cokeby.com/vodshow/{cateld}-{catePg}---.html }
     },
     {
       "key": "快影",
