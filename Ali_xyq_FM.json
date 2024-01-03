@@ -83,9 +83,9 @@
      {"key":"drpy_js_爱看机器人3","name":"爱看|机器v3[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot3.js"},
 
      	    
-     { {
+     {
       "key": "索尼资源",
-      "name": "索尼┃资源",
+      "name": "索尼┃采集(广告勿信)",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
       "categories": [
@@ -194,7 +194,7 @@
 
     {
       "key": "haiwaikan",
-      "name": "海外看",
+      "name": "海外看┃采集(广告勿信)",
       "type": 1,
       "api": "https://haiwaikan.com/api.php/provide/vod",
       "searchable": 1,
