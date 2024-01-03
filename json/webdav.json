@@ -1,5 +1,12 @@
 {
   "drives": [
+        
+    {
+      "name": "EVEC",
+      "server": "https://pan.ecve.cn:443/dav",
+      "user": "dav",
+      "pass": "dav"
+    },
     {
       "name": "七米藍",
       "server": "https://al.chirmyram.com/dav",
