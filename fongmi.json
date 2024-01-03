@@ -149,7 +149,7 @@
 
       {
       "key": "索尼资源",
-      "name": "索尼┃资源",
+      "name": "索尼┃采集(广告勿信)",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
       "categories": [
@@ -258,7 +258,7 @@
 
     {
       "key": "haiwaikan",
-      "name": "海外看",
+      "name": "海外看┃采集(广告勿信)",
       "type": 1,
       "api": "https://haiwaikan.com/api.php/provide/vod",
       "searchable": 1,
@@ -298,6 +298,7 @@
         "经典片"
       ]
     },
+
 	  
     {"key": "csp_SP2345", "name": "🐕┃2345影视┃SP", "type": 3, "api": "csp_SP2345", "playerType": 2, "searchable": 1, "quickSearch": 1, "filterable": 1},
     {"key": "csp_qq","name": "🐧┃腾讯视频┃SP", "type": 3, "api": "csp_QQ", "searchable": 1, "quickSearch": 1,"filterable": 1},
