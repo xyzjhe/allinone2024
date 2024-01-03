@@ -26,7 +26,8 @@
       "type": 3,
       "api": "csp_Local"
     },
-    {
+    
+    /*{
       "key": "PikPakShare",
       "name": "PikPak分享",
       "type": 3,
@@ -37,7 +38,30 @@
       "filterable": 0,
       "timeout": 60,
       "ext": "http://127.0.0.1:9978/file/XYQTVBox/tokenm.json$$$./lib/pikpakclass.json$$$./lib/pikpakclass.json.txt.gz"
+    },*/
+
+    {
+      "key": "PikPakShare",
+      "name": "PikPak分享4872🛩",
+      "type": 3,
+      "api": "csp_PikPakShare",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 60,
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/13998394872/TVBox/main/ext/tokenm.json$$$https://ghproxy.net/https://raw.githubusercontent.com/13998394872/TVBox/main/ext/pikpakclass.json$$$https://ghproxy.net/https://raw.githubusercontent.com/13998394872/TVBox/main/ext/pikpakclass.json.txt.gz"
     },
+
+     {
+      "key": "PikPakShare",
+      "name": "PikPak分享18+(SP)🛩",
+      "type": 3,
+      "api": "csp_PikPakShare",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 60,
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/13998394872/TVBox/main/ext/tokenm.json$$$https://raw.githubusercontent.com/xyzjhe/allinone2024/main/pg/pikpak/pikpakclass.c.json$$$https://raw.githubusercontent.com/xyzjhe/allinone2024/main/pg/pikpak/pikpakclass.c.json.txt.gz"
+    },
+
     {
       "key": "网盘配置",
       "name": "网盘及彈幕配置",
