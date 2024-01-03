@@ -42,7 +42,7 @@
 
     {
       "key": "PikPakShare",
-      "name": "PikPak分享4872🛩",
+      "name": "PikPak分享",
       "type": 3,
       "api": "csp_PikPakShare",
       "searchable": 1,
@@ -53,7 +53,7 @@
 
      {
       "key": "PikPakShare",
-      "name": "PikPak分享18+(SP)🛩",
+      "name": "PikPak分享18+(SP)",
       "type": 3,
       "api": "csp_PikPakShare",
       "searchable": 1,
