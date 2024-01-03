@@ -1,5 +1,5 @@
 {
-  "spider": "./pg/pg.jar",
+  "spider": "./pg.jar",
   "sites": [
   
     {
