@@ -141,7 +141,7 @@
                        }
      },
      {"key": "drpy_js_网易","name": " 🐭网易公版影像JS","type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 0, "ext": "./drpy_js/js/网易公版影像.js"}, 
-     {"key":"py_cctv_FM","name":"CCTV|FM专用","type":3,"style":{"type":"rect","ratio":1.485},"api":"./py/py_cctv_new.py","searchable":1,"changeable":1,"ext":""},
+     {"key":"py_cctv_FM","name":"CCTV|FM专用","type":3,"style":{"type":"rect","ratio":1.485},"api":"./py/py_cctv_20240106.py","searchable":1,"changeable":1,"ext":""},
      {"key":"py_m1905_FM","name":"M1905┃FM专用","type": 3,"api": "./py/m1905.py","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": ""},
      {"key":"drpy_js_爱看机器人1","name":"爱看|机器v1[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/爱看机器人.js"},
      {"key":"drpy_js_爱看机器人2","name":"爱看|机器v2[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot2.js"},
