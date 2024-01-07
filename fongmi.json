@@ -22,8 +22,8 @@
     },
 
     {
-            "key": "t3_hipy_cctv",
-            "name": "t3_hipy_cctv",
+            "key": "T3_hipy_cctv",
+            "name": "T3_hipy_CCTV|2024",
             "type": 3,
             "api": "./py/cctv_spider.py",
             "searchable": 1,
