@@ -1,7 +1,7 @@
 {
     "wallpaper": "https://picsum.photos/1280/720/?blur=2",
 	
-    "spider":"./jar/xyq0101_douban.jar",
+    "spider":"./jar/xyqplus_0106.jar",
 
     "lives": [
 	{"name": "在线live1","type": 0,"url": "https://fanmingming.com/txt?url=https://mirror.ghproxy.com/https://raw.githubusercontent.com/wlcmc1972/tvbox/main/tv/live1.m3u","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
@@ -83,7 +83,7 @@
 	    
      {
       "key": "索尼资源",
-      "name": "索尼┃采集(广告勿信)",
+      "name": "💠索尼┃采集(广告勿信)",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
       "categories": [
@@ -192,7 +192,7 @@
 
     {
       "key": "haiwaikan",
-      "name": "海外看┃采集(广告勿信)",
+      "name": "💠海外看┃采集(广告勿信)",
       "type": 1,
       "api": "https://haiwaikan.com/api.php/provide/vod",
       "searchable": 1,
