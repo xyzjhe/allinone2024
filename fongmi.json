@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/FM0103plus.jar",
+  "spider": "./jar/FMplus0105.jar",
   
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
 
@@ -149,7 +149,7 @@
 
       {
       "key": "索尼资源",
-      "name": "索尼┃采集(广告勿信)",
+      "name": "💠索尼┃采集(广告勿信)",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
       "categories": [
@@ -258,7 +258,7 @@
 
     {
       "key": "haiwaikan",
-      "name": "海外看┃采集(广告勿信)",
+      "name": "💠海外看┃采集(广告勿信)",
       "type": 1,
       "api": "https://haiwaikan.com/api.php/provide/vod",
       "searchable": 1,
