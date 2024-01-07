@@ -65,7 +65,7 @@
    
     {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃热搜","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
     {"key":"cctv","name":"📺央视大全┃sp📺","type":3,"api":"csp_CCTV","searchable":0,"filterable":0,"ext":"./json/央视大全.json"},
-    {"key":"py_cctv","name":"📺CCTV┃py📺","type": 3,"api": "py_cctv","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/py_cctv_new.py"},
+    {"key":"py_cctv","name":"📺CCTV┃py📺","type": 3,"api": "py_cctv","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/py_cctv_20240106.py"},
     {"key":"py_m1905","name":"🌎M1905┃py🌎","type": 3,"api": "py_m1905","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/m1905.py"},
     {"key":"py_Bilibili","name":"哔哩聚合4K|py","type":3,"api":"./py/py_bilibili1222.py","searchable":1,"changeable":1,"ext":""},
     {"key": "py_ali", "name": "豆瓣首页+厂长搜索+三个阿里系搜索+推送",  "type": 3, "api": "./py/py_ali.py", "searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,
