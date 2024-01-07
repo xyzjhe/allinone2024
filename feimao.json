@@ -288,7 +288,7 @@
     {"key": "drpy_js_博看听书", "name": "博看听书(js)","type": 3,"api": "./drpy_js/libs/drpy2.min.js","ext": "./drpy_js/js/博看听书.js", "playerType": "2" },
     {"key": "drpy_js_喜马拉雅","name": "喜马拉雅(js)","type": 3,"api": "./drpy_js/libs/drpy2.min.js","ext": "./drpy_js/js/喜马拉雅.js","playerType": "2"},
 		
-	{
+	       {
 		"key": "alist",
 		"name": "🍰┃小鸭┃网盘",
 		"type": 3,
@@ -297,7 +297,7 @@
 		"quickSearch": 1,
 		"filterable": 1,
 		"ext": "http://alist.xn--z7x900a.live/alist.json"
-	},
+	        },
 		{
 		"key": "nangua",
 		"name": "🎃┃南瓜┃影视",
@@ -305,7 +305,7 @@
 		"playerType": "2",
 		"api": "./feimao/js/lib/drpy2.min.js",
 		"ext": "./feimao/js/南瓜.js"
-	}, 
+	        }, 
 		{
 		"key": "csp_Panda_玩偶哥哥",
 		"name": "👲┃玩偶┃影视",
@@ -316,7 +316,7 @@
 		"timeout": 30,
 		"changeable": 0,
 		"ext": "./feimao/json/玩偶哥哥.json"
-	}, 
+	        }, 
 		{
 		"key": "蜂鸟",
 		"name": "🕊️┃蜂鸟┃影视",
@@ -325,7 +325,7 @@
 		"searchable": 1,
 		"quickSearch": 1,
 		"ext": "FbjPcVZY48PN/RIZ5QqOrspkJ4ZHF98MCHVX87i5y01XUNSIsT3IgxCP9qyzByO7aWmK03MmmHYwQmNlCJx9KFpYWNSc3hbeLTlD3SAclaw3AOnn"
-	}, 
+	        }, 
 		{
 		"key": "嘿嘿",
 		"name": "️🤭┃嘿嘿┃影视",
@@ -334,7 +334,7 @@
 		"searchable": 1,
 		"quickSearch": 1,
 		"ext": "FbjDcUxPqpfNr0QF4QvE6sExbcBEGIRZVnQTs7Kyyk1SScOZ8j/C1ATO/eqjASKwdHWA2zQtjGMwVDA+Ttluew9LCZzZnFyFNWEAlX0KjLdiSaX+NDNVdVG1JjEvnt3n7STfbcZ8C5QA+hYk60bwQH58e7eO7msRAJ0ZbmFDDly40NBDxuYsAq8lZuJzVkw0ZkMhqBM9YRPP8mMU/CJYsuBptunppHVQfFQjk8wxXjVRsNe75CuoY+zt9w+Smcm9PL37bGJHS6+1cFg1xMgqVxqvyPfuq5Dvyo1q66Q1NXwhDe4x21KVg4iRMET6Z3Jna25wcmku6xbznbFxlZqH3DqtpBKXLcNrx6n6vgn+/lHRmp5g13bG1xc/jwO78tZL0Pei6A=="
-	}, 
+	        }, 
 		{
 		"key": "南坊",
 		"name": "☀┃南坊┃影视",
@@ -343,14 +343,14 @@
 		"searchable": 1,
 		"quickSearch": 1,
 		"ext": "FbjCcU1KqpC5pkRX4Q3D+NciPclIFs4EHzRV89m3pENRS6PivxPrlXvH/4efUSWwUCWwwk8srkIDSXN9RIJkSCZPJqnRikLRakBH0XBB6uNlX6XgMjhUKBTbBXopnsWdvXX6OowIBLQ78wghs3yRbgJxOYvrglBVIeI4cTcDGxixtMJ+yL0zE9g1d+N2RH4JERZh3CoYXSO1hH420ARbjt08lerroREmfGoT8JEGfTFW3MrK3hWueIyRsyOllsiwNM6dXSwTArm5em8Lv8ppXgro"
-	}, 
+	        }, 
 		{
 		"key": "荐片",
 		"name": "🎬┃荐片┃影视",
 		"type": 3,
 		"api": "./feimao/js/lib/drpy2.min.js",
 		"ext": "./feimao/js/JP.js"
-	}, 
+	        }, 
 		{
 		"key": "厂长",
 		"name": "🏭┃厂长┃影视",
@@ -358,14 +358,14 @@
 		"playerType": "2",
 		"api": "./feimao/js/lib/drpy2.min.js",
 		"ext": "./feimao/js/厂长.js"
-	},
+	        },
 		{
 		"key": "影探",
 		"name": " 🕵┃影探┃影视",
 		"type": 3,
 		"api": "./feimao/js/lib/drpy2.min.js",
 		"ext": "./feimao/js/yt.js"
-	}, 
+	        }, 
 		{
 		"key": "忍者",
 		"name": "🥷┃忍者┃影视",
@@ -374,7 +374,7 @@
 		"playerType": "2",
 		"ext": "http://rzys.xyz/",
 		"jar": "./feimao/fatcat.jar"
-	},
+	        },
 		{
 		"key": "996",
 		"name": "🥃┃九六┃影视",
@@ -386,7 +386,7 @@
 			"分类": "电影$1#电视剧$2#动漫$3#爽文短剧$4#动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#战争片$12#动画片$13#纪录片$14",
 			"筛选": "1"
 		}
-	}, 
+	        }, 
 		{
 		"key": "bttwo",
 		"name": "✌┃BTtwo┃影视",
@@ -394,7 +394,7 @@
 		"playerType": "2",
 		"api": "./feimao/js/lib/drpy2.min.js",
 		"ext": "./feimao/js/两个BT.js"
-	},
+	        },
 		{
 		"key": "Libvio",
 		"name": "💐┃Lib┃影视",
@@ -402,7 +402,7 @@
 		"playerType": "1",
 		"api": "./feimao/js/lib/drpy2.min.js",
 		"ext": "./feimao/js/LIBVIO.js"
-	},
+	        },
 		{
 		"key": "FREE1OK",
 		"name": "️️👌┃Fre┃影视",
@@ -410,7 +410,7 @@
 		"playerType": "1",
 		"api": "./feimao/js/lib/drpy2.min.js",
 		"ext": "./feimao/js/FreeOK.js"
-	}, 
+	        }, 
 		{
 		"key": "saohuo",
 		"name": " 👗┃骚火┃影视",
@@ -418,7 +418,7 @@
 		"playerType": "2",
 		"api": "./feimao/js/lib/drpy2.min.js",
 		"ext": "./feimao/js/骚火.js"
-	}, 
+	        }, 
 		{
 		"key": "爱看影视",
 		"name": "❤┃爱看┃影视",
@@ -426,7 +426,7 @@
 		"playerType": "2",
 		"api": "./feimao/js/lib/drpy2.min.js",
 		"ext": "./feimao/js/爱看.js"
-	}, 
+	        }, 
 		{
 		"key": "新视觉",
 		"name": "🐦┃视觉┃影视",
@@ -434,7 +434,7 @@
 		"playerType": "2",
 		"api": "./feimao/js/lib/drpy2.min.js",
 		"ext": "./feimao/js/新视觉.js"
-	},
+	        },
 		{
 		"key": "007影视",
 		"name": "🍭┃零七┃影视",
@@ -442,7 +442,7 @@
 		"playerType": "1",
 		"api": "./feimao/js/lib/drpy2.min.js",
 		"ext": "./feimao/js/007.js"
-	}, 
+	        }, 
 		{
 		"key": "低端",
 		"name": "🛣┃低端┃影视",
@@ -450,7 +450,7 @@
 		"playerType": "2",
 		"api": "./feimao/js/lib/drpy2.min.js",
 		"ext": "./feimao/js/ddys.js"
-	},
+	        },
 		{
 		"key": "奇优",
 		"name": " 🍩┃奇优┃影视",
@@ -458,34 +458,35 @@
 		"playerType": "2",
 		"api": "./feimao/js/lib/drpy2.min.js",
 		"ext": "./feimao/js/奇优.js"
-	},
+	        },
 		{
 		"key": "虎虎",
 		"name": "🐯┃虎虎┃影视",
 		"type": 3,
 		"api": "csp_Panda",
 		"ext": "http://我不是.肥猫.live/json/虎虎.json"
-	},
+	        },
 		{
 		"key": "drpy_js_360影视",
 		"name": "📺┃360┃官源",
 		"type": 3,
 		"api": "./feimao/js/lib/drpy2.min.js",
 		"ext": "./feimao/js/360.js"
-	}, {
+	        },
+		{
 		"key": "蓝猫动漫",
 		"name": "🌊┃蓝猫┃动漫",
 		"type": 3,
 		"api": "csp_Panda",
 		"ext": "分类:日漫$1#国漫$2#剧场$3#美漫$4#少儿$5,分类url:https://www.lmfun.vip/vodshow/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html"
-	}, 
+	        }, 
 		{
 		"key": "樱花动漫",
 		"name": "🌸┃樱花┃动漫",
 		"type": 3,
 		"api": "csp_Panda",
 		"ext": "分类url:https://www.857yhdm.com/show/{cateId}--{by}------{catePg}---{year}.html,分类:日本动漫$ribendongman#国产动漫$guochandongman#动漫电影$dongmandianying#欧美动漫$omeidongman"
-	},
+	        },
 		{
 		"key": "csp_Anime1",
 		"name": "💀┃日本┃动漫",
@@ -494,7 +495,7 @@
 		"searchable": 1,
 		"quickSearch": 1,
 		"filterable": 1
-	}, 
+	        }, 
 		{
 		"key": "csp_xifan",
 		"name": "🍚┃稀饭┃动漫",
@@ -504,7 +505,7 @@
 		"quickSearch": 1,
 		"filterable": 1,
 		"jar": "./feimao/fatcat.jar"
-	}, 
+	        }, 
 		{
 		"key": "Aid",
 		"name": "🚑┃急救┃教学",
@@ -517,7 +518,7 @@
 			"ratio": 3.8
 		},
 		"gridview": "0-0-4.1"
-	}, 
+	        }, 
 		{
 		"key": " 在线┃直播1",
 		"name": "📺┃竞技┃直播",
@@ -528,7 +529,7 @@
 			"type": "rect",
 			"ratio": 1.68
 		}
-	},
+	        },
 		{
 		"key": "看球",
 		"name": "⚾┃看球┃直播",
@@ -542,7 +543,7 @@
 			"type": "list"
 		},
 		"jar": "./feimao/fatcat.jar"
-	}, 
+	        }, 
 		{
 		"key": "drpy_js_310直播",
 		"name": "🏀┃体育┃直播",
@@ -554,7 +555,7 @@
 			"type": "list"
 		},
 		"ext": "./feimao/js/310直播.js"
-	},
+	        },
 		{
 		"key": "yinyue",
 		"name": "🎤┃酷狗┃音乐",
@@ -564,7 +565,7 @@
 		"filterable": 0,
 		"ext": "https://api.zalman2022.repl.co/music.json",
 		"jar": "https://api.zalman2022.repl.co/YSZYZ.jar"
-	}, 
+	        }, 
 		{
 		"key": "csp_search_Panda_pansearch",
 		"name": "🚢┃盘搜┃网盘",
@@ -581,7 +582,7 @@
 			"changeable": 0,
 			"阿里token": ""
 		}
-	}, 
+	        }, 
 		{
 		"key": "csp_search_Panda_盘搜",
 		"name": "🚃┃盘搜┃网盘2",
@@ -597,7 +598,7 @@
 			"changeable": 0,
 			"阿里token": ""
 		}
-	}, 
+	        }, 
 		{
 		"key": "csp_search_Panda_找资源",
 		"name": "☠┃资源┃网盘",
@@ -617,7 +618,7 @@
 			"changeable": 0,
 			"阿里token": ""
 		}
-	}, 
+	        }, 
 		{
 		"key": "csp_search_Panda_UP云搜",
 		"name": "🍒┃Up搜┃网盘",
@@ -626,14 +627,14 @@
 		"timeout": 30,
 		"changeable": 0,
 		"ext": ""
-	},
+	        },
 		{
 		"key": "csp_search_Panda_易搜",
 		"name": "🐷┃易搜┃网盘",
 		"type": 3,
 		"api": "csp_YiSo",
 		"ext": ""
-	}, 
+	        }, 
 		{
 		"key": "drpy_哔哩",
 		"name": "🅱┃哔哩┃合集",
@@ -641,7 +642,7 @@
 		"api": "./feimao/js/lib/drpy2.min.js",
 		"playerType": 1,
 		"ext": "./feimao/js/B站.js"
-	}, 
+	        }, 
 		{
 		"key": "儿童",
 		"name": "📚┃儿童┃启蒙",
@@ -655,7 +656,7 @@
 			"ratio": 1.597
 		},
 		"ext": "http://alist.xn--z7x900a.live/兔小贝.js"
-	},
+	        },
 		{
 		"key": "少儿",
 		"name": "📚┃少儿┃教育",
@@ -669,7 +670,7 @@
 			"ratio": 1.597
 		},
 		"ext": "http://alist.xn--z7x900a.live/少儿教育.json"
-	}, 
+	        }, 
 		{
 		"key": "小学",
 		"name": "📚┃小学┃课堂",
@@ -683,7 +684,7 @@
 			"ratio": 1.597
 		},
 		"ext": "http://alist.xn--z7x900a.live/小学课堂.json"
-	}, 
+	        }, 
 		{
 		"key": "初中",
 		"name": "📚┃初中┃课堂",
@@ -697,7 +698,7 @@
 			"ratio": 1.597
 		},
 		"ext": "http://alist.xn--z7x900a.live/初中课堂.json"
-	}, 
+	        }, 
 		{
 		"key": "高中",
 		"name": "📚┃高中┃课堂",
@@ -711,7 +712,7 @@
 			"ratio": 1.597
 		},
 		"ext": "http://alist.xn--z7x900a.live/高中课堂.json"
-	}, 
+	        }, 
 		{
 		"key": "应用商店",
 		"name": "🏡┃应用┃商店",
@@ -721,7 +722,7 @@
 		"changeable": 0,
 		"ext": "https://fm.t4tv.hz.cz/json/market.json",
 		"jar": "http://like.xn--z7x900a.live:66/jar/fatcat.jar;md5;8b2ca362e9ff6ebb7c95bb5445d2ca29"
-	},
+	        },
 		{
 		"key": "push_agent",
 		"name": "关注公众号：肥猫宝贝",
@@ -730,17 +731,20 @@
 		"playerType": "1",
 		"searchable": 0,
 		"ext": "http://127.0.0.1:9978/file/fatcat/token.txt"
-	}
+	        }
 	],
-	"parses": [{
+	"parses":
+	[{
 		"name": "Json聚合",
 		"type": 3,
 		"url": "Demo"
-	}, {
+	}, 
+		{
 		"name": "Web聚合",
 		"type": 3,
 		"url": "Web"
-	}, {
+	}, 
+		{
 		"name": "公众号：肥猫宝贝",
 		"type": 1,
 		"url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=bcdstvxADFJLRW0279&url=",
