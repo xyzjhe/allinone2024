@@ -20,6 +20,18 @@
       "changeable": 1,
       "ext": "./json/douban.json"
     },
+
+    {
+            "key": "t3_hipy_cctv",
+            "name": "t3_hipy_cctv",
+            "type": 3,
+            "api": "./py/cctv_spider.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./py/cctv_spider.json"
+        },
+	  
     {
       "key": "玩偶",
       "name": "🎯玩偶哥哥|4K",
