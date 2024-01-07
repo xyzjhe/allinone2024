@@ -1,7 +1,7 @@
 {
   "wallpaper": "https://picsum.photos/1280/720/?blur=2",
 	
-  "spider": "./jar/xyq0101_douban.jar",
+  "spider": "./jar/xyqplus_0106.jar",
 	
   "wallpaper":"https://api.likepoems.com/img/bing",
 	
@@ -85,7 +85,7 @@
      	    
      {
       "key": "索尼资源",
-      "name": "索尼┃采集(广告勿信)",
+      "name": "💠索尼┃采集(广告勿信)",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
       "categories": [
@@ -194,7 +194,7 @@
 
     {
       "key": "haiwaikan",
-      "name": "海外看┃采集(广告勿信)",
+      "name": "💠海外看┃采集(广告勿信)",
       "type": 1,
       "api": "https://haiwaikan.com/api.php/provide/vod",
       "searchable": 1,
@@ -284,6 +284,7 @@
 	{"key":"csp_LocalFile","name":"💻本地视频","type":3,"api":"csp_LocalFile","searchable":0,"quickSearch":0,"filterable":0,"type_flag":0},
         
         //网盘资源区
+	{"key": "csp_XYQHikerAL_玩偶妹妹","name":"📀玩偶妹妹(优)","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/玩偶妹妹.json"},
         {"key":"csp_Zhaozy","name":"📀找资源(搜索)","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"filterable":0,"ext":"zzyali$$$555555"},
         {"key":"csp_AliPS","name":"📀喵狸盘搜(搜索)","type":3,"api":"csp_AliPS","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
         {"key":"csp_Yisou","name":"📀易搜(搜索)","type":3,"api":"csp_Yisou","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
@@ -302,7 +303,7 @@
         "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
         "filter": "./json/wogg.json"
       },
-      "jar":"./jar/FM0103plus.jar"
+      "jar":"./jar/FMplus0105.jar"
     },
      {
       "key": "盤99",
@@ -312,7 +313,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar":"./jar/FM0103plus.jar"
+      "jar":"./jar/FMplus0105.jar"
     },
    {
       "key": "七夜",
@@ -322,7 +323,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar":"./jar/FM0103plus.jar"
+      "jar":"./jar/FMplus0105.jar"
     },
     {
       "key": "易搜",
@@ -332,7 +333,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar":"./jar/FM0103plus.jar"
+      "jar":"./jar/FMplus0105.jar"
     },
     {
       "key": "雲搜",
@@ -342,7 +343,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar":"./jar/FM0103plus.jar"
+      "jar":"./jar/FMplus0105.jar"
     },
     {
       "key": "盤搜",
@@ -352,7 +353,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar":"./jar/FM0103plus.jar"
+      "jar":"./jar/FMplus0105.jar"
     },
     {
       "key": "紙條搜",
@@ -362,7 +363,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar":"./jar/FM0103plus.jar"
+      "jar":"./jar/FMplus0105.jar"
     },
     {
       "key": "盤搜索",
@@ -372,7 +373,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar":"./jar/FM0103plus.jar"
+      "jar":"./jar/FMplus0105.jar"
     },
     {
       "key": "找資源",
@@ -382,7 +383,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt$$$zzyali$$$555555",
-      "jar":"./jar/FM0103plus.jar"
+      "jar":"./jar/FMplus0105.jar"
     },
 	    
    {"key":"push_agent","name":"📽推送","type":3,"api":"csp_PushAgent","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"}
