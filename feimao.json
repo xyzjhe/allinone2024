@@ -309,7 +309,7 @@
 		"playerType": 2,
 		"timeout": 30,
 		"changeable": 0,
-		"ext": "http://dt.xn--yety82d.love/玩偶哥哥.json"
+		"ext": "./feimao/json/玩偶哥哥.json"
 	}, {
 		"key": "蜂鸟",
 		"name": "🕊️┃蜂鸟┃影视",
@@ -360,7 +360,7 @@
 		"type": 3,
 		"playerType": "2",
 		"ext": "http://rzys.xyz/",
-		"jar": "http://like.xn--z7x900a.live:66/jar/fatcat.jar;md5;8b2ca362e9ff6ebb7c95bb5445d2ca29"
+		"jar": "./feimao/fatcat.jar"
 	}, {
 		"key": "996",
 		"name": "🥃┃九六┃影视",
@@ -475,7 +475,7 @@
 		"searchable": 1,
 		"quickSearch": 1,
 		"filterable": 1,
-		"jar": "http://like.xn--z7x900a.live:66/jar/fatcat.jar;md5;8b2ca362e9ff6ebb7c95bb5445d2ca29"
+		"jar": "./feimao/fatcat.jar"
 	}, {
 		"key": "Aid",
 		"name": "🚑┃急救┃教学",
@@ -510,7 +510,7 @@
 		"style": {
 			"type": "list"
 		},
-		"jar": "http://like.xn--z7x900a.live:66/jar/fatcat.jar;md5;8b2ca362e9ff6ebb7c95bb5445d2ca29"
+		"jar": "./feimao/fatcat.jar"
 	}, {
 		"key": "drpy_js_310直播",
 		"name": "🏀┃体育┃直播",
