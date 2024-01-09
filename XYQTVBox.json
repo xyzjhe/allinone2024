@@ -62,6 +62,159 @@
       "filterable": 1,
       "api": "./LuFei/lf_ikanbot4_1_min.js"
     },
+
+    {
+    "key": "996",
+    "name": "🐳996┃App",
+    "type": 3,
+    "filterable": 1,
+    "api": "csp_XBPQ",
+    "ext": {"分类url": "https://www.cs1369.com/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html"}
+    },  
+
+    {"key":"ok","name":"🏝️Free┃OK","type":3,"api":"csp_XBPQ","playerType":"1","ext":{"分类url": "https://www.freeok.vip/vod-show/{cateId}-{area}-------{catePg}---{year}.html","分类": "FREE电影&FREE剧集&FREE动漫&FREE综艺&FREE短剧&FREE少儿","分类值": "1&2&3&4&12&5","播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36","副标题":"<div class=\"module-item-note\">&&</div>","嗅探词": "m3u8#.m3u8#.mp4#freeok.mp4#/obj/","线路数组": "data-dropdown-value=&&</div>[不包含:夸克]","线路标题": "<span>&&</small>","导演": "导演：&&</div>","主演": "主演：&&</div>","简介": "<p>&&</p>"}},
+	    
+    {
+      "key": "csp_XBPQ_javmenu",
+      "name": "javmenu",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://agit.ai/mimang/S/raw/branch/master/javmenu.json"
+    },
+                            {
+      "key": "csp_XBPQ_arival",
+      "name": "arival",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://agit.ai/mimang/S/raw/branch/master/arival.json"
+    },
+                        {
+      "key": "csp_XBPQ_youporn",
+      "name": "youporn",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://agit.ai/mimang/S/raw/branch/master/youporn.json"
+    },
+                            {
+      "key": "csp_XBPQ_pornken",
+      "name": "pornken",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://agit.ai/mimang/S/raw/branch/master/pornken.json"
+    },
+       
+                    {
+      "key": "csp_XBPQ_asianxxx",
+      "name": "asianxxx",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://agit.ai/mimang/S/raw/branch/master/asianxxx.json"
+    },
+                {
+      "key": "csp_XBPQ_xtits",
+      "name": "xtits",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://agit.ai/mimang/S/raw/branch/master/xtits.json"
+    },
+                       {
+      "key": "csp_XBPQ_xgroovy",
+      "name": "xgroovy",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://agit.ai/mimang/S/raw/branch/master/xgroovy.json"
+    },
+            {
+      "key": "csp_XBPQ_国产视频",
+      "name": "国产视频",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://agit.ai/mimang/S/raw/branch/master/国产视频.json"
+    },
+        {
+      "key": "csp_XBPQ_爱上AV",
+      "name": "爱上AV",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://agit.ai/mimang/S/raw/branch/master/爱上AV.json"
+    },
+    {
+      "key": "csp_XBPQ_18j",
+      "name": "18j",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://agit.ai/mimang/S/raw/branch/master/18j.json"
+    },
+    {
+      "key": "csp_XBPQ_sae8",
+      "name": "sae8",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://agit.ai/mimang/S/raw/branch/master/sae8.json"
+    },
+    {
+      "key": "csp_XBPQ_好色",
+      "name": "好色",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://agit.ai/mimang/S/raw/branch/master/好色.json"
+    },
+    {
+      "key": "csp_XBPQ_anal",
+      "name": "anal",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://agit.ai/mimang/S/raw/branch/master/anal.json"
+    },
+    {
+      "key": "csp_XBPQ_xvideos",
+      "name": "xvideos",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://agit.ai/mimang/S/raw/branch/master/xvideos.json"
+    },
    
     {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃热搜","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
     {"key":"cctv","name":"📺央视大全┃sp📺","type":3,"api":"csp_CCTV","searchable":0,"filterable":0,"ext":"./json/央视大全.json"},
