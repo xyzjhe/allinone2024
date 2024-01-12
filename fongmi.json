@@ -22,14 +22,14 @@
     },
 
     {
-      "key": "T3_hipy_cctv",
-      "name": "T3_hipy_CCTV|2024",
+      "key": "hipy_t3_cntv央视",
+      "name": "cntv央视(hipy_t3)",
       "type": 3,
-      "api": "./py/cctv_spider.py",
+      "api": "./py/cntv央视.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./py/cctv_spider.json"
+      "ext": "./py/cntv央视.json"
     },
 	  
     {
