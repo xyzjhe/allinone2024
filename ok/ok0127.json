@@ -1,6 +1,8 @@
 {
-  "spider": "./ok.png;md5;6e1099bf38af7139c06223d7ebe96ffd",
+  "spider": "./danmu.jar",
+  
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+  
   "sites": [
     {
       "key": "豆瓣",
