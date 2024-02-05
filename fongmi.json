@@ -44,6 +44,8 @@
         "filter": "./json/wogg.json"
       }
     },
+
+    {"key": "阿里云集合","name": "阿里云集合|4K", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./json/阿里集合.json;http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","jar":"./jar/真心真语0204+列表+搜索.jar"},
     
     {
       "key": "賤賤",
