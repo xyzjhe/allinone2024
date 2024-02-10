@@ -1,16 +1,30 @@
 {
-  "spider": "./PandaQ240204.jar;md5;A685C4759799947B937D69FA811BBF25",
+  "spider": "./PandaQ240208.jar;md5;888A64F65AAB54892980DED5C6DA9A6E",
   "wallpaper": "http://我不是.肥猫.live/ppic/feimao.php",
   "sites": [
     {
       "key": "drpy_js_豆瓣",
-      "name": "🐼┃豆瓣┃肥猫线路🐼",
+      "name": "🐼┃公众号┃肥猫宝贝",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
       "ext": "./lib/豆瓣推荐.js"
+    },
+    {
+      "key": "csp_绿豆",
+      "name": "🐼┃绿豆┃影视",
+      "type": 3,
+      "api": "csp_Lvdou",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "playerType": "1",
+      "ext": {
+        "server": "http://s.weixine.net/api.php/app/",
+        "mackey": "6JLF1OWhgEnMexAs|6CrRdTxr2qXj9258"
+      }
     },
     {
       "key": "nangua",
@@ -84,10 +98,10 @@
       "filterable": 1
     },
     {
-      "key": "csp_Cs1369",
-      "name": "🥃┃九六┃影视",
+      "key": "csp_Vidhub2",
+      "name": "🎼┃Vid┃影视",
       "type": 3,
-      "api": "csp_Cs1369",
+      "api": "csp_Vidhub2",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -116,7 +130,9 @@
       "type": 3,
       "playerType": "2",
       "api": "csp_Czsapp",
-      "jar": "http://like.xn--z7x900a.live:66/jar/PandaQ240128.jar"
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "Libvio",
@@ -249,7 +265,7 @@
       "name": "🥰┃短剧┃视频",
       "type": 3,
       "api": "csp_Panda",
-      "ext": "./lib/短剧.json",
+      "ext": "http://dt.xn--yety82d.love/json/短剧.json",
       "jar": "./lib/PandaQ231205.jar;md5;9cc29f6286b2fe7910628852929c4bdb"
     },
     {
@@ -475,15 +491,6 @@
       },
       "ext": "./lib/高中课堂.json",
       "jar": "./lib/PandaQ231205.jar;md5;9cc29f6286b2fe7910628852929c4bdb"
-    },
-    {
-      "key": "应用商店",
-      "name": "🏡┃应用┃商店",
-      "type": 3,
-      "api": "csp_Market",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": "./lib/market.json"
     },
     {
       "key": "push_agent",
