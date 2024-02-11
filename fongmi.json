@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/FMplus0202.jar",
+  "spider": "./jar/FM0206.jar;md5;303eadd615ea122247a00e08689f0787",
   
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
 
@@ -55,14 +55,6 @@
       "searchable": 1,
       "changeable": 1,
       "ext": "./json/jianpian.json"
-    },
-    {
-      "key": "996影院",
-      "name": "996影院",
-      "type": 3,
-      "api": "csp_Cs1369",
-      "searchable": 1,
-      "changeable": 1
     },
     {
       "key": "短劇",
