@@ -1,0 +1,1 @@
+clan://localhost/tvfan/ok/_ok.json
