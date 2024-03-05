@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/okpng.txt;md5;3fd3e1649b32f847bc2f585947b9386f",
+  "spider": "./jar/danmu.jar",
   "wallpaper":"https://jihulab.com/okcaptain/kko/-/raw/main/w1.jpg",
 
   "sites": [
