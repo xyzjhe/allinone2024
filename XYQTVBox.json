@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://picsum.photos/1280/720/?blur=2",
-    "spider": "./jar/XYQplus0302.jar;md5;ce8d9e839b59bff347b9531001125c9e",
+    "spider": "./jar/xyqplus0306.jar",
     "lives": [
         {
           "name": "本地live文件",
