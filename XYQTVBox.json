@@ -21,66 +21,18 @@
     ],
     "sites": [
 
-        {"key":"豆瓣","name":"🐰豆瓣热播|xyq🐰","type":3,"api":"csp_Douban","searchable":0},
+        {"key":"豆瓣","name":"🐰豆瓣热播|香佬0209🐰","type":3,"api":"csp_Douban","searchable":0},
 
 	{"key":"云盘登录","name":"云盘登录","type":3,"api":"csp_AliYunPan","searchable":0,"quickSearch":0,"filterable":0,"changeable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
-	{"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-	{"key":"南瓜","name":"南瓜","type":3,"api":"csp_Nangua","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":false},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-
-	{"key":"天天","name":"天天","type":3,"api":"csp_TTian","ext":"http://op.ysdqjs.cn"},
-	{"key":"热播","name":"热播","type":3,"api":"csp_TTian","ext":"http://v.rbotv.cn"},
-	{"key":"追剧","name":"追剧","type":3,"api":"csp_TTian","ext":"http://app.kzjtv.com"},
-	{"key":"胡胡","name":"胡胡","type":3,"api":"csp_WebHH","searchable":1,"quickSearch":1,"filterable":0},
-	{"key":"高光","name":"高光","type":3,"api":"csp_WebGGYS","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://ggys.me"},
-
-	{"key":"短剧","name":"短剧","type":3,"api":"csp_App","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://zzdj.cc/api.php/provide/vod"},
-	{"key":"一起看","name":"一起看","type":3,"api":"csp_YQKan","searchable":1,"quickSearch":1,"filterable":0},
-	{"key":"新视觉","name":"新视觉","type":3,"api":"csp_Web608","searchable":1,"quickSearch":0,"filterable":0,"ext":"https://www.80yy3.com"},
-	{"key":"机器人","name":"机器人","type":3,"api":"csp_Ikanbot","searchable":1,"quickSearch":1,"changeable":1},
-	{"key":"短剧网","name":"短剧网","type":3,"api":"csp_Duanjuw","searchable":1,"quickSearch":1,"changeable":1},
-	{"key":"酷影视","name":"酷影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.tvkuys.xyz/api.php/app/"},
-
-	{"key":"稀饭动漫","name":"稀饭动漫","type":3,"api":"csp_Xifan","searchable":1,"quickSearch":1,"filterable":0},
-	{"key":"樱花动漫","name":"樱花动漫","type":3,"api":"csp_XBPQ","ext":"分类url:https://www.857yhdm.com/show/{cateId}--{by}------{catePg}---{year}.html,分类:日本动漫$ribendongman#国产动漫$guochandongman#动漫电影$dongmandianying#欧美动漫$omeidongman"},
-
-
-	//弹幕区    
-	{"key":"三六零弹幕","name":"弹幕｜三六零","type":3,"api":"csp_Sp360","searchable":1,"filterable":1,"changeable":1,"ext":{"danmu":true},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-	{"key":"南瓜弹幕","name":"弹幕｜南瓜","type":3,"api":"csp_Nangua","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-	{"key":"天天弹幕","name":"弹幕｜天天","type":3,"api":"csp_TianTian","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-	{"key":"厂长弹幕","name":"弹幕｜厂长","type":3,"api":"csp_Czzy","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-	{"key":"机器人弹幕","name":"弹幕｜机器人","type":3,"api":"csp_Ikanbot","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-	{"key":"荐片弹幕","name":"弹幕｜荐片","type":3,"api":"csp_Jianpian","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-	{"key":"哔嘀弹幕","name":"弹幕｜哔嘀","type":3,"api":"csp_Bdys","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-	    
-	{"key":"玩偶弹幕","name":"弹幕｜玩偶","type":3,"api":"csp_Wogg","searchable":1,"quickSearch":1,"filterable":1,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","site":"https://www.wogg.xyz","danmu":true},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-	{"key":"搜索弹幕","name":"弹幕｜搜索","type":3,"api":"csp_PanSearch","searchable":1,"filterable":0,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","danmu":true},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-	{"key":"七夜弹幕","name":"弹幕｜七夜","type":3,"api":"csp_Dovx","searchable":1,"filterable":0,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","danmu":true},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-	{"key":"云云弹幕","name":"弹幕｜云云","type":3,"api":"csp_Upys","searchable":1,"filterable":0,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","danmu":true},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-	{"key":"云搜弹幕","name":"弹幕｜云搜","type":3,"api":"csp_UpYun","searchable":1,"filterable":0,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","danmu":true},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-	{"key":"盘搜弹幕","name":"弹幕｜盘搜","type":3,"api":"csp_PanSou","searchable":1,"filterable":0,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","danmu":true},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-	{"key":"易搜弹幕","name":"弹幕｜易搜","type":3,"api":"csp_YiSo","searchable":1,"filterable":0,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","danmu":true,"cookie":"satoken=5f91a828-2198-4630-ac41-da5a217c01d7"},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-	{"key":"云盘弹幕","name":"弹幕｜云盘","type":3,"api":"csp_Yunpan4k","searchable":1,"filterable":0,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","danmu":true},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-	{"key":"小纸条弹幕","name":"弹幕｜小纸条","type":3,"api":"csp_XiaoZhiTiao","searchable":1,"filterable":1,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","danmu":true},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-
-	{"key":"夸克玩偶弹幕","name":"夸克｜玩偶","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","cookie":"http://127.0.0.1:9978/file/TVBox/quark.txt","danmu":true},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-	{"key":"夸克开心弹幕","name":"夸克｜开心","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","cookie":"http://127.0.0.1:9978/file/TVBox/quark.txt","site":"http://www.ttkx.live","danmu":true},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-	{"key":"夸克土豆弹幕","name":"夸克｜土豆","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","cookie":"http://127.0.0.1:9978/file/TVBox/quark.txt","site":"https://aliz.lvdoui.top","danmu":true},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-	{"key":"夸克团长弹幕","name":"夸克｜团长","type":3,"api":"csp_Tzfile","searchable":1,"filterable":1,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","cookie":"http://127.0.0.1:9978/file/TVBox/quark.txt","danmu":true},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-	{"key":"夸克盘搜弹幕","name":"夸克｜盘搜","type":3,"api":"csp_Qkpanso","searchable":1,"filterable":1,"changeable":1,"ext":{"cookie":"http://127.0.0.1:9978/file/TVBox/quark.txt","danmu":true},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-	{"key":"夸克影视车弹幕","name":"夸克｜影视车","type":3,"api":"csp_Wogg","searchable":1,"quickSearch":1,"filterable":1,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","cookie":"http://127.0.0.1:9978/file/TVBox/quark.txt","site":"https://www.weixine.net","danmu":true},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-	{"key":"夸克趣盘搜弹幕","name":"夸克｜趣盘搜","type":3,"api":"csp_QuPanSou","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"cookie":"http://127.0.0.1:9978/file/TVBox/quark.txt","danmu":true},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-	{"key":"夸克爱盘搜弹幕","name":"夸克｜爱盘搜","type":3,"api":"csp_AiPanSou","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"cookie":"http://127.0.0.1:9978/file/TVBox/quark.txt","danmu":true},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-
-	{"key":"我的阿里","name":"我的｜阿里","type":3,"api":"csp_MyAli","searchable":0,"quickSearch":0,"filterable":0,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},"style":{"type":"list"},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
-	{"key":"阿里合集","name":"阿里｜合集","type":3,"api":"csp_AliShare","searchable":1,"changeable":0,"filterable":0,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","share":""},"style":{"type":"list"},"jar":"./jar/danmu.jar;md5;06145c69c5f366d227e1c24d97fe7ca1"},
+	{"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"jar":"./jar/danmu.jar"},
 	
         {"key":"drpy_js_豆瓣","name":"豆瓣[js]|香佬0209","type":3,"api":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/drpy.js"},
-        {"key":"drpy_js_奇珍异兽","name":"奇珍异兽[js]","type":3,"api":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/奇珍异兽.js"},
-        {"key":"drpy_js_优酷","name":"优酷[js]","type":3,"api":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/优酷.js"},
-        {"key":"drpy_js_腾云驾雾","name":"腾云驾雾[js]","type":3,"api":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/腾云驾雾.js"},
-        {"key":"drpy_js_百忙无果","name":"百忙无果[js]","type":3,"api":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/百忙无果.js"},
         {"key":"csp_LocalFile","name":"💻本地视频","type":3,"api":"csp_LocalFile","searchable":0,"quickSearch":0,"filterable":0,"type_flag":0},
+
+	{"key":"酷影视","name":"酷影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.tvkuys.xyz/api.php/app/"},
+        {"key":"樱花动漫","name":"樱花动漫","type":3,"api":"csp_XBPQ","ext":"分类url:https://www.857yhdm.com/show/{cateId}--{by}------{catePg}---{year}.html,分类:日本动漫$ribendongman#国产动漫$guochandongman#动漫电影$dongmandianying#欧美动漫$omeidongman"},
+
+	    
         //网盘资源区
         {"key":"Gitcafe","name":"📀小纸条(搜索)","type":3,"api":"csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
         {"key":"csp_Zhaozy","name":"📀找资源(搜索)","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"filterable":0,"ext":"{\"username\":\"fanty\",\"password\":\"qqq111\",\"searchurl\":\"http://zhaoziyuan.pw/so?filename={wd}\"}"},
@@ -91,6 +43,10 @@
         {"key": "csp_XYQHikerAL_玩偶妹妹","name":"📀玩偶妹妹(优)","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/玩偶妹妹.json"},
         {"key": "csp_XYQHikerAL_云盘资源","name":"📀云盘资源(搜索)","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/云盘资源.json"},
         {"key":"push_agent","name":"📽推送","type":3,"api":"csp_PushAgent","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
+
+	{"key":"我的阿里","name":"我的｜阿里","type":3,"api":"csp_MyAli","searchable":0,"quickSearch":0,"filterable":0,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},"style":{"type":"list"},"jar":"./jar/danmu.jar"},
+	{"key":"阿里合集","name":"阿里｜合集","type":3,"api":"csp_AliShare","searchable":1,"changeable":0,"filterable":0,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","share":""},"style":{"type":"list"},"jar":"./jar/danmu.jar"},
+	    
         //磁力资源区
         {"key": "csp_Mp4Mov","name": "🧲Mp4电影","type": 3,"api": "csp_Mp4Mov","searchable": 1,"quickSearch": 1,"filterable": 1},
         {"key": "csp_New6v","name": "🧲新6V","type": 3,"api": "csp_New6v","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://www.xb6v.com"},
