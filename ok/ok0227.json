@@ -2,12 +2,12 @@
     "公众号": "影视范",
     "qq频道": "TVBox本地包",
     "qq频道链接": "https://pd.qq.com/s/2mvdgmij8",
-    "spider": "./okpng.txt",
+    "spider": "./okpng0227.txt",
     "wallpaper": "https://jihulab.com/okcaptain/kko/-/raw/main/w1.jpg",
     "sites": [
         {
             "key": "豆瓣",
-            "name": "豆瓣热剧",
+            "name": "🐷豆瓣热剧|OK0227🐷",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
