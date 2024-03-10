@@ -21,7 +21,7 @@
     ],
     "sites": [
 
-        {"key":"豆瓣","name":"🐰豆瓣热播|香佬0209🐰","type":3,"api":"csp_Douban","searchable":0},
+        {"key":"豆瓣","name":"🐰豆瓣热播|香佬0306🐰","type":3,"api":"csp_Douban","searchable":0},
 
 	{"key":"云盘登录","name":"云盘登录","type":3,"api":"csp_AliYunPan","searchable":0,"quickSearch":0,"filterable":0,"changeable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
 	{"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"jar":"./jar/danmu.jar"},
