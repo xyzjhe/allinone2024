@@ -11,6 +11,18 @@
   ],
   
   "sites": [
+
+    {
+      "key": "lf_js_search",
+      "name": "🐵┃影视热搜 lf_search┃🐵",
+      "type": 3,
+      "searchable": 0,
+      "changeable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "api": "./LuFei/lf_search3_min.js"
+    },
+	  
     {
       "key": "豆瓣",
       "name": "🐝豆瓣|蜜蜂线路🐝",
@@ -85,16 +97,7 @@
       }
     },
 
-    {
-      "key": "lf_js_search",
-      "name": "🐵┃影视热搜 lf_search┃🐵",
-      "type": 3,
-      "searchable": 0,
-      "changeable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "api": "./LuFei/lf_search3_min.js"
-    },
+    
     {
       "key": "lf_js_p2p_18+",
       "name": "磁力 | lf_p2p",
