@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/FMplus0229.jar",
+  "spider": "./jar/FMplus0312.jar",
   
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
 
@@ -551,10 +551,10 @@
       "changeable": 0
     },
     {
-      "key": "盤99",
-      "name": "盘Ali99|4K",
+      "key": "土豆",
+      "name": "土豆|4K",
       "type": 3,
-      "api": "csp_Pan99",
+      "api": "csp_Tudou",
       "searchable": 1,
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
