@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/FMplus0312.jar",
+  "spider": "./jar/FMplus0313.jar",
   
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
 
@@ -42,6 +42,16 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./py/cctv_spider.json"
+    },
+
+    {
+      "key": "玩我哥哥",
+      "name": "🎯玩我哥哥|4K",
+      "type": 3,
+      "api": "csp_Wwgg",
+      "searchable": 1,
+      "changeable": 0,
+      "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
     },
 	  
     {
@@ -562,6 +572,9 @@
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
     },
+
+    
+	  
     {
       "key": "七夜",
       "name": "七夜|4K",
