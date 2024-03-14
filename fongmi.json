@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/FMplus0313.jar",
+  "spider": "./jar/FMplus0315.jar",
   
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
 
@@ -108,7 +108,7 @@
             "searchable": 1,
             "filterable": 0,
             "switchable": 0,
-            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/xinyi1984/xytv/master/txt/token.txt",
+            "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
             "timeout": 30
         },
         {
@@ -120,7 +120,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
-            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/xinyi1984/xytv/master/txt/token.txt",
+            "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
             "timeout": 30
         },
         {
@@ -132,7 +132,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
-            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/xinyi1984/xytv/master/txt/token.txt",
+            "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
             "timeout": 30
         },
 	  
