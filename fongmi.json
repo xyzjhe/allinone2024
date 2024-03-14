@@ -68,6 +68,21 @@
       }
     },
 
+
+     {
+      "key": "玩偶表哥",
+      "name": "🎯玩偶表哥|4K",
+      "type": 3,
+      "api": "csp_Wobg",
+      "searchable": 1,
+      "changeable": 0,
+     "ext": {
+        "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
+        "filter": "./json/wogg.json"
+      }
+    },
+	  
+
      {
      "key": "影视车",
      "name": "🎯影视车|4K",
