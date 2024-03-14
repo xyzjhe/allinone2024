@@ -84,7 +84,10 @@
       "api": "csp_Wobg",
       "searchable": 1,
       "changeable": 0,
-      "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
+       "ext": {
+        "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
+        "filter": "./json/wogg.json"
+      }
     },
     {
       "key": "玩偶",
