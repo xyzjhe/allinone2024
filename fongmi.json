@@ -44,6 +44,17 @@
       "ext": "./py/cctv_spider.json"
     },
 
+     {
+      "key": "賤賤",
+      "name": "荐片|2K",
+      "type": 3,
+      "api": "csp_Jianpian",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType":1,
+      "ext": "./json/jianpian.json"
+    },
+
     {
       "key": "玩我哥哥",
       "name": "🎯玩我哥哥|4K",
@@ -155,15 +166,7 @@
       "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt$$$zzygll2$$$zzy555555"
     },
     
-    {
-      "key": "賤賤",
-      "name": "荐片",
-      "type": 3,
-      "api": "csp_Jianpian",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "./json/jianpian.json"
-    },
+   
     {
       "key": "短劇",
       "name": "短劇",
