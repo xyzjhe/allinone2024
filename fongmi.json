@@ -70,79 +70,18 @@
       }
     },
 
+    {"key": "阿里云集合","name": "🎯阿里云集合|4K", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./json/阿里集合.json;http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","jar":"./jar/真心真语0204+列表+搜索.jar"},
+
     {
      "key": "影视车",
-     "name": "影视车|4K",
+     "name": "🎯影视车|4K",
      "type": 3,
      "api": "csp_Yingshiche",
      "searchable": 1,
      "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
     },
-
-        {
-            "key": "I4K",
-            "name": "I4K",
-            "type": 3,
-            "api": "csp_I4K",
-            "searchable": 0,
-            "changeable": 1,
-	    "jar":"./jar/xinyi0313.jar",
-            "timeout": 30
-        },
-        {
-            "key": "优品搁YYDSVIPYYDSHD",
-            "name": "优品搁|YYDSVIP|YYDSHD|4K",
-            "type": 3,
-            "api": "csp_优品搁YYDSVIPYYDSHD",
-            "searchable": 1,
-            "filterable": 0,
-            "switchable": 0,
-	    "jar":"./jar/xinyi0313.jar",
-            "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
-            "timeout": 30
-        },
-        {
-            "key": "阿里云集合",
-            "name": "阿里云集合|4K",
-            "type": 3,
-            "api": "csp_阿里云集合",
-            "searchable": 1,
-            "filterable": 0,
-            "switchable": 0,
-	    "jar":"./jar/xinyi0313.jar",
-            "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
-            "timeout": 30
-        },
-        {
-            "key": "csp_Woogg",
-            "name": "玩偶哥哥┃搜索",
-            "type": 3,
-            "api": "csp_Woogg",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0,
-	    "jar":"./jar/xinyi0313.jar",
-            "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
-            "timeout": 30
-        },
-        {
-            "key": "csp_DyyAli",
-            "name": "电影院┃搜索",
-            "type": 3,
-            "api": "csp_DyyAli",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0,
-	    "jar":"./jar/xinyi0313.jar",
-            "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
-            "timeout": 30
-        },
 	  
-    {"key": "阿里云集合","name": "🎯阿里云集合|4K", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./json/阿里集合.json;http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","jar":"./jar/真心真语0204+列表+搜索.jar"},
-
     {
       "key": "土豆",
       "name": "🎯土豆|4K",
@@ -168,7 +107,7 @@
       "api": "csp_YiSo",
       "searchable": 1,
       "changeable": 0,
-      "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
+      "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt$$$satoken=1aee2366-2ff4-4436-b321-a14db23e8294"
     },
     {
       "key": "雲搜",
