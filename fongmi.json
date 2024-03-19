@@ -199,6 +199,19 @@
 
     {"key": "本地", "name": "本地文件", "type": 3, "api": "csp_LocalFileV2","searchable":0,"playerType":1},
     {"key": "本地2", "name": "本地文件(不显示隐藏文件)", "type": 3, "api": "csp_LocalFileV2","ext": "showAllFile=false","searchable":0,"playerType":1},
+
+    {
+      "key": "smb共享",
+      "name": "smb共享",
+      "type": 3,
+      "api": "csp_Smb4nas",
+      "searchable": 0,
+      "changeable": 0,
+      "filterable": 0,
+    //"ext": "smb://username:password@192.168.x.x/video/",
+      "ext": "smb://192.168.5.1/joe/",
+      "jar": "http://192.168.5.1/joe/smb.jar"
+    },
     
     {
       "key": "短劇",
