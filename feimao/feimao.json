@@ -1,5 +1,5 @@
 {
-  "spider": "./PandaQ240315.jar;md5;335A5351ABE2FAB05554E5F067F34234",
+  "spider": "./PandaQ240318.jar;md5;5b59d2999497d6e0c1eb256bcd77f2c7",
   "wallpaper": "http://我不是.肥猫.live/ppic/feimao.php",
   "sites": [
     {
@@ -42,6 +42,13 @@
       "playerType": "2",
       "api": "csp_Nkdy",
       "searchable": 0
+    },
+    {
+      "key": "csp_LiteApple",
+      "name": "🍎┃苹果┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_LiteApple"
     },
     {
       "key": "csp_Panda_玩偶哥哥",
