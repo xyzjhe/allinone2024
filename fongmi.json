@@ -79,7 +79,7 @@
     },
 
     {"key":"drpy_js_爱看机器人3","name":"爱看|机器v3[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot3.js"},
-    {"key":"drpy_js_荐片","name":"荐片[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/jp.js"},
+    {"key":"drpy_js_荐片","name":"荐片[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/荐片.js"},
     
     {
       "key": "玩偶表哥",
