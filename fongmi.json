@@ -33,6 +33,8 @@
       "ext": "./json/douban.json"
     },
 
+    {"key":"drpy_js_豆瓣new","name":"豆瓣2024[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/jsapi2.js"},
+
     {
       "key": "hipy_t3_cntv央视",
       "name": "cntv央视(hipy_t3)",
