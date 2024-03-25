@@ -1,11 +1,11 @@
 {
   
-"spider":"./jar/fanplus0319.jar",
+"spider":"./jar/fanplus0325.jar",
   
 "wallpaper":"http://www.饭太硬.top/深色壁纸/api.php",
 
 "sites":[
-{"key":"豆豆","name":"🌕豆瓣|饭佬0319","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
+{"key":"豆豆","name":"🌕豆瓣|饭佬0325","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
 {"key":"玩偶","name":"👽玩偶哥哥┃4K弹幕","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"},
 
 
