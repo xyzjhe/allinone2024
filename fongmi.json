@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/FMplus0319.jar",
+  "spider": "./jar/FMplus0326.jar",
   
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
 
@@ -58,7 +58,13 @@
     },
 
      {"key": "Voflix", "name": "影视 | Voflix", "type": 3, "api": "csp_Voflix", "searchable": 1, "ext": "https://www.voflix.me/"},
-      {"key": "农民", "name": "影视 | 农民", "type": 3, "api": "csp_NongMing", "searchable": 1},
+     {"key": "农民", "name": "影视 | 农民", "type": 3, "api": "csp_NongMing", "searchable": 1},
+     {"key":"996影院","name":"影视 | 996影院","type":3,"api":"csp_Cs1369","searchable":0},
+     {"key":"Yj1211","name":"直播 | 综合","type":3,"api":"csp_Yj1211","searchable":1,"changeable":0},
+     {"key":"V2_cokemv","name":"影视 | cokemv[V2]","type":3,"api":"csp_AppYsV2","searchable":1,"ext":"https://cokemv.co/xgapp.php/v2/"},
+     {"key":"IQIYI","name":"影视 | IQIYI","type":3,"api":"csp_IQIYI","searchable":1},
+     {"key":"MGTV","name":"影视 | MGTV","type":3,"api":"csp_MGTV","searchable":1},
+     
 	  
      {
      "key": "影视车",
@@ -710,6 +716,12 @@
   ],
 
   "parses":[
+
+  {"name":"解析聚合","type":3,"url": "Demo"},
+  {"name":"Web聚合","type":3,"url": "Web"},
+  {"name":"Json并发","type":2,"url": "Parallel"},
+  {"name":"Json轮询","type":2,"url": "Sequence"},
+	  
   {"name":"Json聚合","type":3,"url":"Demo"},
   {"name": "摸鱼","type": 1,"url": "http://110.42.2.247:8001/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&format=data&url=SMDAxlsKjFXx6goPqdqcZt9dQekx6TWt3YXhNRWhobFlOTEVnPT0","ext": {"flag": ["FYNB","mgtv","qiyi","imgo","爱奇艺","奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","leshi","bilibili","哔哩哔哩","哔哩","mgtv","芒果"],"header": {"User-Agent": "okhttp/4.1.0"}}},
   {"name": "飞云","type": 1,"url": "https://daina.hk/api/?key=e1e84ecae847b6e4a1a27fd4611f45f5&url=","ext": {"flag": ["FYNB","mgtv","qiyi","imgo","爱奇艺","奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","leshi","bilibili","哔哩哔哩","哔哩","mgtv","芒果"],"header": {"User-Agent": "okhttp/4.1.0"}}},
