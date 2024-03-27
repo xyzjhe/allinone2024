@@ -2,23 +2,12 @@
     "wallpaper": "https://picsum.photos/1280/720/?blur=2",
     "spider": "./jar/XYQplus0312.jar",
     "lives": [
-        {
-          "name": "本地live文件",
-          "type":"0",
-          "pass": true,
-          "url":"http://127.0.0.1:9978/file/XYQTVBox/live.txt",
-          "epg": "https://epg.112114.xyz/?ch={name}&date={date}",     
-          "logo": "https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-          "name": "FMM_IPV6",
-          "type":"0",
-          "pass": true,
-          "url": "https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-          "epg": "https://epg.112114.xyz/?ch={name}&date={date}",     
-          "logo": "https://epg.112114.xyz/logo/{name}.png"
-        }
-    ],
+
+	  {"name":"live_v4","type":0,"url":"https://ghproxy.net/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt"},
+	  {"name":"live_v6","type":0,"url":"./iptv/live_v6.txt"},
+          {"name":"央视频嗅探","ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0","type":0,"timeout": 40,"url":"./iptv/xiutan.m3u"}
+	
+         ],
     "sites": [
 
         {"key":"豆瓣","name":"🐰豆瓣热播|香佬0312🐰","type":3,"api":"csp_Douban","searchable":0},
@@ -46,7 +35,13 @@
         {"key": "csp_XYQHikerAL_云盘资源","name":"📀云盘资源(搜索)","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/云盘资源.json"},
 	{"key":"天天开心","name":"📀云盘｜天天开心","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/天天开心.json"},
 	{"key":"土豆网盘","name":"📀云盘｜土豆网盘","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/土豆网盘.json"},
-	{"key":"DOVX搜索","name":"📀云盘｜DOVX七夜","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/DOVX搜索.json"},    
+	{"key":"DOVX搜索","name":"📀云盘｜DOVX七夜","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/DOVX搜索.json"}, 
+
+	{"key":"xyq688","name":"🌩八八★云盘","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"playerType":-1,"hide":1,"ext":"./json/XYQHiker/688.json"},
+	{"key":"xyq盘搜索","name":"🌩搜索★云盘","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"playerType":-1,"hide":1,"ext":"./json/XYQHiker/盘搜索.json"},
+        {"key":"xyqH_电影港磁力","name":"🧲影港｜磁力","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":0,"filterable":1,"changeable":0,"playerType":1,"hide":1,"ext":"./json/XYQHiker/电影港磁力.json"},
+
+	    
 	{"key":"push_agent","name":"📽推送","type":3,"api":"csp_PushAgent","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
         //磁力资源区
         {"key": "csp_Mp4Mov","name": "🧲Mp4电影","type": 3,"api": "csp_Mp4Mov","searchable": 1,"quickSearch": 1,"filterable": 1},
