@@ -1,10 +1,24 @@
 {
-  "vodPic": "https://x.imgs.ovh/x/2023/09/05/64f680bb030b4.png",
+  "vodPic": "https://image.baidu.com/search/down?tn=download&word=download&ie=utf8&fr=detail&url=https%3A%2F%2Fhbimg.b0.upaiyun.com%2F04b9025a7ed719d0e7e21df9582d3cbc792659935807-kaXKlN_fw658&thumburl=https%3A%2F%2Fimg1.baidu.com%2Fit%2Fu%3D2305110379%2C3763888947%26fm%3D253%26fmt%3Dauto%26app%3D138%26f%3DPNG%3Fw%3D128%26h%3D128",
+//  "vodPic": "https://camo.githubusercontent.com/08c6d783ad6b930906f5b929e1bcd8115b738b728d6dbec0d3c3ec0d3fc725c3/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f616c6973742d6f72672f6c6f676f406d61696e2f6c6f676f2e737667",
+//  "vodPic": "https://alist.nn.ci/logo.svg",
+//  "vodPic": "https://avatars.githubusercontent.com/u/97389433?s=48&v=4",
   "drives": [
     {
+      "name": "我的网盘",
+      "server": "http://192.168.0.132:5244"
+    },
+//    {
+//      "name": "我的网盘(远程)",
+//      "server": "http://100.110.73.40:5244"
+//    },
+    {
+      "name": "ECVE",
+      "server": "https://pan.ecve.cn"
+    },
+    {
       "name": "小雅",
-      "server": "http://alist.xiaoya.pro",
-      "search": false
+      "server": "http://alist.xiaoya.pro"
     },
     {
       "name": "觸光",
@@ -27,9 +41,8 @@
       "server": "https://zi0.cc"
     },
     {
-      "name": "範本",
+      "name": "FongMi",
       "server": "https://one.fongmi.com",
-      "hidden": true,
       "login": {
         "username": "fongmi",
         "password": "fongmi"
