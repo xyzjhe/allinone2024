@@ -65,6 +65,37 @@
      {"key":"V2_cokemv","name":"影视 | cokemv[V2]","type":3,"api":"csp_AppYsV2","searchable":1,"ext":"https://cokemv.co/xgapp.php/v2/"},
      {"key":"IQIYI","name":"影视 | IQIYI","type":3,"api":"csp_IQIYI","searchable":1},
      {"key":"MGTV","name":"影视 | MGTV","type":3,"api":"csp_MGTV","searchable":1},
+
+
+               {"key":"体育录像","name":"体育录像","type":3,"playerType":1,"api":"csp_SportsReplay","searchable":0,"changeable":0,"style":{"type":"list"},
+			"jar":"./jar/custom_spider.jar",
+			"ext":{
+				"88replay":"http://www.88kanqiu.one",
+				"luxiangba":"https://luxiangba.com",
+				"lanqiuwu":"https://lanqiuwu.com",
+				"itiyu":"https://itiyu.com",
+				"zhibo8":"https://www.zhibo8.com",
+				"liangzi":"https://cj.lzcaiji.com/api.php/provide/vod/",
+				"tiankong":"https://tiankongzy.com/api.php/provide/vod/",
+				"feisu":"https://www.feisuzy.com/api.php/provide/vod/",
+				"json":"./json/sportsreplay.json"
+			}
+		},
+
+		{"key":"阿里搜索","name":"阿里搜索","type":3,"playerType":1,"api":"csp_AliSearch","searchable":1,"changeable":0,
+			"jar":"./jar/custom_spider.jar",
+			"ext":{
+				"88replay":"http://www.88kanqiu.one",
+				"Wogg":"https://tvfan.xxooo.cf",
+				"PanSearch":"https://www.pansearch.me",
+				"XiaoZhiTiao":"https://gitcafe.net/tool/alipaper/",
+				"YiSo":"https://yiso.fun/api/search","YiSo_Cookie":"b-user-id=8adc6121-1471-aab6-e7c4-f89bc70fc7b3; JSESSIONID=B9ACE0FC23C52054E6A67F590191B332; satoken=07aae61b-896c-495e-ab4c-189eaf7fccc0; cf_clearance=z4Wu91BWoe9MJ2gqLPwd1gSukzCb5zmUdPP0t_CzpIE-1711795971-1.0.1.1-80MPmHkyC5gvQoTzR.rIgP8GtMNH5sIvm0EKf.zLTUg7TZrRdZmB0f0SXexvxG2jh5.jaTdTxJ.WLHT0wz9Tqw",
+				"Zhaozy":"https://zhaoziyuan1.cc",
+				"PanSou":"https://www.alipansou.com",
+				"UpYun":"https://upapi.juapp9.com",
+				"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
+			}
+		},
      
 	  
      {
