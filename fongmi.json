@@ -60,6 +60,8 @@
       "ext": "./json/jianpian.json"
     },
 
+
+	  
      {"key": "Voflix", "name": "影视 | Voflix", "type": 3, "api": "csp_Voflix", "searchable": 1, "ext": "https://www.voflix.me/"},
      {"key": "农民", "name": "影视 | 农民", "type": 3, "api": "csp_NongMing", "searchable": 1},
      {"key":"996影院","name":"影视 | 996影院","type":3,"api":"csp_Cs1369","searchable":0},
@@ -244,7 +246,9 @@
       }
     },
 
-
+    {"key":"csp_DyGang","name":"磁力 | 电影港","type":3,"api":"csp_DyGang","searchable":1,"playerType":1,"timeout":120},
+    {"key":"csp_Xunlei8","name":"磁力 | 迅雷吧","type":3,"api":"csp_Xunlei8","searchable":1,"playerType":1,"timeout":120,"changeable":0},
+	  
     {"key": "csp_SixV", "name": "磁力 | 新6V电影网", "type": 3, "api": "csp_SixV", "ext": "https://www.6vdy.org/", "searchable": 1, "playerType": 1, "timeout": 60},
     {"key": "PiaoHua", "name": "磁力 | 新飘花电影网", "type": 3, "api": "csp_PiaoHua", "searchable": 1, "playerType": 1, "changeable": 0},
     
