@@ -67,7 +67,22 @@
      {"key":"MGTV","name":"影视 | MGTV","type":3,"api":"csp_MGTV","searchable":1},
 
 
-               {"key":"体育录像","name":"体育录像","type":3,"playerType":1,"api":"csp_SportsReplay","searchable":0,"changeable":0,"style":{"type":"list"},
+          {"key":"体育直播","name":"体育直播","type":3,"playerType":1,"api":"csp_SportsLive","searchable":0,"changeable":0,"style":{"type":"list"},
+			"jar":"./jar/custom_spider.jar",
+			"ext":{
+				"jrkan":"http://www.jrsyyds.com",
+				"88kanqiu":"http://www.88kanqiu.one",
+				"310":"http://www.310.tv",
+//				"310":"http://www.176.tv",
+				"17kan":"http://www.zuqiuzhibo.live",
+//				"17kan":"http://www.wuchajian.live",
+//				"zqbaba":"https://www.zqbaba.net",
+				"json":"./json/sportslive.json"
+			}
+		},     
+	  
+	  
+	  {"key":"体育录像","name":"体育录像","type":3,"playerType":1,"api":"csp_SportsReplay","searchable":0,"changeable":0,"style":{"type":"list"},
 			"jar":"./jar/custom_spider.jar",
 			"ext":{
 				"88replay":"http://www.88kanqiu.one",
