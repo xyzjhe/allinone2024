@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/FMplus0407.jar",
+  "spider": "./jar/FMplus0408.jar",
   
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
 
@@ -26,7 +26,7 @@
 	  
     {
       "key": "豆瓣",
-      "name": "🐝豆瓣|蜜蜂线路0407🐝",
+      "name": "🐝豆瓣|蜜蜂线路0408🐝",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
