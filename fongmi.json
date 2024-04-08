@@ -74,7 +74,7 @@
 },
 {
 	"key": "XBPQ_文才",
-	"name": "文才|XBPQ",
+	"name": "文才影视|XBPQ",
 	"type": 3,
 	"api": "csp_XBPQ",
 	"jar": "./jar/XBPQ.jar",
@@ -117,7 +117,7 @@
 
 {
       "key": "神仙影视",
-      "name": "影视 | 神仙自营",
+      "name": "神仙自营|XBPQ",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jar/XBPQ.jar",
@@ -193,7 +193,7 @@
     },
 {
       "key": "saohuo",
-      "name": "🔥骚火┃电影",
+      "name": "骚火电影|XBPQ",
       "type": 3,
       "searchable": 1,
       "changeable": 1,
@@ -229,7 +229,7 @@
 
 {
       "key": "XBPQ_XSmp3",
-      "name": "随身相声",
+      "name": "随身相声|XBPQ",
       "type": 3,
       "searchable": 0,
       "style": {
@@ -264,7 +264,7 @@
     },
     {
       "key": "XBPQ_PSmp3",
-      "name": "随身评书",
+      "name": "随身评书|XBPQ",
       "type": 3,
       "searchable": 0,
       "style": {
@@ -301,13 +301,13 @@
 	  
      {
 	"key": "T4-mingri",
-	"name": "明日看片子",
+	"name": "明日影视T4",
 	"type": 4,
 	"api": "https://catbox.n13.club/mingri.php"
 },
 {
 	"key": "T4-nongmin",
-	"name": "农民影视",
+	"name": "农民影视T4",
 	"type": 4,
 	"api": "https://catbox.n13.club/nongmin.php"
 },
