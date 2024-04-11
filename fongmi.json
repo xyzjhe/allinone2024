@@ -154,7 +154,16 @@
     {"key":"Yj1211","name":"直播 | 综合","type":3,"api":"csp_Yj1211","searchable":1,"changeable":0},
     {"key":"V2_cokemv","name":"影视 | cokemv[V2]","type":3,"api":"csp_AppYsV2","searchable":1,"ext":"https://cokemv.co/xgapp.php/v2/"},
      
-     
+     {
+	"key": "drpy2_农民影视",
+	"name": "👨‍🌾农民",
+	"type": 3,
+	"api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/momoyuyuer/TVBoxpro/main/JS/drpy2.min.js",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 1,
+	"ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/momoyuyuer/TVBoxpro/main/JS/drpy2_%E5%86%9C%E6%B0%91%E5%BD%B1%E8%A7%86.js"
+},
     
     {"key":"py_m1905","name":"🌎M1905┃py🌎","type": 3,"api": "py_m1905","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/m1905.py"},
     {"key":"py_m1905_FM","name":"M1905┃FM专用","type": 3,"api": "./py/m1905.py","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": ""},
