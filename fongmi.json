@@ -110,7 +110,7 @@
 			}
 		},
 		
-		{"key":"爱看机器人","name":"爱看机器人","type":"3","api":"csp_Ikanbot","playerType":1,"searchable":"1","quickSearch":"0","filterable":"1","changeable":0","jar":"./jar/custom_spider.jar"},
+		{"key":"爱看机器人","name":"爱看机器人","type":"3","api":"csp_Ikanbot","playerType":1,"searchable":"1","quickSearch":"0","filterable":"1","changeable":0,"jar":"./jar/custom_spider.jar"},
     
      {"key":"央视大全","name":"央视大全┃聚合","type":3,"playerType":1,"api":"csp_CCTV","searchable":0,"ext":{"json":"./json/cctv.json"},"jar":"./jar/custom_spider.jar"},
      
