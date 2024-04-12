@@ -1,5 +1,5 @@
 {
-  "spider":"./jar/FTYplus0408.jar",
+  "spider":"./jar/fan0412bXBPQ.jar",
 	
   "wallpaper": "https://深色壁纸.xxooo.cf/",
 	
@@ -7,7 +7,7 @@
 	  
     {
       "key": "豆豆",
-      "name": "🌕豆瓣|饭佬0408",
+      "name": "🌕豆瓣SP|饭佬0412",
       "type": 3,
       "api": "csp_DouDou",
       "searchable": 0,
@@ -43,7 +43,7 @@
       "api": "./LuFei/lf_search3_min.js"
     },
     
-    {"key": "py_ali", "name": "🥑豆瓣★阿里★厂长★搜索★PY",  "type": 3, "api": "./py/py_ali.py", "searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,
+    {"key": "py_ali", "name": "🥑豆瓣PY|热搜",  "type": 3, "api": "./py/py_ali.py", "searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,
               "ext": {
                         "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
                         "thread": "10"
