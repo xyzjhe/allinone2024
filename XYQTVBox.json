@@ -10,11 +10,11 @@
          ],
     "sites": [
 
-        {"key":"豆瓣","name":"🐰豆瓣热播|香佬0411🐰","type":3,"api":"csp_Douban","searchable":0},
-	 {"key":"云盘登录","name":"云盘登录","type":3,"api":"csp_AliYunPan","searchable":0,"quickSearch":0,"filterable":0,"changeable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
+      {"key":"豆瓣","name":"🐰豆瓣热播|香佬0411🐰","type":3,"api":"csp_Douban","searchable":0},
+      {"key":"云盘登录","name":"云盘登录","type":3,"api":"csp_AliYunPan","searchable":0,"quickSearch":0,"filterable":0,"changeable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
 	 
-	 {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃备用","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
-	 {"key":"csp_LocalFile","name":"💻本地视频","type":3,"api":"csp_LocalFile","searchable":0,"quickSearch":0,"filterable":0,"type_flag":0},
+      {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃备用","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
+      {"key":"csp_LocalFile","name":"💻本地视频","type":3,"api":"csp_LocalFile","searchable":0,"quickSearch":0,"filterable":0,"type_flag":0},
     
     {
       "key": "lf_js_search",
@@ -40,7 +40,7 @@
 			"jar":"./jar/custom_spider.jar",
 			"ext":{
 				"88replay":"http://www.88kanqiu.one",
-				"Wogg":"https://tvfan.xxooo.cf",
+				"Wogg":"https://api.wogg.xyz/",
 				"PanSearch":"https://www.pansearch.me",
 				"XiaoZhiTiao":"https://gitcafe.net/tool/alipaper/",
 				"YiSo":"https://yiso.fun/api/search","YiSo_Cookie":"b-user-id=8adc6121-1471-aab6-e7c4-f89bc70fc7b3; JSESSIONID=B9ACE0FC23C52054E6A67F590191B332; satoken=07aae61b-896c-495e-ab4c-189eaf7fccc0; cf_clearance=z4Wu91BWoe9MJ2gqLPwd1gSukzCb5zmUdPP0t_CzpIE-1711795971-1.0.1.1-80MPmHkyC5gvQoTzR.rIgP8GtMNH5sIvm0EKf.zLTUg7TZrRdZmB0f0SXexvxG2jh5.jaTdTxJ.WLHT0wz9Tqw",
@@ -101,32 +101,38 @@
 	 {"key":"csp_Xunlei8","name":"🧲迅雷吧｜磁力","type":3,"api":"csp_Xunlei8","searchable":1,"quickSearch":1,"filterable":1},
 	 {"key": "csp_New6v","name": "🧲新6V｜磁力","type": 3,"api": "csp_New6v","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://www.xb6v.com"},
 	 {"key": "csp_Mp4Mov","name": "🧲Mp4电影｜磁力","type": 3,"api": "csp_Mp4Mov","searchable": 1,"quickSearch": 1,"filterable": 1},
-	 	 
-	 {"key":"新视觉","name":"新视觉","type":3,"api":"csp_Web608","searchable":1,"quickSearch":0,"filterable":0,"ext":"https://www.6080yy4.com"},
-	 {"key":"白嫖影视","name":"白嫖影视","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/白嫖影视.json"},
 	 
+	 {"key":"白嫖影视","name":"白嫖影视","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/白嫖影视.json"},
+	 {"key":"新视觉","name":"新视觉","type":3,"api":"csp_Web608","searchable":1,"quickSearch":0,"filterable":0,"ext":"https://www.6080yy4.com"},
+		 
 	{"key":"csp_Czsapp","name":"🐞厂长资源","type":3,"api":"csp_Czsapp","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.czys01.com/"},
 	{"key":"csp_Kuaikan","name":"🐞快看影视","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
 	
-	{"key": "csp_XYQHikerAL_玩偶妹妹","name":"📀玩偶妹妹(优)|阿里4K","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/玩偶妹妹.json"},
-	{"key": "csp_XYQHikerAL_影视车","name":"📀影视车(优)","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/影视车.json"}, 
-	{"key": "csp_XYQHiker_影搜","name":"📀影搜(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/影搜.json"},
-	{"key":"csp_Zhaozy","name":"📀找资源(搜索)","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"filterable":0, "ext": "{\"username\":\"zzygll2\",\"password\":\"zzy555555\",\"searchurl\":\"https://zhaoziyuan1.cc/so?filename={wd}\"}"},
 	
-	 //阿里资源区
-        {"key":"csp_AliPS","name":"📀喵狸盘搜(搜索)","type":3,"api":"csp_AliPS","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
-        {"key":"csp_Yisou","name":"📀易搜(搜索)","type":3,"api":"csp_Yisou","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
-        {"key":"csp_Upyunso","name":"📀UP云搜(搜索)","type":3,"api":"csp_Upyunso","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
-	 {"key": "csp_XYQHikerAL_玩偶哥哥","name":"📀玩偶哥哥(优)","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/玩偶哥哥.json"},
-       {"key": "csp_XYQHikerAL_云盘资源","name":"📀云盘资源(搜索)","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/云盘资源.json"},
+	//阿里资源区1
+	{"key": "csp_XYQHiker_影搜","name":"📀影搜(XYQH)｜阿里4K","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/影搜.json"},
+	{"key": "csp_XYQHikerAL_玩偶哥哥","name":"📀玩偶哥哥(优)) | 阿里4K","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/玩偶哥哥.json"},
+	
+	 {"key":"csp_Yisou","name":"📀易搜(搜索)","type":3,"api":"csp_Yisou","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
+	 {"key":"xyq688","name":"📀云盘｜688云盘","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"playerType":-1,"hide":1,"ext":"./XYQHiker/688.json"},
+	 
 	{"key":"天天开心","name":"📀云盘｜天天开心","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/天天开心.json"},
 	{"key":"土豆网盘","name":"📀云盘｜土豆网盘","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/土豆网盘.json"},
-	{"key":"DOVX搜索","name":"📀云盘｜DOVX七夜","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/DOVX搜索.json"}, 
+	{"key":"多多影音","name":"📀云盘｜多多影音","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/多多影音.json"},
+	
+	{"key":"xyq盘搜索","name":"📀云盘｜盘搜索","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"playerType":-1,"hide":1,"ext":"./XYQHiker/盘搜索.json"},
+	
+	{"key":"csp_Zhaozy","name":"📀找资源(搜索)","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"filterable":0, "ext": "{\"username\":\"zzygll2\",\"password\":\"zzy555555\",\"searchurl\":\"https://zhaoziyuan1.cc/so?filename={wd}\"}"},
+	{"key": "csp_XYQHikerAL_云盘资源","name":"📀云盘资源(搜索)","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/云盘资源.json"},
+	
+	 //阿里资源区2
+        {"key":"csp_AliPS","name":"📀喵狸盘搜(搜索)","type":3,"api":"csp_AliPS","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
+        {"key":"csp_Upyunso","name":"📀UP云搜(搜索)","type":3,"api":"csp_Upyunso","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
+	 {"key":"DOVX搜索","name":"📀云盘｜DOVX七夜","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/DOVX搜索.json"}, 
+	 {"key": "csp_XYQHikerAL_玩偶妹妹","name":"📀玩偶妹妹(优)|阿里4K","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/玩偶妹妹.json"},
+	 {"key": "csp_XYQHikerAL_影视车","name":"📀影视车(优))|阿里4K","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/影视车.json"}, 
        
-	{"key":"xyq688","name":"🌩八八★云盘","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"playerType":-1,"hide":1,"ext":"./XYQHiker/688.json"},
-	{"key":"xyq盘搜索","name":"🌩搜索★云盘","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"playerType":-1,"hide":1,"ext":"./XYQHiker/盘搜索.json"},
-         
-	{"key":"push_agent","name":"📽推送","type":3,"api":"csp_PushAgent","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
+	 {"key":"push_agent","name":"📨🌩️推送🌩️📨","type":3,"api":"csp_PushAgent","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
 	
         //磁力资源区
         {"key":"csp_SeedHub","name":"🧲SeedHub","type":3,"api":"csp_SeedHub","searchable":1,"quickSearch":1,"filterable":1},
@@ -157,7 +163,7 @@
         {"key": "csp_短剧网","name":"短剧网","type":3,"api":"csp_Duanjuw","searchable":1,"quickSearch":1,"filterable":1},
         
         //XYQ规则区
-        {"key": "csp_XYQHiker_农民影视","name":"🧑🏻‍农民影视(HM2)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/农民影视.json"},
+       
         {"key": "csp_XYQHiker_996影视","name":"996影视(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/996影视.json"},
         
         //直播规则区
