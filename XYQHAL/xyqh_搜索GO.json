@@ -1,0 +1,41 @@
+{
+
+"规则名": "搜索GO",
+
+"规则作者": "小可乐/240205/第一版",
+
+"链接是否直接播放": "1",
+
+"直接播放链接加前缀": "",
+
+"直接播放链接加后缀": "#isVideo=true#",
+
+"直接播放直链视频请求头": "",
+
+
+
+"搜索请求头参数": "User-Agent$手机",
+
+"搜索链接": "https://ssgo.app/?query={wd}&page={SearchPg}",
+
+"POST请求数据": "searchword={wd}",
+
+"搜索截取模式": "1",
+
+"搜索列表数组规则": "body&&.v-card--link",
+
+"搜索片单是否Jsoup写法": "1",
+
+"搜索片单图片": "https://cdn.pansearch.me/resources/29ce86e563b9e7c027be4e5b3fd2a0d6.jpg",
+
+"搜索片单标题": ".v-card-title&&Text",
+
+"搜索片单副标题": ".v-chip__content&&Text",
+
+"搜索片单链接": "a&&href!//aliyundrive.com",
+
+"搜索片单链接加前缀": "https://www.alipan.com",
+
+"搜索片单链接加后缀": ""
+
+}
