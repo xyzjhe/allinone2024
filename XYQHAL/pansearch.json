@@ -1,0 +1,14 @@
+{
+  "搜索请求头参数": "User-Agent$MOBILE_UA#referer$https://www.pansearch.me",
+  "搜索链接": "https://www.pansearch.me/search?keyword\u003d{wd}",
+  "POST请求数据": "",
+  "搜索截取模式": "1",
+  "搜索列表数组规则": ".grid\u0026\u0026.items-start:has(a[href~\u003dali(pan|yundrive)])",
+  "搜索片单是否Jsoup写法": "0",
+  "搜索片单图片": "src\u003d\"\u0026\u0026\"",
+  "搜索片单标题": "keyword\"\u003e\u0026\u0026\u003ca",
+  "搜索片单链接": "href\u003d\"\u0026\u0026\"",
+  "搜索片单副标题": "",
+  "搜索片单链接加前缀": "",
+  "搜索片单链接加后缀": ""
+}
