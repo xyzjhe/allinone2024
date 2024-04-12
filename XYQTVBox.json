@@ -102,7 +102,21 @@
 	 {"key": "csp_New6v","name": "🧲新6V｜磁力","type": 3,"api": "csp_New6v","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://www.xb6v.com"},
 	 {"key": "csp_Mp4Mov","name": "🧲Mp4电影｜磁力","type": 3,"api": "csp_Mp4Mov","searchable": 1,"quickSearch": 1,"filterable": 1},
 	 
-	 {"key":"白嫖影视","name":"白嫖影视","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/白嫖影视.json"},
+	 {"key":"白嫖影视","name":"白嫖影视1|XBPQ","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/白嫖影视.json"},
+
+	 {
+  	  "key": "XBPQ_BaiPiao",
+	  "name": "白嫖影视2|XBPQ",
+	  "type": 3,
+	  "api": "csp_XBPQ",
+	  "jar": "",
+	  "ext": {
+	          "地区": "[替换:大陆>>中国大陆#香港>>中国香港#台湾>>中国台湾]",
+		  "分类": "电影$1#电视剧$2#动漫$3#短剧$4#综艺$5",
+		  "分类url": "https://www.baipiaoys.com:9092/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html"
+  	         }
+         },
+	    
 	 {"key":"新视觉","name":"新视觉","type":3,"api":"csp_Web608","searchable":1,"quickSearch":0,"filterable":0,"ext":"https://www.6080yy4.com"},
 		 
 	{"key":"csp_Czsapp","name":"🐞厂长资源","type":3,"api":"csp_Czsapp","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.czys01.com/"},
