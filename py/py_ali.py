@@ -223,7 +223,7 @@ class Spider(Spider):
                     tid = tids[0]
                     name = tids[1]
                 if not 'www.aliyundrive.com' in tid:
-                    url = 'http://wogg.xyz/index.php/voddetail/{}.html'.format(tid)
+                    url = 'https://api.wogg.xyz/index.php/voddetail/{}.html'.format(tid)
                     r = self.fetch(url, headers={"User-Agent": "okhttp/3.12.13"}, verify=False)
                     m = self.regStr(reg='https://www.aliyundrive.com/s/[^"]+', src=r.text.replace('www.alipan.com', 'www.aliyundrive.com'), group=0)
                 else:
@@ -241,7 +241,7 @@ class Spider(Spider):
                 r = self.fetch('https://www.alipansou.com' + '/cv/' + tid, allow_redirects=False, headers=header, timeout=5)
                 tid = self.regStr(r.text.replace('www.alipan.com', 'www.aliyundrive.com'), 'https://www.aliyundrive.com/s/[^"]+', 0).replace('\\', '')
             elif tag == 'cz':
-                url = 'https://www.czzy88.com/' + tid + '.html'
+                url = 'https://www.czys03.com/' + tid + '.html'
                 r = self.getContent({'pf': 'cz', 'url': url})
                 html = self.html(r.content.decode())
                 name = self.xpText(html, "//div[contains(@class,'moviedteail_tt')]/h1/text()")
