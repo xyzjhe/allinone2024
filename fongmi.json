@@ -323,7 +323,7 @@
      "api": "csp_Yingshiche",
      "searchable": 1,
      "changeable": 0,
-      ext": {
+      "ext": {
         "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
         "filter": "./json/wogg.json"
       }
@@ -335,7 +335,7 @@
       "api": "csp_Tudou",
       "searchable": 1,
       "changeable": 0,
-      ext": {
+      "ext": {
         "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
         "filter": "./json/wogg.json"
       }
