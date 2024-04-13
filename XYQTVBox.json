@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://picsum.photos/1280/720/?blur=2",
-    "spider": "./jar/XYQplus0411.jar",
+    "spider": "./jar/XYQplus0412.jar",
     "lives": [
 
 	  {"name":"live_v4","type":0,"url":"https://ghproxy.net/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt"},
@@ -10,7 +10,7 @@
          ],
     "sites": [
 
-      {"key":"豆瓣","name":"🐰豆瓣热播|香佬0411🐰","type":3,"api":"csp_Douban","searchable":0},
+      {"key":"豆瓣","name":"🐰豆瓣热播|香佬0412🐰","type":3,"api":"csp_Douban","searchable":0},
       {"key":"云盘登录","name":"云盘登录","type":3,"api":"csp_AliYunPan","searchable":0,"quickSearch":0,"filterable":0,"changeable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
 	 
       {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃备用","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
@@ -27,7 +27,7 @@
       "api": "./LuFei/lf_search3_min.js"
     },
     
-    {"key": "py_ali", "name": "🥑豆瓣★阿里★厂长★搜索★PY",  "type": 3, "api": "./py/py_ali.py", "searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,
+    {"key": "py_ali", "name": "🥑豆瓣PY | 热搜",  "type": 3, "api": "./py/py_ali.py", "searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,
               "ext": {
                         "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
                         "thread": "10"
