@@ -95,20 +95,20 @@
 				"json":"./json/justlive.json"
 			}
 		},
-		{"key":"哔哩哔哩2","name":"哔哩哔哩(影视)","type":3,"playerType":2,"api":"csp_Bili","searchable":1,"changeable":0,"style":{"type":"rect","ratio":1.7},
+		/*{"key":"哔哩哔哩2","name":"哔哩哔哩(影视)","type":3,"playerType":2,"api":"csp_Bili","searchable":1,"changeable":0,"style":{"type":"rect","ratio":1.7},
 		       "jar":"./jar/custom_spider.jar",
 			"ext":{
 				"cookie":"http://127.0.0.1:9978/file/XYQTVBox/bili_cookie.txt",
 				"json":"./json/bili.json"
 			}
-		},
-		{"key":"哔哩哔哩3","name":"哔哩哔哩(影视仓)","type":3,"playerType":2,"api":"csp_BiliYsc","searchable":1,"changeable":0,"style":{"type":"rect","ratio":1.7},
+		},*/
+		/*{"key":"哔哩哔哩3","name":"哔哩哔哩(影视仓)","type":3,"playerType":2,"api":"csp_BiliYsc","searchable":1,"changeable":0,"style":{"type":"rect","ratio":1.7},
 		       "jar":"./jar/custom_spider.jar",
 			"ext":{
 				"cookie":"http://127.0.0.1:9978/file/XYQTVBox/bili_cookie.txt",
 				"json":"./json/bili.json"
 			}
-		},
+		},*/
 		
 		
     
