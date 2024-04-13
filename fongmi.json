@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/FMplus0408.jar",
+  "spider": "./jar/FMplus0412.jar",
   
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
 
@@ -15,7 +15,7 @@
 
    {
       "key": "豆瓣",
-      "name": "🐝豆瓣|蜜蜂线路0408🐝",
+      "name": "🐝豆瓣sp|蜜蜂线路0412🐝",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -36,7 +36,7 @@
       "api": "./LuFei/lf_search3_min.js"
     },
     
-    {"key": "py_ali", "name": "豆瓣首页+厂长搜索+三个阿里系搜索+推送",  "type": 3, "api": "./py/py_ali.py", "searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,
+    {"key": "py_ali", "name": "豆瓣PY | 热搜",  "type": 3, "api": "./py/py_ali.py", "searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,
               "ext": {
                         "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
                         "thread": "10"
