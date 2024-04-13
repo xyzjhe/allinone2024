@@ -79,36 +79,6 @@
 			}
 		},
      
-  
-     
-    {"key":"体育直播","name":"体育直播┃聚合","type":3,"playerType":1,"api":"csp_SportsLive","searchable":0,"changeable":0,"style":{"type":"list"},
-			"jar":"./jar/custom_spider.jar",
-			"ext":{
-				"jrkan":"http://www.jrsyyds.com",
-				"88kanqiu":"http://www.88kanqiu.one",
-				"310":"http://www.310.tv",
-			    //"310":"http://www.176.tv",
-				"17kan":"http://www.zuqiuzhibo.live",
-			    //"17kan":"http://www.wuchajian.live",
-			   //"zqbaba":"https://www.zqbaba.net",
-				"json":"./json/sportslive.json"
-			}
-		}, 
-		
-	{"key":"体育录像","name":"体育录像┃聚合","type":3,"playerType":1,"api":"csp_SportsReplay","searchable":0,"changeable":0,"style":{"type":"list"},
-			"jar":"./jar/custom_spider.jar",
-			"ext":{
-				"88replay":"http://www.88kanqiu.one",
-				"luxiangba":"https://luxiangba.com",
-				"lanqiuwu":"https://lanqiuwu.com",
-				"itiyu":"https://itiyu.com",
-				"zhibo8":"https://www.zhibo8.com",
-				"liangzi":"https://cj.lzcaiji.com/api.php/provide/vod/",
-				"tiankong":"https://tiankongzy.com/api.php/provide/vod/",
-				"feisu":"https://www.feisuzy.com/api.php/provide/vod/",
-				"json":"./json/sportsreplay.json"
-			}
-	},
 
     {"key": "阿里云集合","name": "🎯阿里云集合|真心真语", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./json/阿里集合.json;http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","jar":"./jar/真心真语0204+列表+搜索.jar"},
      
