@@ -124,7 +124,29 @@
       "ext": "./json/jianpian.json"
     },
 
-     
+     {
+      "key": "baipiaoys",
+      "name": "影视 ┃ 白嫖py",
+      "type": 3,
+      "api": "./py/py_baipiaoys.py",
+      "searchable": 1,
+      "changeable": 1
+    },
+
+    {"key":"baipiaoys_py","name":"白嫖影视PY┃FM专用","type": 3,"api": "./py/py_baipiaoys.py","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": ""},
+
+       {
+            "key": "XBPQ_BaiPiao",
+            "name": "🐿️1080P┃白嫖影视XBPQ",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/赞赞.jar",
+            "ext": {
+                "地区": "[替换:大陆>>中国大陆#香港>>中国香港#台湾>>中国台湾]",
+                "分类": "电影$1#电视剧$2#动漫$3#爽文短剧$4",
+                "分类url": "https://www.baipiaoys.com:9092/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html"
+            }
+        },
 	  
      {"key": "js_nongmin","name": "农民影视┃JS", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/农民.js" },
      {"key": "农民", "name": "影视 | 农民", "type": 3, "api": "csp_NongMing", "searchable": 1},
@@ -183,29 +205,7 @@
     {"key": "drpy_js_喜马拉雅","name": "喜马拉雅(js)","type": 3,"api": "./drpy_js/libs/drpy2.min.js","ext": "./drpy_js/js/喜马拉雅.js","playerType": "2"},
      
      
-    {
-      "key": "baipiaoys",
-      "name": "影视 ┃ 白嫖py",
-      "type": 3,
-      "api": "./py/py_baipiaoys.py",
-      "searchable": 1,
-      "changeable": 1
-    },
-
-    {"key":"baipiaoys_py","name":"白嫖影视PY┃FM专用","type": 3,"api": "./py/py_baipiaoys.py","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": ""},
-
-       {
-            "key": "XBPQ_BaiPiao",
-            "name": "🐿️1080P┃白白",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/赞赞.jar",
-            "ext": {
-                "地区": "[替换:大陆>>中国大陆#香港>>中国香港#台湾>>中国台湾]",
-                "分类": "电影$1#电视剧$2#动漫$3#爽文短剧$4",
-                "分类url": "https://www.baipiaoys.com:9092/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html"
-            }
-        },
+    
 
        {
             "key": "saohuo",
