@@ -56,6 +56,28 @@
       "ext": "./py/cctv_spider.json"
     },
 
+    {
+    "key": "hipy_t3_cntv央视",
+    "name": "CNTV央视(hipy_t3)",
+    "type": 3,
+    "api": "./py/cntv央视.py",
+    "searchable": 1,
+    "quickSearch": 0,
+    "filterable": 1,
+    "ext": "./py/cntv央视.json"
+   },
+
+   {
+    "key": "hipy_t3_两个BT",
+    "name": "两个BT(hipy_t3)",
+    "type": 3,
+    "api": "./py/两个BT.py",
+    "searchable": 1,
+    "quickSearch": 0,
+    "filterable": 1,
+    "ext": "./py/两个BT.json"
+   },
+	  
     { "key": "js_cntv","name": "CNTV大全┃JS", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/cntv_all_2024.js" },
      
     
