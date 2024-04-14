@@ -216,7 +216,7 @@
       "api": "./LuFei/lf_ikanbot4_1_min.js"
     },
 
-    {
+       {
             "key": "saohuo",
             "name": "🔥1080P┃骚火",
             "type": 3,
@@ -241,7 +241,7 @@
         },
         {
             "key": "晴天",
-            "name": "☀️晴天┃1080P",
+            "name": "☀️1080P┃晴天",
             "type": 3,
             "jar": "./jar/赞赞.jar",
             "api": "csp_XBPQ",
