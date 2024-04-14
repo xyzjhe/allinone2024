@@ -43,11 +43,13 @@
       "api": "./LuFei/lf_search3_min.js"
     },
     
-     {"key":"央视大全","name":"央视大全┃聚合","type":3,"playerType":1,"api":"csp_CCTV","searchable":0,"ext":{"json":"./json/cctv.json"},"jar":"./jar/custom_spider.jar"},
+     {"key":"央视大全","name":"央视大全SP┃聚合","type":3,"playerType":1,"api":"csp_CCTV","searchable":0,"ext":{"json":"./json/cctv.json"},"jar":"./jar/custom_spider.jar"},
+
+     {"key": "js_cntv","name": "CNTV大全┃JS", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/cntv_all_2024.js" },
      
      {
       "key": "hipy_t3_cntv央视1",
-      "name": "cntv央视(hipy_t3)",
+      "name": "cntv央视(hipy_T3)",
       "type": 3,
       "api": "./py/cctv_spider.py",
       "searchable": 1,
@@ -77,12 +79,9 @@
     "filterable": 1,
     "ext": "./py/两个BT.json"
    },*/
-	  
-    { "key": "js_cntv","name": "CNTV大全┃JS", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/cntv_all_2024.js" },
-     
-    
-    
-    {"key":"体育直播","name":"体育直播┃聚合","type":3,"playerType":1,"api":"csp_SportsLive","searchable":0,"changeable":0,"style":{"type":"list"},
+ 
+        
+        {"key":"体育直播","name":"体育直播┃聚合","type":3,"playerType":1,"api":"csp_SportsLive","searchable":0,"changeable":0,"style":{"type":"list"},
 			"jar":"./jar/custom_spider.jar",
 			"ext":{
 				"jrkan":"http://www.jrsyyds.com",
@@ -111,33 +110,16 @@
 			}
 	},
 
-              {"key":"直播平台2","name":"直播平台┃聚合","type":3,"playerType":1,"api":"csp_JustLive","style":{"type":"rect","ratio":1.755},"changeable":0,
+        {"key":"直播平台2","name":"直播平台┃聚合","type":3,"playerType":1,"api":"csp_JustLive","style":{"type":"rect","ratio":1.755},"changeable":0,
                      "jar":"./jar/custom_spider.jar",
 			"ext":{
 				"json":"./json/justlive.json"
 			}
 		},
-		/*{"key":"哔哩哔哩2","name":"哔哩哔哩(影视)","type":3,"playerType":2,"api":"csp_Bili","searchable":1,"changeable":0,"style":{"type":"rect","ratio":1.7},
-		       "jar":"./jar/custom_spider.jar",
-			"ext":{
-				"cookie":"http://127.0.0.1:9978/file/XYQTVBox/bili_cookie.txt",
-				"json":"./json/bili.json"
-			}
-		},*/
-		/*{"key":"哔哩哔哩3","name":"哔哩哔哩(影视仓)","type":3,"playerType":2,"api":"csp_BiliYsc","searchable":1,"changeable":0,"style":{"type":"rect","ratio":1.7},
-		       "jar":"./jar/custom_spider.jar",
-			"ext":{
-				"cookie":"http://127.0.0.1:9978/file/XYQTVBox/bili_cookie.txt",
-				"json":"./json/bili.json"
-			}
-		},*/
-		
-		
-    
-    
+			
     {
       "key": "賤賤",
-      "name": "荐片|2K",
+      "name": "荐片SP┃2K首选",
       "type": 3,
       "api": "csp_Jianpian",
       "searchable": 1,
@@ -145,10 +127,13 @@
       "playerType":1,
       "ext": "./json/jianpian.json"
     },
-{"key": "baipiao","name": "🤺┃白嫖影视┃PY","type": 3,"api": "https://githubfd.deno.dev/alantang1977/X/main/js/py_白嫖.py"},
+
+     {"key":"drpy_js_荐片","name":"荐片[js]┃2K首选","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/荐片.js"},
+   
+
      {
       "key": "baipiaoys",
-      "name": "影视 ┃ 白嫖py",
+      "name": "白嫖影视PY┃通用",
       "type": 3,
       "api": "./py/py_baipiaoys.py",
       "searchable": 1,
@@ -170,17 +155,28 @@
             }
         },
 	  
-     {"key": "js_nongmin","name": "农民影视┃JS", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/农民.js" },
-     {"key": "农民", "name": "影视 | 农民", "type": 3, "api": "csp_NongMing", "searchable": 1},
+    
 	  
      {"key":"csp_DyGang","name":"磁力 | 电影港2K","type":3,"api":"csp_DyGang","searchable":1,"playerType":1,"timeout":120},
      {"key":"csp_Xunlei8","name":"磁力 | 迅雷吧2K","type":3,"api":"csp_Xunlei8","searchable":1,"playerType":1,"timeout":120,"changeable":0},
 	  
      {"key": "csp_SixV", "name": "磁力 | 新6V电影网2K", "type": 3, "api": "csp_SixV", "ext": "https://www.6vdy.org/", "searchable": 1, "playerType": 1, "timeout": 60},
      {"key": "PiaoHua", "name": "磁力 | 新飘花电影网2K", "type": 3, "api": "csp_PiaoHua", "searchable": 1, "playerType": 1, "changeable": 0},
-    
+     {"key":"drpy_磁力熊","name":"磁力 | 磁力熊[js]","type":3,"api":"https://www.agit.ai/laozou/dr_py/raw/branch/main/libs/drpy2.min.js","ext":"https://www.agit.ai/laozou/dr_py/raw/branch/main/js/磁力熊[磁].js","playerType":1,"timeout":120},
+ 
+     {"key": "农民", "name": "影视 | 农民", "type": 3, "api": "csp_NongMing", "searchable": 1},	  
      {"key": "Voflix", "name": "影视 | Voflix", "type": 3, "api": "csp_Voflix", "searchable": 1, "ext": "https://www.voflix.me/"},
      {"key":"996影院","name":"影视 | 996影院","type":3,"api":"csp_Cs1369","searchable":0},
+
+     {"key":"drpy_厂长","name":"影视 | 厂长[js]","type":3,"api":"https://www.agit.ai/laozou/dr_py/raw/branch/main/libs/drpy2.min.js","ext":"https://www.agit.ai/laozou/dr_py/raw/branch/main/js/厂长资源.js"},
+     {"key":"drpy_低端","name":"影视 | 低端[js]","type":3,"api":"https://www.agit.ai/laozou/dr_py/raw/branch/main/libs/drpy2.min.js","ext":"https://www.agit.ai/laozou/dr_py/raw/branch/main/js/ddys.js"},
+     {"key":"drpy_两个BT","name":"影视 | 两个BT[js]","type":3,"api":"https://www.agit.ai/laozou/dr_py/raw/branch/main/libs/drpy2.min.js","ext":"https://www.agit.ai/laozou/dr_py/raw/branch/main/js/两个BT.js"},
+     {"key": "js_nongmin","name": "影视 ┃ 农民[js]", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/农民.js" },
+
+     {"key":"drpy_js_爱看机器人1","name":"爱看|机器v1[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/爱看机器人.js"},
+     {"key":"drpy_js_爱看机器人2","name":"爱看|机器v2[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot2.js"},
+     {"key":"drpy_js_爱看机器人3","name":"爱看|机器v3[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot3.js"},
+     
    
      {"key":"Yj1211","name":"直播 | 综合","type":3,"api":"csp_Yj1211","searchable":1,"changeable":0},
      {"key":"V2_cokemv","name":"影视 | cokemv[V2]","type":3,"api":"csp_AppYsV2","searchable":1,"ext":"https://cokemv.co/xgapp.php/v2/"},
@@ -194,19 +190,15 @@
      {"key": "本地", "name": "本地文件", "type": 3, "api": "csp_LocalFileV2","searchable":0,"playerType":1},
      {"key": "本地2", "name": "本地文件(不显示隐藏文件)", "type": 3, "api": "csp_LocalFileV2","ext": "showAllFile=false","searchable":0,"playerType":1},
 
-     {"key":"drpy_磁力熊","name":"磁力 | 磁力熊[js]","type":3,"api":"https://www.agit.ai/laozou/dr_py/raw/branch/main/libs/drpy2.min.js","ext":"https://www.agit.ai/laozou/dr_py/raw/branch/main/js/磁力熊[磁].js","playerType":1,"timeout":120},
-     {"key":"drpy_厂长","name":"影视 | 厂长[js]","type":3,"api":"https://www.agit.ai/laozou/dr_py/raw/branch/main/libs/drpy2.min.js","ext":"https://www.agit.ai/laozou/dr_py/raw/branch/main/js/厂长资源.js"},
-     {"key":"drpy_低端","name":"影视 | 低端[js]","type":3,"api":"https://www.agit.ai/laozou/dr_py/raw/branch/main/libs/drpy2.min.js","ext":"https://www.agit.ai/laozou/dr_py/raw/branch/main/js/ddys.js"},
-     {"key":"drpy_两个BT","name":"影视 | 两个BT[js]","type":3,"api":"https://www.agit.ai/laozou/dr_py/raw/branch/main/libs/drpy2.min.js","ext":"https://www.agit.ai/laozou/dr_py/raw/branch/main/js/两个BT.js"},
-   
      
-    {"key":"py_m1905","name":"🌎M1905┃py🌎","type": 3,"api": "py_m1905","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/py_1905.py"},
-    {"key":"py_m1905_FM","name":"M1905┃FM专用","type": 3,"api": "./py/py_1905.py","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": ""},
-    {"key":"drpy_js_荐片","name":"荐片[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/荐片.js"},
-    {"key": "drpy_js_网易","name": " 🐭网易公版影像JS","type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 0, "ext": "./drpy_js/js/网易公版影像.js"}, 
-    {"key":"drpy_js_爱看机器人1","name":"爱看|机器v1[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/爱看机器人.js"},
-    {"key":"drpy_js_爱看机器人2","name":"爱看|机器v2[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot2.js"},
-    {"key":"drpy_js_爱看机器人3","name":"爱看|机器v3[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot3.js"},
+     
+    {"key":"py_m1905","name":"🌎M1905电影网┃py🌎","type": 3,"api": "py_m1905","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/py_1905.py"},
+    {"key":"py_m1905_FM","name":"M1905电影网┃FM专用","type": 3,"api": "./py/py_1905.py","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": ""},
+    {"key": "drpy_js_网易","name": " 🐭网易公版影像JS┃老电影","type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 0, "ext": "./drpy_js/js/网易公版影像.js"}, 
+
+	  
+    //哔哩哔哩大全
+    
     { "key": "js_我的哔哩","name": "🅱️┃哔哩js┃我的哔哩", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/我的哔哩.js" },
     { "key": "js_哔哩影视","name": "🅱️┃哔哩js┃哔哩影视", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable":1,"ext": "./drpy_js/js/哔哩影视.js" },
     { "key": "js_哔哩直播","name": "🅱️┃哔哩js┃哔哩直播", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "./drpy_js/js/哔哩直播.js"},
@@ -218,8 +210,10 @@
     { "key": "js_戏曲大全","name": "🅱️┃哔哩js┃戏曲大全", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "./drpy_js/js/戏曲大全.js"},
     {"key": "bili_mao1", "name": " 🅱️bilibili|maoJS🅱️", "type": 3,  "searchable": 1,  "changeable": 1, "api": "./cat/js/mybili_open.js"},
     {"key": "bili_mao2","name": " 🐹bili小灯塔|maoJS🐹", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/bili_other.js"},
+	  
     {"key":"好趣网","name":"好趣网(js)","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/好趣网.js"},
     {"key":"广播迷","name": "广播迷(js)","type": 3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/广播迷FM.js"},
+	  
     {"key":"drpy_js_相声随身听","name":"相声随身听(js)","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/相声随身听.js","playerType":"2"},
     {"key":"drpy_js_评书随身听","name":"评书随身听(js)","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/评书随身听.js","playerType":"2"},
     {"key": "drpy_js_蜻蜓FM", "name": "蜻蜓FM(js)","type": 3, "api": "./drpy_js/libs/drpy2.min.js","ext": "./drpy_js/js/蜻蜓FM.js", "playerType": "2" },
@@ -482,7 +476,7 @@
     },
      
      
-      {"key": "阿里云集合","name": "🎯阿里云集合|4K", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./json/阿里集合.json;http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","jar":"./jar/真心真语0204+列表+搜索.jar"},
+     {"key": "阿里云集合","name": "🎯阿里云集合|4K", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./json/阿里集合.json;http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","jar":"./jar/真心真语0204+列表+搜索.jar"},
      
      {"key":"阿里搜索","name":"🎯阿里搜索┃聚合","type":3,"playerType":1,"api":"csp_AliSearch","searchable":1,"changeable":0,
 			"jar":"./jar/custom_spider.jar",
