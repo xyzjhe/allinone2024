@@ -46,7 +46,7 @@
      {"key":"央视大全","name":"央视大全┃聚合","type":3,"playerType":1,"api":"csp_CCTV","searchable":0,"ext":{"json":"./json/cctv.json"},"jar":"./jar/custom_spider.jar"},
      
      {
-      "key": "hipy_t3_cntv央视",
+      "key": "hipy_t3_cntv央视1",
       "name": "cntv央视(hipy_t3)",
       "type": 3,
       "api": "./py/cctv_spider.py",
@@ -57,8 +57,8 @@
     },
 
     {
-    "key": "hipy_t3_cntv央视",
-    "name": "CNTV央视(hipy_t3)",
+    "key": "hipy_t3_cntv央视2",
+    "name": "CCTV央视(hipy_t3)",
     "type": 3,
     "api": "./py/cntv央视.py",
     "searchable": 1,
