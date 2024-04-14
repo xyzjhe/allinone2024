@@ -183,38 +183,29 @@
     {"key": "drpy_js_喜马拉雅","name": "喜马拉雅(js)","type": 3,"api": "./drpy_js/libs/drpy2.min.js","ext": "./drpy_js/js/喜马拉雅.js","playerType": "2"},
      
      
-    
     {
-      "key": "lf_js_p2p_18+",
-      "name": "磁力 | lf_p2p",
+      "key": "baipiaoys",
+      "name": "影视 ┃ 白嫖py",
       "type": 3,
+      "api": "./py/py_baipiaoys.py",
       "searchable": 1,
-      "changeable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "./LuFei/lf_p2p2_min.js"
+      "changeable": 1
     },
-    {
-      "key": "lf_js_p2p",
-      "name": "磁力18+ | lf_p2p",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "./LuFei/lf_p2p2_min.js",
-      "ext": "18+"
-    },
-    {
-      "key": "lf_js_ikanbot",
-      "name": "点播 | lf_ikanbot",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "./LuFei/lf_ikanbot4_1_min.js"
-    },
+
+    {"key":"baipiaoys_py","name":"白嫖影视PY┃FM专用","type": 3,"api": "./py/py_baipiaoys.py","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": ""},
+
+       {
+            "key": "XBPQ_BaiPiao",
+            "name": "🐿️1080P┃白白",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/赞赞.jar",
+            "ext": {
+                "地区": "[替换:大陆>>中国大陆#香港>>中国香港#台湾>>中国台湾]",
+                "分类": "电影$1#电视剧$2#动漫$3#爽文短剧$4",
+                "分类url": "https://www.baipiaoys.com:9092/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html"
+            }
+        },
 
        {
             "key": "saohuo",
@@ -364,18 +355,7 @@
                 "搜索数组": "<li class=\"active clearfix&&</li"
             }
         },
-        {
-            "key": "XBPQ_BaiPiao",
-            "name": "🐿️1080P┃白白",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/赞赞.jar",
-            "ext": {
-                "地区": "[替换:大陆>>中国大陆#香港>>中国香港#台湾>>中国台湾]",
-                "分类": "电影$1#电视剧$2#动漫$3#爽文短剧$4",
-                "分类url": "https://www.baipiaoys.com:9092/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html"
-            }
-        },
+        
         {
             "key": "热播库",
             "name": "🔥1080P┃热播",
@@ -496,6 +476,38 @@
 				"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
 			}
      },
+
+     {
+      "key": "lf_js_p2p_18+",
+      "name": "磁力 | lf_p2p",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "./LuFei/lf_p2p2_min.js"
+    },
+    {
+      "key": "lf_js_p2p",
+      "name": "磁力18+ | lf_p2p",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "./LuFei/lf_p2p2_min.js",
+      "ext": "18+"
+    },
+    {
+      "key": "lf_js_ikanbot",
+      "name": "点播 | lf_ikanbot",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "./LuFei/lf_ikanbot4_1_min.js"
+    },
      
      {
      "key": "影视车",
