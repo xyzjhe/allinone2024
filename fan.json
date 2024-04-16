@@ -1,6 +1,6 @@
 {
 	
-"spider":"./jar/fan0412bXBPQ.jar",
+"spider":"./jar/Yoursmile0416.jar",
 
 "wallpaper":"https://深色壁纸.xxooo.cf/",
 
@@ -83,9 +83,12 @@
 
 {"key":"玩偶","name":"👽玩偶哥哥┃4K弹幕","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0, "ext": {"aliToken":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","quarkCookie":"http://127.0.0.1:9978/file/XYQTVBox/quark_cookie.txt","from":"4k|auto|fhd","siteUrl":"https://api.wogg.xyz/","danMu":"弹"}},
 
+{"key":"csp_Jianpian","name":"🧲荐片","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://api2.rinhome.com"},
+{"key":"酷看","name":"💡酷看┃秒播","type":3,"api":"csp_Kkys","timeout":15,"searchable":1,"quickSearch":1,"changeable":1},
+
 {"key":"YGP","name":"🚀叨观荐影┃新片","type":3,"api":"csp_YGP","searchable":0,"quickSearch":0,"changeable":0},
 {"key":"短剧","name":"🌈上头┃短剧","type":3,"api":"https://152.32.170.60/fantaiying/fty/raw/branch/master/ext/drpy2.min.js","ext":"https://152.32.170.60/fantaiying/fty/raw/branch/master/ext/上头短剧.js","searchable": 1,"quickSearch": 1,"changeable":0},
-{"key":"酷看","name":"💡酷看┃秒播","type":3,"api":"csp_Kkys","timeout":15,"searchable":1,"quickSearch":1,"changeable":1},
+
 {"key":"原创","name":"☀原创┃无广","type":3,"api":"csp_YCyz","timeout":15,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"苹果","name":"🍎苹果┃无广","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"白嫖","name":"👻白飘┃无广","type":3,"api":"csp_BaiPiao","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext": "https://www.baipiaoys.com:9092/"},
@@ -136,6 +139,13 @@
 {"key":"UpYun","name":"😻Up搜┃搜索","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"changeable":0,"ext": {"aliToken":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","from":"4k|auto|fhd"}},
 {"key":"PanSearch","name":"🙀盘Se┃搜索","type":3,"api":"csp_PanSearch","searchable":1,"quickSearch":1,"changeable":0,"ext": {"aliToken":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","from":"4k|auto|fhd"}},
 {"key":"push_agent","name":"🛴手机┃推送","type":3,"api":"csp_Push","searchable":0,"quickSearch":0,"ext": {"aliToken":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","quarkCookie":"http://127.0.0.1:9978/file/XYQTVBox/quark_cookie.txt","from":"4k|auto|fhd"}},
+
+
+{"key":"骚火","name":"💢骚火","type":3,"api":"csp_XBPQ","playerType":"2","searchable":1,"quickSearch":1,"filterable":1,"ext":{"嗅探词":".m3u8#.mp4#.m3u8?#freeok.mp4","分类url":"https://shdy2.com/list/{cateId}-{catePg}.html;;vr1au0","分类":"电影$1#电视剧$2#韩剧$22#美剧$23#动漫$4","数组二次截取":"class=\"v_list\">&&</ul>","数组":"\"v_img\"&&/div>","标题":"title=\"&&\"","副标题":"v_note\"&&</div","跳转播放链接":"<iframe*src=\"&&\"","二次跳转播放链接":"https://hhjx.hhplayer.com/api.php;post;url=+var url*\"&&\"+&t=+var t*\"&&\"+&key=+var key*\"&&\"+&act=0+&play=1","三次跳转播放链接":"\"url\"*\"&&\""}},
+{"key":"奇优","name":"️💢奇优","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghproxy.net/https://raw.githubusercontent.com/Yoursmile77/TVBox/main/SUB/奇优.json"},
+{"key":"云播","name":"💢云播","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"影片类型":"分类：&&主演","导演":"导演：</span>&&</p>","主演":"主演：</span>&&</p>","简介":"class=\"sketch content\">&&</span>","数组":"myui-vodlist__thumb&&</a>","标题":"title=\"&&\"","副标题":"pic-tag pic-tag-top\">&&</span>","图片":"data-original=\"&&\"","链接":"href=\"&&\"","搜索模式":"1","搜索url":"http://www.hktvyun.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=500","搜索二次截取":"\"list\":[&&]","搜索数组":"{&&}","搜索标题":"\"name\":\"&&\"","搜索图片":"\"pic\":\"&&\"","搜索链接":"http://www.hktvyun.com/vod/detail/id/+\"id\":&&,+html","嗅探词":".m3u8#mp4","线路数组":"</a><h3&&/h3>","线路标题":"title\">&&<","播放数组":"<ul class=\"myui-content__list scrollbar&&</ul>","播放标题":">&&<","播放列表":"<a&&/a>","分类url":"http://www.hktvyun.com/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html;;a","分类":"电影$1#电视剧$2#综艺$3#动漫$4"}},
+{"key":"短视频","name":"☘️短视频","type":3,"api":"csp_XBPQ","searchable":0,"quickSearch":0,"filterable":1,"ext":{"主页url":"http://www.sharenice.net","直接播放":"1","嗅探词":".m3u8#m3u8?#.mp4#mp4?#ixigua#.czspp#.flv#.mp3#.m4a#?item/video#is_play_url=1#play/?#qianpailive","分类":"抖音&快手&微视&火山&场库&美拍&秒拍&全民&梨&好兔&开眼&美女&搞笑&社会&音乐&娱乐&影视&正能量&生活&动漫&萌系&美食&体育&游戏&明星&旅游&时尚","分类值":"douyin&kuaishou&weishi&huoshan&changku&meipai&miaopai&quanmin&lishipin&haotu&kaiyan&t-576O5aWz&t-5pCe56yR&t-56S+5Lya&t-6Z+z5LmQ&t-5aix5LmQ&t-5b2x6KeG&t-5q2j6IO96YeP&t-55Sf5rS7&t-5Yqo5ryr&t-6JCM57O7&t-576O6aOf&t-5L2T6IKy&t-5ri45oiP&t-5piO5pif&t-5peF5ri4&t-5pe25bCa","分类url":"http://www.sharenice.net/{cateId}?page={catePg}","二次截取":"class=\"item-box\">&&</ul>","数组":"<li&&</li>","图片":"data-original=\"&&\"","标题":"title=\"&&\"","链接":"href=\"&&\""}},
+{"key":"酷奇MV","name":"🎸酷奇MV","type":3,"api":"csp_XBPQ","searchable":0,"quickSearch":0,"filterable":1,"ext":{"主页url":"https://www.kuqimv.com","直接播放":"1","短视频":"1","分类":"华语高清$1#日韩精选$2#欧美MV$3#高清现场$4#影视MV$5#夜店视频$6#车模视频$7#热舞视频$8#美女写真$9#美女打碟$10","分类url":"https://www.kuqimv.com/play/{cateId}_{catePg}.html;;z","数组":"<li>&&</li>","标题":"title=\"&&\"","副标题":"target=\"play\">&&<","搜索模式":"1","搜索url":"https://www.kuqimv.com/search.php?key={wd}"}},	
 
 
 {"key":"Bili","name":"🅱哔哔┃合集","type": 3,"api": "csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":1,"quickSearch":0,"changeable":0,"ext":"https://152.32.170.60/fantaiying/fty/raw/branch/master/ext/bilibili.json"},
