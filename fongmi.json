@@ -130,17 +130,16 @@
 
      {"key":"drpy_js_荐片","name":"荐片[js]┃2K首选","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/荐片.js"},
    
-
-     {
-      "key": "baipiaoys",
-      "name": "白嫖影视PY┃通用",
-      "type": 3,
-      "api": "./py/py_baipiaoys.py",
-      "searchable": 1,
-      "changeable": 1
-    },
-
     {"key":"baipiaoys_py","name":"白嫖影视PY┃FM专用","type": 3,"api": "./py/py_baipiaoys.py","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": ""},
+
+    {
+      "key": "baipiaoys_js",
+      "name": "白嫖影视┃Cat_js",
+      "type": 3,
+      "api": "./cat/js/baipiaoys_open.js",
+      "searchable": 1,
+      "quickSearch": 1
+    },
 
        {
             "key": "XBPQ_BaiPiao",
