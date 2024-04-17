@@ -4,7 +4,7 @@ import {
 from 'assets://js/lib/cat.js';
 
 let key = '白嫖影视';
-let HOST = 'http://www.baipiaoys.com/';
+let HOST = 'https://www.baipiaoys.com:9092/';
 let siteKey = '';
 let siteType = 0;
 
