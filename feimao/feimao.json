@@ -1,11 +1,11 @@
 {
-  "spider": "./PandaQ240414.jar;md5;a04dbe1aab6e31e03da7aee83b754c8b",
+  "spider": "./PandaQ240416.jar;md5;9f15ade02721f30f65880bef1271be69",
   "wallpaper": "http://我不是.肥猫.live/ppic/feimao.php",
   "sites": [
-     
+    
      {
       "key": "drpy_js_豆瓣",
-      "name": "🐼┃公众号┃肥猫宝贝0414",
+      "name": "🐼┃公众号┃肥猫宝贝0416",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
@@ -83,7 +83,7 @@
 
     {"key": "阿里云集合","name": "🎯阿里云集合|真心真语", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./json/阿里集合.json;http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","jar":"./jar/真心真语0204+列表+搜索.jar"},
      
-      {"key":"阿里搜索","name":"🎯阿里搜索┃聚合","type":3,"playerType":1,"api":"csp_AliSearch","searchable":1,"changeable":0,
+    {"key":"阿里搜索","name":"🎯阿里搜索┃聚合","type":3,"playerType":1,"api":"csp_AliSearch","searchable":1,"changeable":0,
 			"jar":"./jar/custom_spider.jar",
 			"ext":{
 				"88replay":"http://www.88kanqiu.one",
@@ -97,7 +97,6 @@
 				"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
 			}
        },
-    
     {
       "key": "豆瓣",
       "name": "🐼┃豆瓣┃预告",
@@ -129,8 +128,28 @@
       "name": "🏔┃耐看┃影视",
       "type": 3,
       "playerType": "2",
-      "api": "csp_Nkdy",
-      "searchable": 0
+      "api": "csp_Nkdy"
+    },
+    {
+      "key": "csp_NfApp",
+      "name": "🔷┃南坊┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_NfApp"
+    },
+    {
+      "key": "csp_Czys",
+      "name": "🍊┃橙汁┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_Czys"
+    },
+    {
+      "key": "csp_Juqq",
+      "name": "⭕┃剧圈┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_Juqq"
     },
     {
       "key": "csp_LiteApple",
@@ -182,7 +201,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://www.czys03.com/"
+      "ext": "https://www.cz233.com/"
     },
     {
       "key": "csp_AppRZ",
