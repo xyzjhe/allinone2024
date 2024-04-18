@@ -156,7 +156,7 @@
       "ext": "./json/jianpian.json"
     },
 
-     {"key":"drpy_js_荐片","name":"荐片[js]┃2K首选","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/荐片.js"},
+    {"key":"drpy_js_荐片","name":"荐片[js]┃2K首选","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/荐片.js"},
    
     {"key":"baipiaoys_py","name":"白嫖影视PY┃FM专用","type": 3,"api": "./py/py_baipiaoys.py","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": ""},
 
@@ -502,25 +502,7 @@
       }
     },
      
-     
-     {"key": "阿里云集合","name": "🎯阿里云集合|4K", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./json/阿里集合.json;http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","jar":"./jar/真心真语0204+列表+搜索.jar"},
-     
-     {"key":"阿里搜索","name":"🎯阿里搜索┃聚合","type":3,"playerType":1,"api":"csp_AliSearch","searchable":1,"changeable":0,
-			"jar":"./jar/custom_spider.jar",
-			"ext":{
-				"88replay":"http://www.88kanqiu.one",
-				"Wogg":"https://api.wogg.xyz",
-				"PanSearch":"https://www.pansearch.me",
-				"XiaoZhiTiao":"https://gitcafe.net/tool/alipaper/",
-				"YiSo":"https://yiso.fun/api/search","YiSo_Cookie":"b-user-id=8adc6121-1471-aab6-e7c4-f89bc70fc7b3; JSESSIONID=B9ACE0FC23C52054E6A67F590191B332; satoken=07aae61b-896c-495e-ab4c-189eaf7fccc0; cf_clearance=z4Wu91BWoe9MJ2gqLPwd1gSukzCb5zmUdPP0t_CzpIE-1711795971-1.0.1.1-80MPmHkyC5gvQoTzR.rIgP8GtMNH5sIvm0EKf.zLTUg7TZrRdZmB0f0SXexvxG2jh5.jaTdTxJ.WLHT0wz9Tqw",
-				"Zhaozy":"https://zhaoziyuan1.cc",
-				"PanSou":"https://www.alipansou.com",
-				"UpYun":"https://upapi.juapp9.com",
-				"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
-			}
-     },
-
-     {
+    {
       "key": "lf_js_p2p_18+",
       "name": "磁力 | lf_p2p",
       "type": 3,
@@ -552,20 +534,10 @@
       "api": "./LuFei/lf_ikanbot4_1_min.js"
     },
      
-     {
-     "key": "影视车",
-     "name": "🎯影视车|4K",
-     "type": 3,
-     "api": "csp_Yingshiche",
-     "searchable": 1,
-     "changeable": 0,
-      "ext": {
-	      "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
-             }
-    },
+     
     {
       "key": "土豆",
-      "name": "🎯土豆|4K",
+      "name": "🎯土豆【搜索】|4K",
       "type": 3,
       "api": "csp_Tudou",
       "searchable": 1,
@@ -576,7 +548,7 @@
     },
     {
       "key": "玩偶表哥",
-      "name": "🎯玩偶表哥|4K",
+      "name": "🎯玩偶表哥【搜索】|4K",
       "type": 3,
       "api": "csp_Wobg",
       "searchable": 1,
@@ -596,6 +568,17 @@
         "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
         "filter": "./json/wogg.json"
       }
+    },
+    {
+     "key": "影视车",
+     "name": "🎯影视车|4K",
+     "type": 3,
+     "api": "csp_Yingshiche",
+     "searchable": 1,
+     "changeable": 0,
+      "ext": {
+	      "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
+             }
     },
     {
       "key": "七夜",
@@ -672,7 +655,22 @@
         }
     },
     
-    
+    {"key": "阿里云集合","name": "🎯阿里云集合|4K", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./json/阿里集合.json;http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","jar":"./jar/真心真语0204+列表+搜索.jar"},
+     
+     {"key":"阿里搜索","name":"🎯阿里搜索┃聚合","type":3,"playerType":1,"api":"csp_AliSearch","searchable":1,"changeable":0,
+			"jar":"./jar/custom_spider.jar",
+			"ext":{
+				"88replay":"http://www.88kanqiu.one",
+				"Wogg":"https://api.wogg.xyz",
+				"PanSearch":"https://www.pansearch.me",
+				"XiaoZhiTiao":"https://gitcafe.net/tool/alipaper/",
+				"YiSo":"https://yiso.fun/api/search","YiSo_Cookie":"b-user-id=8adc6121-1471-aab6-e7c4-f89bc70fc7b3; JSESSIONID=B9ACE0FC23C52054E6A67F590191B332; satoken=07aae61b-896c-495e-ab4c-189eaf7fccc0; cf_clearance=z4Wu91BWoe9MJ2gqLPwd1gSukzCb5zmUdPP0t_CzpIE-1711795971-1.0.1.1-80MPmHkyC5gvQoTzR.rIgP8GtMNH5sIvm0EKf.zLTUg7TZrRdZmB0f0SXexvxG2jh5.jaTdTxJ.WLHT0wz9Tqw",
+				"Zhaozy":"https://zhaoziyuan1.cc",
+				"PanSou":"https://www.alipansou.com",
+				"UpYun":"https://upapi.juapp9.com",
+				"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
+			}
+     },
     
     {
       "key": "索尼资源",
