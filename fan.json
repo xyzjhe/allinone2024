@@ -18,6 +18,32 @@
 {"key":"厂长","name":"📔厂长┃无广","type":3,"api":"csp_Czsapp","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext": "https://www.cz233.com/"},
 { "key": "baipiaoys", "name": "白嫖XBPQ┃影视", "type": 3, "changeable": 1, "searchable": 1, "quickSearch": 1, "filterable": 1, "api": "csp_XBPQ", "ext": { "主页url": "https://www.baipiaoys.com:9092", "副标题": "pic-text text-right\">&&", "搜索模式": "1", "搜索url": "https://www.baipiaoys.com:9092/search.html?wd={wd}", "图片": "data-original=\"&&\"", "嗅探词": ".mp4#m3u8#.m3u8#/tos/#.flv#video/tos", "影片类型": "&&立即播放", "导演": "导演：&&", "主演": "主演：&&", "分类": "电影$1#电视剧$2#动漫$3#短剧$4#综艺$5", "分类url": "https://www.baipiaoys.com:9092/show/area/{area}/class/{class}/id/{cateId}/page/{catePg}/lang/{lang}/letter/{letter}/year/{year}.html" } },
 
+
+      {
+        "key": "baipiaoys",
+        "name": "白嫖┃影视XBPQ",
+        "type": 3,
+        "changeable": 1,
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "api": "csp_XBPQ",
+        "ext": {
+            "主页url": "https://www.baipiaoys.com:9092",
+            "副标题": "pic-text text-right\">&&",
+            "搜索模式": "1",
+            "搜索url": "https://www.baipiaoys.com:9092/search.html?wd={wd}",
+            "图片": "data-original=\"&&\"",
+            "嗅探词": ".mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
+            "影片类型": "&&立即播放",
+            "导演": "导演：&&",
+            "主演": "主演：&&",
+            "分类": "电影$1#电视剧$2#动漫$3#短剧$4#综艺$5",
+            "分类url": "https://www.baipiaoys.com:9092/show/area/{area}/class/{class}/id/{cateId}/page/{catePg}/lang/{lang}/letter/{letter}/year/{year}.html"
+              }
+       },
+	
+
    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃备用","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
    
    {"key": "py_ali", "name": "豆瓣PY | 热搜",  "type": 3, "api": "./py/py_ali.py", "searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,
