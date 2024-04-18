@@ -26,10 +26,8 @@
 					"图片": "data-original=\"&&\"",
 					"嗅探词": ".mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
 					"影片类型": " &&立即播放 ", "
-					导演 ": "
-					导演： &&", "
-					主演 ": "
-					主演： && ", "
+					导演 ": " 导演： &&", "
+					主演 ": " 主演： && ", "
 					分类 ": "电影$1# 电视剧$2# 动漫$3# 短剧$4# 综艺$5 ", "
 					分类url ": "https: //www.baipiaoys.com:9092/show/area/{area}/class/{class}/id/{cateId}/page/{catePg}/lang/{lang}/letter/{letter}/year/{year}.html" }
                         },	
