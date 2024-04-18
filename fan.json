@@ -82,7 +82,8 @@
 			}
     },
 
-    {"key":"云盘搜索","name":"云盘搜索","type":3,"playerType":1,"api":"csp_AliSearch","searchable":1,"quickSearch":1,"changeable":0,
+    {"key":"云盘搜索","name":"📀阿里云搜索 | 聚合","type":3,"playerType":1,"api":"csp_AliSearch","searchable":1,"quickSearch":1,"changeable":0,
+	                "jar":"./jar/custom_spider.jar",
 			"ext":{
 				"88replay":"http://www.88kanqiu.one",
 				"Wogg":"https://tvfan.xxooo.cf",
