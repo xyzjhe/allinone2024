@@ -135,6 +135,397 @@
     },
 
 
+{
+      "key": "豆瓣搜索T4",
+      "name": "✨豆瓣搜索{T4}[❎宝盒]",
+      "type": 4,
+      "api": "https://catbox.n13.club/douban.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": true
+    },
+
+
+{
+      "key": "T4-yugaopian",
+      "name": "🏡影院预告",
+      "type": 4,
+      "api": "https://catbox.n13.club/yugaopian.php"
+    },
+    {
+      "key": "T4-剧圈",
+      "name": "影视-剧圈(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/juquan.php"
+    },
+    {
+      "key": "T4-黑狐",
+      "name": "影视-黑狐(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/heihu.php"
+    },
+    {
+      "key": "T4-jp",
+      "name": "影视-荐片(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/jianpian.php"
+    },
+    {
+      "key": "T4-南瓜",
+      "name": "影视-南瓜(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/nangua.php"
+    },
+    {
+      "key": "T4-极光",
+      "name": "影视-极光(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/jiguang.php"
+    },
+    {
+      "key": "T4-caiji",
+      "name": "影视-采集(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/caiji.php"
+    },
+    {
+      "key": "T4-wencai",
+      "name": "影视-文才(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/wencai.php"
+    },
+    {
+      "key": "T4-xinshijue",
+      "name": "影视-新视觉(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/xinshijue.php"
+    },
+    {
+      "key": "T4-saohuo",
+      "name": "影视-骚火(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/saohuo.php"
+    },
+    {
+      "key": "T4-jojo",
+      "name": "影视-jojo(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/jojo.php"
+    },
+    {
+      "key": "T4-mingri",
+      "name": "影视-明日(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/mingri.php"
+    },
+    {
+      "key": "T4-6v",
+      "name": "磁力-6V(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/6v.php"
+    },
+    {
+      "key": "T4-哔嘀",
+      "name": "磁力-哔嘀(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/bdys.php"
+    },
+
+{
+      "key": "T4-6v",
+      "name": "🧲磁力-6V(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/6v.php"
+    },
+    {
+      "key": "T4-4khdr",
+      "name": "🧲磁力-4khdr(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/4khdr.php"
+    },
+    {
+      "key": "T4-dyg",
+      "name": "🧲磁力-电影港(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/dygangs.php"
+    },
+    {
+      "key": "骚火影视T4",
+      "name": "✨骚火影视{T4}[❎宝盒]",
+      "type": 4,
+      "api": "https://catbox.n13.club/saohuo.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": true
+    },
+    {
+      "key": "文才影视T4",
+      "name": "✨文才影视{T4}[❎宝盒]",
+      "type": 4,
+      "api": "https://catbox.n13.club/wencai.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": true
+    },
+    {
+      "key": "JOJO影视T4",
+      "name": "🥭JOJO┃影视",
+      "type": 4,
+      "api": "https://catbox.n13.club/jojo.php",
+      "ext": true
+    },
+    {
+      "key": "采集合集T4",
+      "name": "✨采集合集{T4}[❎宝盒]",
+      "type": 4,
+      "api": "https://catbox.n13.club/caiji.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": true
+    },
+    {
+      "key": "T4-mingri",
+      "name": "✨明日┃T4",
+      "type": 4,
+      "api": "https://catbox.n13.club/mingri.php"
+    },
+
+{
+      "key": "小白",
+      "name": "🧲 4小白磁力🧲 4",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "playerType": 1,
+      "jar": "http://152.32.170.60/1018610504/GY123/raw/branch/master/jar/XBPQ.jar",
+      "ext": {
+        "主页url": "https://www.xbw20.com/",
+        "编码": "gb2312",
+        "图片": "data-src=\"&&\"",
+        "标题": "alt=\"&&\"",
+        "副标题":"class=\"time\">&&</label",
+        "分类url": "https://www.xbw20.com/search.asp?page={catePg}&searchword={area}&searchtype=2[https://www.xbw20.com/vod/{cateId}.html]",
+        "分类": "电影$newmovie#电视剧$newTV#4K专区$new4K#动画片$newcartoon",
+        "起始页": 2,
+        "倒序": 1,
+        "播放数组": "迅雷下载</div>&&</div>",
+        "播放列表": "<a&&</a >"
+      }
+    },
+    {
+      "key": "XBPQ_XJPTV",
+      "name": "XJPTV",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "http://152.32.170.60/1018610504/GY123/raw/branch/master/jar/XBPQ.jar",
+      "ext": {
+        "搜索url": "https://v.xjp.tw/index.php/vod/search.html?wd={wd}",
+        "分类url": "https://v.xjp.tw/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html ",
+        "分类": "电影&连续剧&综艺&动漫&短剧&纪录片",
+        "分类值": "1&2&3&4&19&20"
+      }
+    },
+    {
+      "key": "姐姐",
+      "name": "🔞|玩偶|挂梯",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "http://152.32.170.60/1018610504/GY123/raw/branch/master/jar/XBPQ.jar",
+      "ext": {
+        "图片": "data-src=\"&&\"",
+        "直接播放": "1",
+        "分类url": "https://hongkongdollvideo.com/{cateId}/{catePg}.html",
+        "分类": "麻豆$麻豆传媒#天美$天美传媒#91$91制片厂#蜜桃$蜜桃传媒#香港$Hongkong Doll#皇家$皇家华人#精东$精东影业#乐播$乐播传媒#成人$成人头条#乌鸦$乌鸦传媒#兔子$兔子先生#杏吧$杏吧原创#mini$mini传媒#大象$大象传媒#开心鬼$开心鬼传媒#pass$PsychoPorn#糖心$糖心Vlog",
+        "页面代理": "127.0.0.1:10072"
+      }
+    },
+
+
+{
+      "key": "XBPQ_葡萄",
+      "name": "🍇短剧┃葡萄",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://152.32.170.60/1018610504/GY123/raw/branch/master/jar/XBPQ.jar",
+      "ext": {
+        "数组": "class=\"stui-vodlist__box&&</li",
+        "分类url": "https://www.putaojuchang.com/show/{cateId}/area/{area}/class/{class}/by/{by}/page/{catePg}/year/{year}.html",
+        "分类": "微剧场$1#言情$6#逆袭$7#战神$8#异能$9#生活$10#重生$12#复仇$20#爱情$11"
+      }
+    },
+    {
+      "key": "榜一短剧",
+      "name": "🥇榜一┃短剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://152.32.170.60/1018610504/GY123/raw/branch/master/jar/XBPQ.jar",
+      "ext": {
+        "分类": "逆袭短剧$1#甜宠短剧$3#虐恋短剧$5#穿越短剧$7#重生短剧$9#都市短剧$11#现代言情短剧$13#古装短剧$15#古代言情短剧$17#战神短剧$19#神医短剧$21#神豪短剧$23#超能短剧$25#萌宝短剧$27#复仇短剧$29#脑洞短剧$31#赘婿短剧$33#玄幻短剧$35#热血短剧$37#其他短剧$39",
+        "分类url": "https://duanjuu.com/vodshow/{cateId}--------{catePg}---.html;;m"
+      }
+    },
+    {
+      "key": "XBPQ_无忧短剧",
+      "name": "无忧🏄‍♂️短剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://152.32.170.60/1018610504/GY123/raw/branch/master/jar/XBPQ.jar",
+      "ext": "http://152.32.170.60/1018610504/GY123/raw/branch/master/XBPQ/wuyouduanju.json"
+    },
+
+
+ {
+      "key": "XBPQ_文才",
+      "name": "文才|XBPQ",
+      "type": 3,
+      "api": "csp_XBPQ", 
+      "jar": "http://152.32.170.60/1018610504/GY123/raw/branch/master/lib/XBPQ.jar",
+			"ext": {
+        "分类": "国产剧&短剧&喜剧片&爱情片&恐怖片&战争片&科幻片&动作片&综艺&欧美剧&港台剧&日韩剧",
+				"分类值": "14&42&22&26&36&25&30&23&69&15&16&62",
+				"分类url": "https://api.zeqaht.com/api.php/provide/vod/?ac=list&ac=detail&t={cateId}&pg={catePg}",
+				"数组二次截取": "list\":[&&]",
+				"数组": "{&&}[不包含:]",
+				"图片": "vod_pic\":\"&&\"",
+				"标题": "vod_name\":\"&&\"",
+				"副标题": "+vod_remarks\":\"&&\"",
+				"链接": "https://api.zeqaht.com/api.php/provide/vod/?ac=list&ac=detail&ids=+vod_id\":&&,",
+				"搜索url": "https://api.zeqaht.com/api.php/provide/vod?ac=detail&wd={wd}",
+				"搜索模式": "1",
+				"搜索二次截取": "list\":[&&]",
+				"搜索数组": "{&&}[不包含:]",
+				"搜索图片": "vod_pic\"*\"&&\"",
+				"搜索标题": "vod_name\"*\"&&\"",
+				"搜索副标题": "type_name\":\"&&\"",
+				"搜索链接": "https://api.zeqaht.com/api.php/provide/vod/?ac=list&ac=detail&ids=+vod_id\":&&,",
+				"影片类型": "vod_class\"*\"&&\"",
+				"导演": "vod_director\"*\"&&\"",
+				"主演": "vod_actor\"*\"&&\"",
+				"简介": "vod_content\"*\"&&\"",
+				"线路二次截取": "\"list\":[&&]",
+				"线路数组": "\"vod_play_from\":&&,",
+				"线路标题": "\"&&\"",
+				"播放数组": "vod_play_url\":&&,[替换:\">>链表题#$>>题链#\\#>>链表表题]",
+				"播放二次截取": "",
+				"播放列表": "表&&表",
+				"播放标题": "题&&题",
+				"播放链接": "链&&链",
+				"嗅探词": ".m3u8",
+				"播放请求头": "User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36#Origin$www.whbax.cn#Referer$www.whbax.cn#Cookie$PHPSESSID=7da46a353cf8bac46b4f8226f06042ad",
+				"免嗅": "0",
+				"页面代理":"proxy"
+			}
+		},
+    {
+      "key": "XBPQ_BaiPiao",
+      "name": "白嫖影视|XBPQ",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "http://152.32.170.60/1018610504/GY123/raw/branch/master/lib/XBPQ.jar",
+      "ext": {
+        "地区": "[替换:大陆>>中国大陆#香港>>中国香港#台湾>>中国台湾]",
+        "分类": "电影$1#电视剧$2#动漫$3#短剧$4#综艺$5",
+        "分类url": "https://www.baipiaoys.com:9092/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html"
+      }
+    },
+    {
+      "key": "XBPQ_黑狐影院",
+      "name": "黑狐影院|XBPQ",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "http://152.32.170.60/1018610504/GY123/raw/branch/master/lib/XBPQ.jar",
+      "ext": {
+        "站名": "黑狐影院",
+        "主页url": "http://fagmn.com",
+        "数组": "class=\"stui-vodlist__box\"&&</a",
+        "图片": "data-original=\"&&\"",
+        "标题": "title=\"&&\"",
+        "链接": "href=\"&&\"",
+        "嗅探词": ".m3u8?#v3.huoshanvod.com#.m3u8#v3-dy-o.zjcdn#sf16-sg.larksuitecdn.com#v.kd1.qq.com#.mp4",
+        "过滤词": "/hls/#php",
+        "副标题": "<span class=\"pic-text text-right\">&&</span>",
+        "搜索url": "http://fagmn.com/search.php;post;searchword={wd}",
+        "搜索模式": "1",
+        "搜索数组": "<a class=\"v-thumb stui-vodlist__thumb&&</a>",
+        "搜索图片": "data-original=\"&&\"",
+        "搜索标题": "title=\"&&\"",
+        "搜索链接": "href=\"&&\"",
+        "搜索副标题": "<span class=\"pic-text text-right\">&&</span>",
+        "搜索后缀": "/view/",
+        "线路数组": "href=\"#down&&/a>[替换:奇异视频>>黑狐一线#优酷视频>>黑狐二线#搜狐视频>>黑狐三线#咪咕视频>>黑狐四线]",
+        "线路标题": ">&&<",
+        "播放数组": "class=\"stui-content__playlist clearfix&&</ul>",
+        "状态": "地区：&&</p>",
+        "导演": "导演：&&</p>",
+        "主演": "主演：&&</p>",
+        "简介": "简介：&&</div>",
+        "播放列表": "<a&&/a>",
+        "播放标题": ">&&<",
+        "播放链接": "href=\"&&\"",
+        "免嗅": "0",
+        "分类": "电影$1#电视剧$2#动漫$3#综艺$4",
+        "分类url": "http://fagmn.com/list/{cateId}_{catePg}.html?order=time"
+      }
+    },
+    {
+      "key": "XBPQ_电影先生",
+      "name": "电影先生|XBPQ",
+      "jar": "http://152.32.170.60/1018610504/GY123/raw/branch/master/lib/XBPQ.jar",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://dianyi.ng/pianku-{cateId}-{area}-------{catePg}---{year}.html",
+        "简介": "class=\"video-info-item video-info-content vod_content\">&&</span>",
+        "搜索url": "https://dianyi.ng/search--------------.html?wd={wd}",
+        "搜索数组": "<div class=\"module-item-pic\">&&</div>",
+        "图片": "src=\"&&\"",
+        "搜索标题": "title=\"&&\"",
+        "搜索副标题": ">&&</a>",
+        "线路数组": "data-dropdown-value=&&</div>",
+        "线路标题": "<span>&&</small>[替换:<span></small>共]+集",
+        "播放数组": "<div class=\"scroll-content\">&&</div>",
+        "播放标题": "<span>&&</span>",
+        "分类": "电影$dianying#电视剧$dianshiju#动漫$dongman#综艺$zongyi"
+      }
+    },
+    {
+      "key": "XBPQ_麻衣影院",
+      "name": "麻衣影院|XBPQ",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "http://152.32.170.60/1018610504/GY123/raw/branch/master/lib/XBPQ.jar",
+      "ext": {
+        "分类url": "https://www.huanyuxing.com/s/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html",
+        "分类": "电影$id-a#电视剧$id-b#动漫$id-c#综艺$id-d"
+      }
+    },
+
+
+{
+      "key": "csp_CandyMuj_hjtv",
+      "name": "🧚‍♀️韩剧专区",
+      "playerType": 1,
+      "type": 3,
+      "api": "csp_CandyMuj_hjtv",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "https://syc.lvdoui.top/jar/candy11.jar"
+    },
+
+
+
+	
 
 {"key":"夸搜","name":"🐺夸搜┃搜索","type":3,"api":"csp_PanSearch","searchable":1,"quickSearch":1,"changeable":0,"ext": {"pan":"quark","quarkCookie":"http://127.0.0.1:9978/file/XYQTVBox/quark_cookie.txt","from":"4k|auto|fhd"}},
 {"key":"YiSo","name":"😹易搜┃搜索","type":3,"api":"csp_YiSo","searchable":1,"quickSearch":1,"changeable":0,"ext": {"aliToken":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","from":"4k|auto|fhd"}},
