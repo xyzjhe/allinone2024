@@ -6,11 +6,11 @@
 
 "sites":[
 	
-{"key":"豆豆","name":"🌕豆瓣SP┃饭佬plus0427","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
+{"key":"豆豆","name":"🌕豆瓣SP┃饭佬plus0430","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
 {"key":"csp_XBPQ_预告","name":"🍚预告(XBPQ)","type":3,"api":"csp_XBPQ","playerType":2,"ext":{"首页":"正在热映","图片代理":"","分类url":"https://movie.douban.com/{cateId}/;;aRC","分类":"即将上映$cinema/later#正在热映$cinema/nowplaying","数组":"class=\"item mod &&</ul>||正在热映--class=\"list-item&&</ul>","图片":"src=\"&&\"","标题":"\"intro\">&&</a>","链接":"href=\"&&\"","副标题":"data-score=\"&&\"+class=\"release-date\">&&</li>","播放数组":"<li class=\"video&&</li>","播放列表":"<a&&</a>","播放标题":"alt=\"&&\"","播放链接":"https://m.douban.com+href=\"&&\""}},
 
 {"key":"玩偶","name":"👽玩偶哥哥┃4K弹幕","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0, "ext": {"aliToken":"http://127.0.0.1:9978/file/XYQox/alitoken.txt","quarkCookie":"http://127.0.0.1:9978/file/XYQTVBox/quark_cookie.txt","from":"4k|auto|fhd","siteUrl":"https://api.wogg.xyz/","danMu":"弹"}},
-{"key":"csp_Jianpian","name":"🧲荐片","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://api2.rinhome.com"},
+{"key":"csp_Jianpian","name":"🧲荐片","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://oiuzy.haitu33.com"},
 	
 {"key":"酷看","name":"💡酷看┃秒播","type":3,"api":"csp_Kkys","timeout":15,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"白嫖","name":"👻白飘SP┃无广","type":3,"api":"csp_BaiPiao","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext": "https://www.baipiaoys.com:9092/"},
