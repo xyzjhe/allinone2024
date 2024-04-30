@@ -116,6 +116,88 @@
 	{"key":"csp_Czsapp","name":"🐞厂长资源","type":3,"api":"csp_Czsapp","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.cz233.com/"},
 	{"key":"csp_Kuaikan","name":"🐞快看影视","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
 
+
+     {
+      "key":"csp_XBPQ_农民影视",
+      "name": "👶农民☆影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "http://152.32.170.60/1018610504/GY123/raw/branch/master/jar/XBPQ.jar",
+      "ext":"http://152.32.170.60/1018610504/GY123/raw/branch/master/XBPQ/nmys3.json"
+    },
+    {
+      "key": "农民y",
+      "name": "农民☪PG影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "http://152.32.170.60/1018610504/GY123/raw/branch/master/lib/XBPQ.jar", 
+      "ext": {
+        "播放标题": "📹+>&&</a >",
+        "分类url": "http://www.hnikeji.com/nms/{cateId}/{area}/{by}/{class}/{lang}/{year}.html;;markd0",
+        "分类": "电视剧$lianxuju#电影$dianying#动漫$dongman#综艺$zongyi"
+      }
+    },
+    {
+      "key": "nmys",
+      "name": "👨‍🌾农民影视",
+      "type": 3,
+      "changeable": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "csp_XBPQ",
+      "jar": "https://152.32.170.60/1018610504/GY123/raw/branch/master/jar/XBPQ.jar",
+      "ext": "https://152.32.170.60/1018610504/GY123/raw/branch/master/XBPQ/nmys.json"
+    },
+
+    {
+      "key": "drpy_t3_农民影视",
+      "name": "农民影视(drpy_t3)",
+      "type": 3,
+      "api": "http://hipy.nokia.press/files/drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "order_num": 18,
+      "ext": "http://152.32.170.60/1018610504/GY123/raw/branch/master/js/nmys3.js"
+    },
+	  
+    {
+      "key": "XBPQ_葡萄",
+      "name": "🍇短剧┃葡萄",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://152.32.170.60/1018610504/GY123/raw/branch/master/jar/XBPQ.jar",
+      "ext": {
+        "数组": "class=\"stui-vodlist__box&&</li",
+        "分类url": "https://www.putaojuchang.com/show/{cateId}/area/{area}/class/{class}/by/{by}/page/{catePg}/year/{year}.html",
+        "分类": "微剧场$1#言情$6#逆袭$7#战神$8#异能$9#生活$10#重生$12#复仇$20#爱情$11"
+      }
+    },
+    {
+      "key": "榜一短剧",
+      "name": "🥇榜一┃短剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://152.32.170.60/1018610504/GY123/raw/branch/master/jar/XBPQ.jar",
+      "ext": {
+        "分类": "逆袭短剧$1#甜宠短剧$3#虐恋短剧$5#穿越短剧$7#重生短剧$9#都市短剧$11#现代言情短剧$13#古装短剧$15#古代言情短剧$17#战神短剧$19#神医短剧$21#神豪短剧$23#超能短剧$25#萌宝短剧$27#复仇短剧$29#脑洞短剧$31#赘婿短剧$33#玄幻短剧$35#热血短剧$37#其他短剧$39",
+        "分类url": "https://duanjuu.com/vodshow/{cateId}--------{catePg}---.html;;m"
+      }
+    },
+    {
+      "key": "XBPQ_无忧短剧",
+      "name": "无忧🏄‍♂️短剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://152.32.170.60/1018610504/GY123/raw/branch/master/jar/XBPQ.jar",
+      "ext": "http://152.32.170.60/1018610504/GY123/raw/branch/master/XBPQ/wuyouduanju.json"
+    },
+	    
+
 	{"key":"酷看","name":"酷看","type":3,"api":"csp_Wexkukantv","searchable":1,"changeable":1},
 	{"key":"明日","name":"明日","type":3,"api":"csp_WexMingriys","searchable":1,"changeable":1},
 	{"key":"腐剧","name":"腐剧","type":3,"api":"csp_WexFujutv","searchable":1,"changeable":1},
