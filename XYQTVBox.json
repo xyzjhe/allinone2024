@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://picsum.photos/1280/720/?blur=2",
-    "spider": "./jar/XYQplus0417.jar",
+    "spider": "./jar/XS0505.jar",
     "lives": [
 
 	  {"name":"live_v4","type":0,"url":"https://ghproxy.net/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt"},
@@ -10,7 +10,7 @@
          ],
     "sites": [
 
-    {"key":"豆瓣","name":"🐰豆瓣热播|香佬0430🐰","type":3,"api":"csp_Douban","searchable":0},
+    {"key":"豆瓣","name":"🐰豆瓣热播|香佬0505立夏🐰","type":3,"api":"csp_Douban","searchable":0},
     {"key":"云盘登录","name":"云盘登录","type":3,"api":"csp_AliYunPan","searchable":0,"quickSearch":0,"filterable":0,"changeable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
     
     {"key":"csp_LocalFile","name":"💻本地视频","type":3,"api":"csp_LocalFile","searchable":0,"quickSearch":0,"filterable":0,"type_flag":0},
@@ -113,7 +113,7 @@
   	         }
          },
 	    
-	{"key":"csp_Czsapp","name":"🐞厂长资源","type":3,"api":"csp_Czsapp","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.cz233.com/"},
+	{"key":"csp_Czsapp","name":"🐞厂长资源","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.czys.top"},
 	{"key":"csp_Kuaikan","name":"🐞快看影视","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
 
 
@@ -198,12 +198,17 @@
     },
 	    
 
-	{"key":"酷看","name":"酷看","type":3,"api":"csp_Wexkukantv","searchable":1,"changeable":1},
-	{"key":"明日","name":"明日","type":3,"api":"csp_WexMingriys","searchable":1,"changeable":1},
-	{"key":"腐剧","name":"腐剧","type":3,"api":"csp_WexFujutv","searchable":1,"changeable":1},
-	{"key":"文才","name":"文才","type":3,"api":"csp_Wexwencai","searchable":1,"changeable":1},
-	{"key":"短剧一","name":"短剧一","type":3,"api":"csp_Wexduanjuvop","searchable":1,"changeable":1},
-	{"key":"短剧二","name":"短剧二","type":3,"api":"csp_Wexduanjuvmp","searchable":1,"changeable":1},
+	{"key":"兄弟影视","name":"兄弟影视","type":3,"api":"csp_Wexxiongdiys","searchable":1,"changeable":1},
+	{"key":"酷看影视","name":"酷看影视","type":3,"api":"csp_Wexkukantv","searchable":1,"changeable":1},
+	{"key":"明日影视","name":"明日影视","type":3,"api":"csp_WexMingriys","searchable":1,"changeable":1},
+	{"key":"腐剧视频","name":"腐剧视频","type":3,"api":"csp_WexFujutv","searchable":1,"changeable":1},
+	{"key":"韩剧视频","name":"韩剧视频","type":3,"api":"csp_Wexhanjutv","searchable":1,"changeable":1},
+	{"key":"酷云七七","name":"酷云七七","type":3,"api":"csp_WexKuyun77","searchable":1,"changeable":1},
+	{"key":"文才影视","name":"文才影视","type":3,"api":"csp_Wexwencai","searchable":1,"changeable":1},
+	{"key":"白嫖影视","name":"白嫖影视","type":3,"api":"csp_Wexbaipiao","searchable":1,"changeable":1},
+	{"key":"农民影视","name":"农民影视","type":3,"api":"csp_WexNmys","searchable":1,"changeable":1},
+	{"key":"秒播短剧","name":"秒播短剧","type":3,"api":"csp_Wexduanjuvop","searchable":1,"changeable":1},
+	{"key":"短剧搜索","name":"短剧搜索","type":3,"api":"csp_Wexduanjuso","searchable":1,"changeable":0},
 	{"key":"素白白","name":"素白白","type":3,"api":"csp_Subaibai","searchable":1,"changeable":1},
 	
 	//阿里资源区1
@@ -253,9 +258,9 @@
         
         //jar内置爬虫规则区
         {"key":"360_spider","name":"🐞360影视","type":3,"api":"csp_SP360","filterable":1,"quickSearch":1,"searchable":1},
-        {"key": "csp_XYQHiker_哔嘀影视","name":"🧲哔嘀影视(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/哔嘀影视.json"},
+       
         {"key":"csp_Ddys","name":"🐞低端影视","type":3,"api":"csp_Ddys","searchable":1,"quickSearch":1,"filterable":1},
-        {"key":"csp_Kunyu77","name":"🐞77影视","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
+       
 	{"key":"新视觉","name":"新视觉","type":3,"api":"csp_Web608","searchable":1,"quickSearch":0,"filterable":0,"ext":"https://www.6080yy4.com"},
         
         {"key":"酷影视","name":"酷影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.tvkuys.xyz/api.php/app/"},
@@ -273,19 +278,15 @@
         {"key":"csp_Bili高中","name":"🐞哔哩高中","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./biliext/高中课堂.json"},
         {"key":"JS哔哩直播","name":"哔哩直播[js]","type":3,"api":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/哔哩直播.js"},
         {"key":"csp_Bili短剧","name":"🐞哔哩短剧","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./biliext/Bili短剧.json"},
-        {"key": "csp_短剧网","name":"短剧网","type":3,"api":"csp_Duanjuw","searchable":1,"quickSearch":1,"filterable":1},
-        
-        //XYQ规则区
        
-        {"key": "csp_XYQHiker_996影视","name":"996影视(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/996影视.json"},
         
+       
         //直播规则区
-        {"key": "csp_XYQBiu_88看球","name":"88看球(XYQ)","type":3,"api":"csp_XYQBiu","searchable":0,"quickSearch":0,"filterable":0,"ext":"./XYQBiu/88看球.json"},
+      
         {"key": "csp_Yj1211","name": "📡JustLive","type": 3,"api": "csp_Yj1211","playerType":1,"searchable": 1,"quickSearch": 1,"filterable": 1},
         {"key":"DRJS_虎牙","name":"虎牙直播(JS)","type":3,"api":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/虎牙直播.js","searchable": 0,"quickSearch": 0,"filterable": 0},
-        {"key": "csp_XYQHiker_虎牙直播","name": "🐯虎牙直播(XYQH)","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": "./XYQHiker/虎牙直播.json"},
-        {"key": "csp_XYQHiker_斗鱼直播","name": "🐠斗鱼直播(XYQH)","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "./XYQHiker/斗鱼直播.json"},
-        {"key": "csp_XYQBiu_网易CC直播","name": "🕸网易CC直播(XYQ)","type": 3,"api": "csp_XYQBiu","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./XYQBiu/网易CC直播.json"}
+        {"key": "csp_XYQHiker_虎牙直播","name": "🐯虎牙直播(XYQH)","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": "./XYQHiker/虎牙直播.json"}
+       
         
     ],
   
