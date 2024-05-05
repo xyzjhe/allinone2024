@@ -1,10 +1,10 @@
 {
-  "spider": "./wex.txt;md5;a9ca595cbe9eddc75bbfc01fd1944adf",
+  "spider": "./wex.txt;md5;371ba7abb2774a1c49934446f3d374ce",
   "wallpaper": "https://放牛.王二小放牛娃.xyz/img.php",
   "sites": [
     {
       "key": "Douban",
-      "name": "🐮【王二小放牛娃0430】🐮",
+      "name": "🐮【王二小放牛娃温馨提醒:网络套路深，谨防割韭菜】🐮",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -404,6 +404,42 @@
       }
     },
     {
+      "key": "Wexbaobaobashi",
+      "name": "👼宝宝┃儿歌┃秒播",
+      "type": 3,
+      "api": "csp_Wexbaobaobashi",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 2
+      }
+    },
+    {
+      "key": "Wexbeiwa",
+      "name": "👼贝贝┃儿歌┃秒播",
+      "type": 3,
+      "api": "csp_Wexbeiwa",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 2
+      }
+    },
+    {
+      "key": "Wextuxiaobei",
+      "name": "👼兔兔┃儿歌┃秒播",
+      "type": 3,
+      "api": "csp_Wextuxiaobei",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 2
+      }
+    },
+    {
       "key": "Pandalivetv",
       "name": "😍韩国┃美女┃直播",
       "type": 3,
@@ -599,7 +635,7 @@
       "key": "搜吧",
       "name": "🎠搜吧┃综合┃搜",
       "type": 3,
-      "api": "csp_Wexyingso",
+      "api": "csp_Wexbtso",
       "searchable": 1,
       "changeable": 0
     },
