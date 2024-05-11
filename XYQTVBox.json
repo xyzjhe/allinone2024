@@ -89,7 +89,7 @@
          {"key":"csp_JianPian","name":"🔨荐片|2K首选","type":3,"api":"csp_JianPian","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://112.124.0.131:20000/"},
   	 {"key":"csp_Ikanbot","name": "👾Ikanbot|采集大全","type": 3,"api": "csp_Ikanbot","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://v.ikanbot.com"},
 
-	 //{"key": "csp_XYQHiker_白嫖影视","name":"🧲白嫖影视(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/baipiao.json"},
+	
 
 	 {"key":"BT天堂","name":"🧲BT天堂｜磁力","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/BT天堂.json"},
 	 {"key":"xyqH_电影港磁力","name":"🧲电影港｜磁力","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":0,"filterable":1,"changeable":0,"playerType":1,"hide":1,"ext":"./XYQHiker/电影港磁力.json"},
@@ -98,20 +98,7 @@
 	 {"key": "csp_New6v","name": "🧲新6V｜磁力","type": 3,"api": "csp_New6v","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://www.xb6v.com"},
 	 {"key": "csp_Mp4Mov","name": "🧲Mp4电影｜磁力","type": 3,"api": "csp_Mp4Mov","searchable": 1,"quickSearch": 1,"filterable": 1},
 
-	//{"key":"白嫖影视","name":"🥏白嫖影视1|XBPQ","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/白嫖影视.json"},
-
-	 //{
-  	  "key": "XBPQ_BaiPiao",
-	  "name": "🥏白嫖影视2|XBPQ",
-	  "type": 3,
-	  "api": "csp_XBPQ",
-	  "jar": "",
-	  "ext": {
-	          "地区": "[替换:大陆>>中国大陆#香港>>中国香港#台湾>>中国台湾]",
-		  "分类": "电影$1#电视剧$2#动漫$3#短剧$4#综艺$5",
-		  "分类url": "https://www.baipiaoys.com:9092/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html"
-  	         }
-         },
+	
 	    
 	{"key":"csp_Czsapp","name":"🐞厂长资源","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.czys.top"},
 	{"key":"csp_Kuaikan","name":"🐞快看影视","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
