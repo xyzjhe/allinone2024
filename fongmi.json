@@ -158,29 +158,7 @@
 
     {"key":"drpy_js_荐片","name":"荐片[js]┃2K首选","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/荐片.js"},
    
-    //{"key":"baipiaoys_py","name":"白嫖影视PY┃FM专用","type": 3,"api": "./py/py_baipiaoys.py","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": ""},
-
-    //{
-      "key": "baipiaoys_js",
-      "name": "白嫖影视┃Cat_js",
-      "type": 3,
-      "api": "./cat/js/baipiaoys_open.js",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-
-      // {
-            "key": "XBPQ_BaiPiao",
-            "name": "🐿️1080P┃白嫖影视XBPQ",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/赞赞.jar",
-            "ext": {
-                "地区": "[替换:大陆>>中国大陆#香港>>中国香港#台湾>>中国台湾]",
-                "分类": "电影$1#电视剧$2#动漫$3#爽文短剧$4",
-                "分类url": "https://www.baipiaoys.com:9092/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html"
-            }
-        },
+    
 	  
      {
       "key":"csp_XBPQ_农民影视",
@@ -297,31 +275,6 @@
      {"key": "本地2", "name": "本地文件(不显示隐藏文件)", "type": 3, "api": "csp_LocalFileV2","ext": "showAllFile=false","searchable":0,"playerType":1},
 
 
-      {
-            "key": "XBPQ_无忧短剧",
-            "name": "无忧🏄‍♂️短剧",
-            "type": 3,
-	    "jar": "./jar/赞赞.jar",
-            "api": "csp_XBPQ",
-            
-             "ext": {
-                       "分类": "逆袭$1#甜宠$3#虐恋$5#穿越$7#重生$9#都市$11#现代言情$13#古装$15#古装言情$17#战神$19#神医$21#神豪$23#超能$25#萌宝$27#复仇$29#脑洞$31#赘婿$33#玄幻$35#热血$37#其他$39",
-                       "分类url": "http://5uduanju.com/vodshow/{cateId}--------{catePg}---.html"
-                }
-        },
-        {
-            "key": "短剧TV",
-            "name": "🍿短剧TV",
-            "type": 3,
-	    "jar": "./jar/赞赞.jar",
-            "api": "csp_XBPQ",
-            
-            "ext": {
-                       "分类": "抖音短剧$20#快手短剧$21#视频号短剧$22#热播短剧$23", 
-                       "分类url": "http://www.duanjutv.cc/vodtype/{cateId}-{catePg}.html"
-                }
-        },
-	  
 
      {
       "key": "lf_js_p2p_18+",
@@ -536,129 +489,7 @@
       "order_num": 18,
       "ext": ""
     },
-    {
-      "key": "MP4us",
-      "name": "🔴MP4us|磁力",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "http://152.32.170.60/1018610504/GY123/raw/branch/master/lib/XBPQ.jar",
-      "ext": {
-        "标题": "<font*>&&</font>",
-        "数组": "<li>&&</li>",
-        "副标题": "rate badge\">&&</span>+|+update_time\">&&</span>",
-        "线路标题": "<h2>&&</h2>[替换:下载地址>>磁力]",
-        "播放数组": "download_url&&</ul>",
-        "播放列表": "<a&&</a >[不包含:ed2k]",
-        "线路数组": "download_url&&</ul>",
-        "分类二次截取": "<ul&&</ul>",
-        "分类数组": "<li&&</li>",
-        "分类标题": ">&&</a",
-        "分类ID": "/list/&&-1.html",
-        "分类url": "https://m.mp4us.com/list/{cateId}-{catePg}.html;;dm"
-      }
-    },
-    {
-      "key": "u9a9",
-      "name": "💃u9a9|磁力",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "http://152.32.170.60/1018610504/GY123/raw/branch/master/lib/XBPQ.jar",
-      "style": {
-        "type": "list"
-      },
-      "ext": {
-        "搜索url": "https://u9a9b.cc/?type=1&search={wd}&p={pg}",
-        "数组": "<tr&&</tr>",
-        "简介": "Date:</div>&&</",
-        "图片": " ",
-        "播放二次截取": "panel-footer clearfix&&</div>",
-        "播放数组": "<a&&</a >[不包含:Torrent#filecove]",
-        "分类": "DHT网络$1",
-        "分类url": "https://u9a9b.cc/?type={cateId}&p={catePg};;m"
-      }
-    },
-    {
-      "key": "Eighteen",
-      "name": "💃Eighteen|18av",
-      "type": 3,
-      "style": {
-        "ratio": 1.7
-      },
-      "api": "csp_Eighteen"
-    },
-    {
-      "key": "糖心",
-      "name": "💃糖心次元",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "http://152.32.170.60/1018610504/GY123/raw/branch/master/lib/XBPQ.jar",
-      "style": {
-        "ratio": 1.7
-      },
-      "ext": {
-        "数组": "<section&&</section",
-        "副标题": "添加时间:&&</span>",
-        "嗅探词": "cdn2020.com#m3u8",
-        "分类url": "http://www.txcyeat.buzz/index.php/vodtype/{cateId}-{catePg}.html;;z",
-        "分类": "国产片商$32#节目企划$3#代理节目$2#麻豆原创$1#导演系列$5#MDS系列$6#MDX系列$7#MD系列$4#MDXS系列$8#兔子先生$10#大鸟十八$17#疯拍系列$18#KISS糖果屋$19#小鹏奇啪行$20#30天解密麻豆$22#突袭女优计划$23#女神羞羞研究所$24#小哥哥艾理$27#情趣K歌房$31#淫欲游戏王$40#麻豆不回家$41#叮叮映画$71#涩会$72#豚豚创媒$75#MDL系列$46#MMZ系列$50#MAD系列$53#MDWP系列$58#MSD系列$64#MDM恋爱咖啡$74#MDUS系列$78#MXJ系列$79#MKY系列$87#MAN系列$89#MCY系列$96#MDAG系列$100#MDHT系列$101#BLX系列$115#MPG系列$116#果冻传媒$11#皇家华人$12#吴梦梦无套系列$13#PsychoPorn色控$14#蜜桃影像传媒$15#天美传媒$45#乌鸦传媒$33#精东影业$34#SWAG$36#91制片厂$52#MSM性梦者$65#爱妃传媒$76#辣椒原创$80#O-STAR$81#肉肉传媒$91#渡边传媒$95#葵心娱乐$97#红斯灯影像$103#麻麻传媒$104#蝌蚪传媒$105#Pussy Hunter$106#桃花源$108#女优淫娃培训营$42#狼人插$54#女优擂台摔角狂热$55#恋爱巴士$61#男女优生死斗$66#情人劫密室逃脱$67#换妻$68#你好同学$69#禁欲小屋$77#鲍鱼的胜利$84#性爱自修室$88#春游记$92#心动的性号$93#情趣大富翁$94#寻宝吧女神$99#男优练习生$102#女神体育祭$110#麻豆高校$111#野外露初$112#星空无限传媒$47#乐播传媒$48#大象传媒$59#MINI传媒$62#糖心$73#葫芦影业$82#天马传媒$83#CCAV成人头条$90#性视界传媒$109#SA国际传媒$113#起点传媒$114#91茄子$117#草莓猛料$118"
-      }
-    },
-    {
-      "key": "溏心次元",
-      "name": "💃溏心次元",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "http://152.32.170.60/1018610504/GY123/raw/branch/master/lib/XBPQ.jar",
-      "style": {
-        "ratio": 1.7
-      },
-      "ext": {
-        "数组": "<li&&</li>",
-        "搜索url": "https://www.txcyeat.buzz/index.php/vodsearch/{wd}----------{pg}---.html",
-        "副标题": "添加时间:&&</span>",
-        "主页url": "https://www.txcyeat.buzz/index.php/label/sort.html",
-        "分类二次截取": "<body>&&</body>[替换:/span>>/p#span>>classfont\"]",
-        "分类数组": "<li&&</li>",
-        "分类标题": "classfont\">&&</p >",
-        "分类ID": "index.php/vodtype/&&.html",
-        "分类url": "https://www.txcyeat.buzz/index.php/vodtype/{cateId}-{catePg}.html;;z"
-      }
-    },
-    {
-      "key": "黄色仓库",
-      "name": "💃黄色仓库",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "http://152.32.170.60/1018610504/GY123/raw/branch/master/lib/XBPQ.jar",
-      "style": {
-        "ratio": 1.7
-      },
-      "ext": {
-        "搜索链接": "http://oy.oyxx-1.eu.org/hs1.php?u=/vodsearch/{wd}----------{pg}---.html",
-        "主页url": "http://oy.oyxx-1.eu.org/hs1.php",
-        "链接": "http+://oy.oyxx-1.eu.org/hs1.php?u=+href=\"&&\"[替换:?>>&]",
-        "简介": "时间：&&<",
-        "副标题": "❤️+fa fa-heart\"></i>&&<+🔥+\"fa fa-eye\"></i>&&<",
-        "分类": "日韩AV$1#国产系列$2#欧美$3#成人动漫$4#无码中文$8#有码中文$9#日本无码$10#日本有码$7#国产视频$15#欧美高清$21#动漫剧情$22",
-        "分类url": "http://oy.oyxx-1.eu.org/hs1.php?u=vodtype/{cateId}-{catePg}.html;;zm"
-      }
-    },
-    {
-      "key": "Taohuazu",
-      "name": "💃💖 | 桃花族",
-      "type": 3,
-      "api": "csp_Taohuazu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 0,
-      "timeout": 60,
-      "ext": "http://thzj.cc/forum.php"
-    },
-
-
-
-   
+    
 	  
 	  
 	  
