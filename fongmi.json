@@ -43,7 +43,7 @@
 	  
    {
       "key": "豆瓣",
-      "name": "🐝豆瓣sp|蜜蜂线路0512🐝",
+      "name": "🐝豆瓣sp|蜜蜂线路0521🐝",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -157,47 +157,47 @@
     },
 
     {"key":"drpy_js_荐片","name":"荐片[js]┃2K首选","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/荐片.js"},
-   
+    {"key":"drpy_js_爱看机器人1","name":"爱看|机器v1[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/爱看机器人.js"},
+    {"key":"drpy_js_爱看机器人2","name":"爱看|机器v2[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot2.js"},
+    {"key":"drpy_js_爱看机器人3","name":"爱看|机器v3[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot3.js"},
     
-	  
-    
-	  
-     {"key":"csp_DyGang","name":"磁力 | 电影港2K","type":3,"api":"csp_DyGang","searchable":1,"playerType":1,"timeout":120},
-     {"key":"csp_Xunlei8","name":"磁力 | 迅雷吧2K","type":3,"api":"csp_Xunlei8","searchable":1,"playerType":1,"timeout":120,"changeable":0},
-	  
-     {"key": "csp_SixV", "name": "磁力 | 新6V2K", "type": 3, "api": "csp_SixV", "ext": "https://www.6vdy.org/", "searchable": 1, "playerType": 1, "timeout": 60},
-     {"key": "PiaoHua", "name": "磁力 | 新飘花2K", "type": 3, "api": "csp_PiaoHua", "searchable": 1, "playerType": 1, "changeable": 0},
-     {"key":"drpy_磁力熊","name":"磁力 | 磁力熊[js]","type":3,"api":"https://www.agit.ai/laozou/dr_py/raw/branch/main/libs/drpy2.min.js","ext":"https://www.agit.ai/laozou/dr_py/raw/branch/main/js/磁力熊[磁].js","playerType":1,"timeout":120},
- 
-     {"key": "农民", "name": "影视 | 农民", "type": 3, "api": "csp_NongMing", "searchable": 1},	  
-     {"key": "Voflix", "name": "影视 | Voflix", "type": 3, "api": "csp_Voflix", "searchable": 1, "ext": "https://www.voflix.me/"},
-     {"key":"996影院","name":"影视 | 996影院","type":3,"api":"csp_Cs1369","searchable":0},
+    {"key":"csp_DyGang","name":"磁力 | 电影港2K","type":3,"api":"csp_DyGang","searchable":1,"playerType":1,"timeout":120,"jar":"./jar/zhixc0521.jar"},
 
-     {"key":"drpy_厂长","name":"影视 | 厂长[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext":"./drpy_js/js/厂长资源.js"},
-     {"key":"drpy_低端","name":"影视 | 低端[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext":"./drpy_js/js/ddys.js"},
-     {"key":"drpy_两个BT","name":"影视 | 两个BT[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext":"./drpy_js/js/两个BT.js"},
-     {"key": "js_nongmin","name": "影视 ┃ 农民[js]", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/农民.js" },
+    {"key":"csp_SixV","name":"🧲新6V电影网[磁]","type":3,"api":"csp_SixV","searchable":1,"playerType":1,"timeout":120,"jar":"./jar/zhixc0521.jar"},
+    {"key":"csp_DyGang","name":"🧲电影港[磁]","type":3,"api":"csp_DyGang","searchable":1,"playerType":1,"timeout":120,"jar":"./jar/zhixc0521.jar"},
+    {"key":"csp_Xunlei8","name":"🧲迅雷吧[磁]","type":3,"api":"csp_Xunlei8","searchable":1,"playerType":1,"timeout":120,"changeable":0,"jar":"./jar/zhixc0521.jar"},
+    {"key":"PiaoHua","name":"🧲新飘花电影网[磁]","type":3,"api":"csp_PiaoHua","searchable":1,"playerType":1,"timeout":120,"jar":"./jar/zhixc0521.jar"},
+    {"key":"Douban","name":"🔍豆瓣[搜索]","type":3,"api":"csp_Douban","ext":"./other/json/douban.json","searchable":0,"jar":"./jar/zhixc0521.jar"},
+    {"key":"星易影","name":"🔍星易影[搜索]","type":3,"api":"csp_XingYiYing","searchable":1,"jar":"./jar/zhixc0521.jar"},
+    {"key":"本地","name":"📃本地文件","type":3,"api":"csp_LocalFileV2","searchable":0,"playerType":1,"jar":"./jar/zhixc0521.jar"},
+    {"key":"本地2","name":"📃本地文件[不显示隐藏文件]","type":3,"api":"csp_LocalFileV2","ext": "showAllFile=false","searchable":0,"playerType":1,"jar":"./jar/zhixc0521.jar"},
+    {"key":"巴士","name":"🌸巴士[动漫]","type":3,"api": "csp_Dm84","searchable":1,"jar":"./jar/zhixc0521.jar"},
+    {"key":"Anime1","name":"🌸Anime1[动漫]","type":3,"api":"csp_Anime1","searchable":1,"jar":"./jar/zhixc0521.jar"},
+    {"key":"Voflix","name":"📺Voflix[影视]","type":3,"api":"csp_Voflix","searchable":1,
+      "ext": "siteUrl=https://www.voflix.vip$$$rulesUrl=https://fastly.jsdelivr.net/gh/zhixc/CatVodTVSpider@main/other/json/rules.json"
+    ,"jar":"./jar/zhixc0521.jar"},
+    {"key":"Live2Vod","name":"电视[直播]","type":3,"api":"csp_Live2Vod","searchable":0,"changeable":0,
+     "ext":"南风$http://152.32.170.60/Yoursmile7/TVBox/raw/branch/master/live.txt#私立直播$https://ghproxy.net/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.m3u&&&https://img1.dd.ci/file/08b8a048adf5d333c6030.png"
+    ,"jar":"./jar/zhixc0521.jar"},
+    {"key":"Live2Vod2","name":"电视直播(远程版)","type":3,"api":"csp_Live2Vod","ext":"./other/json/live.json","searchable":0,"changeable":0,"jar":"./jar/zhixc0521.jar"},
+    {"key":"Yj1211","name":"综合直播","type":3,"api":"csp_Yj1211","searchable":1,"changeable":0,"jar":"./jar/zhixc0521.jar"},
+    {"key":"V2_cokemv","name":"📺cokemv[V2]","type":3,"api":"csp_AppYsV2","searchable":1,"ext":"https://cokemv.co/xgapp.php/v2/"},
+    {"key":"360","name":"📺360[影视]","type":3,"api":"csp_SP360","searchable":1,"jar":"./jar/zhixc0521.jar"},
+    {"key":"IQIYI","name":"📺IQIYI[影视]","type":3,"api":"csp_IQIYI","searchable":1,"jar":"./jar/zhixc0521.jar"},
+    {"key":"MGTV","name":"📺MGTV[影视]","type":3,"api":"csp_MGTV","searchable":1,"jar":"./jar/zhixc0521.jar"},
+    {"key":"农民","name":"📺农民[影视]","type":3,"api":"csp_NongMing","searchable":1,"jar":"./jar/zhixc0521.jar"},
 
-     {"key":"drpy_js_爱看机器人1","name":"爱看|机器v1[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/爱看机器人.js"},
-     {"key":"drpy_js_爱看机器人2","name":"爱看|机器v2[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot2.js"},
-     {"key":"drpy_js_爱看机器人3","name":"爱看|机器v3[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot3.js"},
-     
-   
-     {"key":"Yj1211","name":"直播 | 综合","type":3,"api":"csp_Yj1211","searchable":1,"changeable":0},
-     {"key":"V2_cokemv","name":"影视 | cokemv[V2]","type":3,"api":"csp_AppYsV2","searchable":1,"ext":"https://cokemv.co/xgapp.php/v2/"},
-     
-     {"key": "星易影", "name": "搜索 | 星易影", "type": 3,"api": "csp_XingYiYing","searchable":1},
-     {"key": "Anime1", "name": "动漫 | Anime1", "type": 3, "api": "csp_Anime1", "searchable": 1},
-	  
-     {"key": "Live2Vod", "name": "直播 | 电视", "type": 3, "api": "csp_Live2Vod", "searchable": 0, "changeable": 0,"ext": "南风$https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt#饭太硬$https://agit.ai/fantaiying/0/raw/branch/main/tvlive.txt&&&https://img1.dd.ci/file/08b8a048adf5d333c6030.png"},
-     {"key": "Live2Vod2", "name": "直播 | 电视(远程配置版)", "type": 3, "api": "csp_Live2Vod", "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhixc/CatVodTVSpider/main/other/json/live.json", "searchable": 0, "changeable": 0},
-	  
-     {"key": "本地", "name": "本地文件", "type": 3, "api": "csp_LocalFileV2","searchable":0,"playerType":1},
-     {"key": "本地2", "name": "本地文件(不显示隐藏文件)", "type": 3, "api": "csp_LocalFileV2","ext": "showAllFile=false","searchable":0,"playerType":1},
+    {"key":"dr_py磁力熊","name":"🐮磁力熊[磁]","type":3,"api":"https://gitee.com/jahom1009/dr_py/raw/main/libs/drpy2.min.js","ext":"https://gitee.com/jahom1009/dr_py/raw/main/js/磁力熊[磁].js","playerType":1,"timeout":120},
+    {"key":"dr_py荐片","name":"🐮荐片[磁]","type":3,"api":"https://gitee.com/jahom1009/dr_py/raw/main/libs/drpy2.min.js","ext":"https://gitee.com/jahom1009/dr_py/raw/main/js/荐片.js","playerType":1,"timeout":30},
+    {"key":"dr_py我的哔哩","name":"🐮我的哔哩[合集]","type":3,"api":"https://gitee.com/jahom1009/dr_py/raw/main/libs/drpy2.min.js","ext":"https://gitee.com/jahom1009/dr_py/raw/main/js/我的哔哩.js"},
+    {"key":"dr_py厂长","name":"🐮厂长[影视]","type":3,"api":"https://gitee.com/jahom1009/dr_py/raw/main/libs/drpy2.min.js","ext":"https://gitee.com/jahom1009/dr_py/raw/main/js/厂长资源.js"},
+    {"key":"dr_py低端","name":"🐮低端[影视]","type":3,"api":"https://gitee.com/jahom1009/dr_py/raw/main/libs/drpy2.min.js","ext":"https://gitee.com/jahom1009/dr_py/raw/main/js/ddys.js"},
+    {"key":"dr_py两个BT","name":"🐮两个BT[影视]","type":3,"api":"https://gitee.com/jahom1009/dr_py/raw/main/libs/drpy2.min.js","ext":"https://gitee.com/jahom1009/dr_py/raw/main/js/两个BT.js"},
+    {"key":"dr_py怡萱动漫","name":"🐮怡萱[动漫]","type":3,"api":"https://gitee.com/jahom1009/dr_py/raw/main/libs/drpy2.min.js","ext":"https://gitee.com/jahom1009/dr_py/raw/main/js/怡萱动漫.js"},
 
+    {"key":"push_agent","name":"⏫推送(播放页链接或磁力)","type":3,"api":"csp_PushAgent","searchable":0,"playerType":1, "timeout":60},
 
-
-     {
+    {
       "key": "lf_js_p2p_18+",
       "name": "磁力 | lf_p2p",
       "type": 3,
@@ -228,8 +228,6 @@
       "filterable": 1,
       "api": "./LuFei/lf_ikanbot4_1_min.js"
     },
-     
-     
     {
       "key": "土豆阿里",
       "name": "🎯土豆阿里【搜索】|4K",
@@ -274,7 +272,6 @@
         "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
         }
     },
-	  
     {
       "key": "玩偶哥哥",
       "name": "🎯玩偶哥哥|4K",
@@ -287,7 +284,6 @@
         "filter": "./json/wogg.json"
       }
     },
-
     {
       "key": "盤搜索",
       "name": "🎯盘搜索|4K",
