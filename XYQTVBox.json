@@ -120,6 +120,10 @@
 	{"key":"素白白","name":"素白白","type":3,"api":"csp_Subaibai","searchable":1,"changeable":1},
 	
 	//阿里资源区1
+	    
+        {"key": "csp_XYQBiu_小米搜","name": "📀小米搜(XYQB)","type": 3,"api": "csp_XYQBiu","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./XYQBiu/小米搜0521.json"},
+        {"key": "csp_XYQBiu_盘搜","name": "📀盘搜(XYQB)","type": 3,"api": "csp_XYQBiu","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./XYQBiu/盘搜0521.json"},
+	    
 	{"key": "csp_XYQHiker_影搜","name":"📀影搜(XYQH)｜阿里4K","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/影搜.json"},
 	{"key":"csp_Yisou","name":"📀易搜(搜索)","type":3,"api":"csp_Yisou","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
 	{"key":"xyq盘搜索","name":"📀云盘｜盘搜索","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"playerType":-1,"hide":1,"ext":"./XYQHiker/盘搜索.json"},
