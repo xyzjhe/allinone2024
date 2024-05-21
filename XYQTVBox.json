@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://picsum.photos/1280/720/?blur=2",
-    "spider": "./jar/PGspider0512.jar",
+    "spider": "./jar/PGspider0521.jar",
     "lives": [
 
 	  {"name":"live_v4","type":0,"url":"https://ghproxy.net/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt"},
@@ -10,7 +10,7 @@
          ],
     "sites": [
 
-    {"key":"豆瓣","name":"🐰豆瓣热播|香佬0512🐰","type":3,"api":"csp_Douban","searchable":0},
+    {"key":"豆瓣","name":"🐰豆瓣热播|香佬0521🐰","type":3,"api":"csp_Douban","searchable":0},
     {"key":"云盘登录","name":"云盘登录","type":3,"api":"csp_AliYunPan","searchable":0,"quickSearch":0,"filterable":0,"changeable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
     
     {"key":"csp_LocalFile","name":"💻本地视频","type":3,"api":"csp_LocalFile","searchable":0,"quickSearch":0,"filterable":0,"type_flag":0},
