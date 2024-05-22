@@ -14,7 +14,7 @@
   "sites": [
 
 
-   //////////////////////////////////////////////////  影视  //////////////////////////////////////////////////
+   
 //	{
 //		"key":"key_(资源名称)",
 //		"name":"资源名称",
@@ -53,14 +53,8 @@
     
    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃备用","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
    
-   {"key": "py_ali", "name": "豆瓣PY | 热搜",  "type": 3, "api": "./py/py_ali.py", "searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,
-              "ext": {
-                        "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-                        "thread": "10"
-                       }
-     },
-    
-    {
+      
+   {
       "key": "lf_js_search",
       "name": "🐵┃路飞影视热搜┃🐵",
       "type": 3,
@@ -69,9 +63,31 @@
       "quickSearch": 0,
       "filterable": 0,
       "api": "./LuFei/lf_search3_min.js"
-    },
+   },
     
-     {"key":"央视大全","name":"央视大全SP┃聚合","type":3,"playerType":1,"api":"csp_CCTV","searchable":0,"ext":{"json":"./json/cctv.json"},"jar":"./jar/custom_spider.jar"},
+   {
+      "key": "豆瓣",
+      "name": "🐼预告┃XBPQ",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "playerType": 2,
+      "ext": {
+        "首页": "平安™热映预告片",
+        "图片代理": "",
+        "分类url": "https://movie.douban.com/{cateId}/;;aRC",
+        "分类": "即将上映$cinema/later#正在热映$cinema/nowplaying",
+        "数组": "class=\"item mod &&</ul>||正在热映--class=\"list-item&&</ul>",
+        "图片": "src=\"&&\"",
+        "标题": "\"intro\">&&</a>",
+        "链接": "href=\"&&\"",
+        "副标题": "data-score=\"&&\"+class=\"release-date\">&&</li>",
+        "播放数组": "<li class=\"video&&</li>",
+        "播放列表": "<a&&</a>",
+        "播放标题": "alt=\"&&\"",
+        "播放链接": "https://m.douban.com+href=\"&&\""
+      },
+      "jar": "https://pan.shangui.cc/f/XqoNId/PandaQ240505.jar;md5;0e58ee7721c00ae32f0e83280ef8e1b3"
+    }, 
 
      {"key": "js_cntv","name": "CNTV大全┃JS", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/cntv_all_2024.js" },
      
@@ -86,65 +102,17 @@
       "ext": "./py/cctv_spider.json"
     },
 
-    /*{
-    "key": "hipy_t3_cntv央视2",
-    "name": "CCTV央视(hipy_t3)",
-    "type": 3,
-    "api": "./py/cntv央视.py",
-    "searchable": 1,
-    "quickSearch": 0,
-    "filterable": 1,
-    "ext": "./py/cntv央视.json"
-   },*/
+    {"key":"荐片","name":"荐片","type":3,"api":"csp_JianpianYsc","searchable":1,"changeable":0,"ext":"","jar":"./jar/gao747.jar"}, 
+    {"key":"爱看机器人","name":"爱看机器人","type":3,"api":"csp_Ikanbot","searchable":1,"changeable":0,"timeout":60,"ext":{"site":"https://v.ikanbot.com","danmu":true},"jar":"./jar/gao747.jar"},
+	
+    {"key":"央视大全","name":"央视大全","type":3,"api":"csp_CCTV","searchable":0,"changeable":0,"jar":"./jar/gao747.jar"},
+    {"key":"哔哩哔哩","name":"哔哩哔哩","type":3,"api":"csp_Bili","playerType":2,"searchable":1,"changeable":0,"style":{"type":"rect","ratio":1.7},"jar":"./jar/gao747.jar"},
+    {"key":"直播平台","name":"直播平台","type":3,"api":"csp_JustLive","searchable":1,"changeable":0,"style":{"type":"rect","ratio":1.7},"jar":"./jar/gao747.jar"},
+    {"key":"体育直播","name":"体育直播","type":3,"api":"csp_SportsLive","searchable":0,"changeable":0,"style":{"type":"list"},"jar":"./jar/gao747.jar"},
+    {"key":"体育录像","name":"体育录像","type":3,"api":"csp_SportsReplay","searchable":0,"changeable":0,"style":{"type":"list"},"jar":"./jar/gao747.jar"},
+    {"key":"云盘搜索","name":"云盘搜索","type":3,"api":"csp_AliSearch","searchable":1,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/XYQox/alitoken.txt"},"jar":"./jar/gao747.jar"},
+    {"key":"磁力搜索","name":"磁力搜索","type":3,"api":"csp_CiliSearch","searchable":1,"changeable":0,"jar":"./jar/gao747.jar"},
 
-   /*{
-    "key": "hipy_t3_两个BT",
-    "name": "两个BT(hipy_t3)",
-    "type": 3,
-    "api": "./py/两个BT.py",
-    "searchable": 1,
-    "quickSearch": 0,
-    "filterable": 1,
-    "ext": "./py/两个BT.json"
-   },*/
- 
-        
-        {"key":"体育直播","name":"体育直播┃聚合","type":3,"playerType":1,"api":"csp_SportsLive","searchable":0,"changeable":0,"style":{"type":"list"},
-			"jar":"./jar/custom_spider.jar",
-			"ext":{
-				"jrkan":"http://www.jrsyyds.com",
-				"88kanqiu":"http://www.88kanqiu.one",
-				"310":"http://www.310.tv",
-			    //"310":"http://www.176.tv",
-				"17kan":"http://www.zuqiuzhibo.live",
-			    //"17kan":"http://www.wuchajian.live",
-			   //"zqbaba":"https://www.zqbaba.net",
-				"json":"./json/sportslive.json"
-			}
-		}, 
-		
-	{"key":"体育录像","name":"体育录像┃聚合","type":3,"playerType":1,"api":"csp_SportsReplay","searchable":0,"changeable":0,"style":{"type":"list"},
-			"jar":"./jar/custom_spider.jar",
-			"ext":{
-				"88replay":"http://www.88kanqiu.one",
-				"luxiangba":"https://luxiangba.com",
-				"lanqiuwu":"https://lanqiuwu.com",
-				"itiyu":"https://itiyu.com",
-				"zhibo8":"https://www.zhibo8.com",
-				"liangzi":"https://cj.lzcaiji.com/api.php/provide/vod/",
-				"tiankong":"https://tiankongzy.com/api.php/provide/vod/",
-				"feisu":"https://www.feisuzy.com/api.php/provide/vod/",
-				"json":"./json/sportsreplay.json"
-			}
-	},
-
-        {"key":"直播平台2","name":"直播平台┃聚合","type":3,"playerType":1,"api":"csp_JustLive","style":{"type":"rect","ratio":1.755},"changeable":0,
-                     "jar":"./jar/custom_spider.jar",
-			"ext":{
-				"json":"./json/justlive.json"
-			}
-		},
-			
     {
       "key": "賤賤",
       "name": "荐片SP┃2K首选",
@@ -161,8 +129,6 @@
     {"key":"drpy_js_爱看机器人2","name":"爱看|机器v2[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot2.js"},
     {"key":"drpy_js_爱看机器人3","name":"爱看|机器v3[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot3.js"},
     
-    {"key":"csp_DyGang","name":"磁力 | 电影港2K","type":3,"api":"csp_DyGang","searchable":1,"playerType":1,"timeout":120,"jar":"./jar/zhixc0521.jar"},
-
     {"key":"csp_SixV","name":"🧲新6V电影网[磁]","type":3,"api":"csp_SixV","searchable":1,"playerType":1,"timeout":120,"jar":"./jar/zhixc0521.jar"},
     {"key":"csp_DyGang","name":"🧲电影港[磁]","type":3,"api":"csp_DyGang","searchable":1,"playerType":1,"timeout":120,"jar":"./jar/zhixc0521.jar"},
     {"key":"csp_Xunlei8","name":"🧲迅雷吧[磁]","type":3,"api":"csp_Xunlei8","searchable":1,"playerType":1,"timeout":120,"changeable":0,"jar":"./jar/zhixc0521.jar"},
@@ -173,12 +139,8 @@
     {"key":"本地2","name":"📃本地文件[不显示隐藏文件]","type":3,"api":"csp_LocalFileV2","ext": "showAllFile=false","searchable":0,"playerType":1,"jar":"./jar/zhixc0521.jar"},
     {"key":"巴士","name":"🌸巴士[动漫]","type":3,"api": "csp_Dm84","searchable":1,"jar":"./jar/zhixc0521.jar"},
     {"key":"Anime1","name":"🌸Anime1[动漫]","type":3,"api":"csp_Anime1","searchable":1,"jar":"./jar/zhixc0521.jar"},
-    {"key":"Voflix","name":"📺Voflix[影视]","type":3,"api":"csp_Voflix","searchable":1,
-      "ext": "siteUrl=https://www.voflix.vip$$$rulesUrl=https://fastly.jsdelivr.net/gh/zhixc/CatVodTVSpider@main/other/json/rules.json"
-    ,"jar":"./jar/zhixc0521.jar"},
-    {"key":"Live2Vod","name":"电视[直播]","type":3,"api":"csp_Live2Vod","searchable":0,"changeable":0,
-     "ext":"南风$http://152.32.170.60/Yoursmile7/TVBox/raw/branch/master/live.txt#私立直播$https://ghproxy.net/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.m3u&&&https://img1.dd.ci/file/08b8a048adf5d333c6030.png"
-    ,"jar":"./jar/zhixc0521.jar"},
+    {"key":"Voflix","name":"📺Voflix[影视]","type":3,"api":"csp_Voflix","searchable":1,"ext": "siteUrl=https://www.voflix.vip$$$rulesUrl=https://fastly.jsdelivr.net/gh/zhixc/CatVodTVSpider@main/other/json/rules.json","jar":"./jar/zhixc0521.jar"},
+    {"key":"Live2Vod","name":"电视[直播]","type":3,"api":"csp_Live2Vod","searchable":0,"changeable":0, "ext":"南风$http://152.32.170.60/Yoursmile7/TVBox/raw/branch/master/live.txt#私立直播$https://ghproxy.net/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.m3u&&&https://img1.dd.ci/file/08b8a048adf5d333c6030.png" ,"jar":"./jar/zhixc0521.jar"},
     {"key":"Live2Vod2","name":"电视直播(远程版)","type":3,"api":"csp_Live2Vod","ext":"./other/json/live.json","searchable":0,"changeable":0,"jar":"./jar/zhixc0521.jar"},
     {"key":"Yj1211","name":"综合直播","type":3,"api":"csp_Yj1211","searchable":1,"changeable":0,"jar":"./jar/zhixc0521.jar"},
     {"key":"V2_cokemv","name":"📺cokemv[V2]","type":3,"api":"csp_AppYsV2","searchable":1,"ext":"https://cokemv.co/xgapp.php/v2/"},
@@ -197,37 +159,7 @@
 
     {"key":"push_agent","name":"⏫推送(播放页链接或磁力)","type":3,"api":"csp_PushAgent","searchable":0,"playerType":1, "timeout":60},
 
-    {
-      "key": "lf_js_p2p_18+",
-      "name": "磁力 | lf_p2p",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "./LuFei/lf_p2p2_min.js"
-    },
-    {
-      "key": "lf_js_p2p",
-      "name": "磁力18+ | lf_p2p",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "./LuFei/lf_p2p2_min.js",
-      "ext": "18+"
-    },
-    {
-      "key": "lf_js_ikanbot",
-      "name": "点播 | lf_ikanbot",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "./LuFei/lf_ikanbot4_1_min.js"
-    },
+    
     {
       "key": "土豆阿里",
       "name": "🎯土豆阿里【搜索】|4K",
@@ -320,19 +252,6 @@
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
     },
-	  
-    /*{
-     "key": "影视车",
-     "name": "🎯影视车|4K",
-     "type": 3,
-     "api": "csp_Yingshiche",
-     "searchable": 1,
-     "changeable": 0,
-      "ext": {
-	      "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
-             }
-    },*/
-	  
     {
       "key": "七夜",
       "name": "🎯七夜|4K",
@@ -362,23 +281,6 @@
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
     },
     
-    {"key": "阿里云集合","name": "🎯阿里云集合┃ 4K", "type": 3,"api": "csp_阿里云集合","searchable": 1, "filterable": 0,"switchable": 0,"ext": "./json/阿里集合.json;http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt","jar":"./jar/真心真语0204+列表+搜索.jar"},
-     
-    {"key":"阿里搜索","name":"🎯阿里搜索 ┃ 聚合","type":3,"playerType":1,"api":"csp_AliSearch","searchable":1,"changeable":0,
-			"jar":"./jar/custom_spider.jar",
-			"ext":{
-				"88replay":"http://www.88kanqiu.one",
-				"Wogg":"https://api.wogg.xyz",
-				"PanSearch":"https://www.pansearch.me",
-				"XiaoZhiTiao":"https://gitcafe.net/tool/alipaper/",
-				"YiSo":"https://yiso.fun/api/search","YiSo_Cookie":"b-user-id=8adc6121-1471-aab6-e7c4-f89bc70fc7b3; JSESSIONID=B9ACE0FC23C52054E6A67F590191B332; satoken=07aae61b-896c-495e-ab4c-189eaf7fccc0; cf_clearance=z4Wu91BWoe9MJ2gqLPwd1gSukzCb5zmUdPP0t_CzpIE-1711795971-1.0.1.1-80MPmHkyC5gvQoTzR.rIgP8GtMNH5sIvm0EKf.zLTUg7TZrRdZmB0f0SXexvxG2jh5.jaTdTxJ.WLHT0wz9Tqw",
-				"Zhaozy":"https://zhaoziyuan1.cc",
-				"PanSou":"https://www.alipansou.com",
-				"UpYun":"https://upapi.juapp9.com",
-				"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
-			}
-     },
-
     {
       "key": "索尼资源",
       "name": "💠索尼┃采集(广告勿信)",
