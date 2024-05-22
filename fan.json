@@ -19,8 +19,6 @@
       "api": "./LuFei/lf_search3_min.js"
  },
     
-   {"key":"央视大全","name":"央视大全┃聚合","type":3,"playerType":1,"api":"csp_CCTV","searchable":0,"ext":{"json":"./json/cctv.json"},"jar":"./jar/custom_spider.jar"},
-     
    {
       "key": "hipy_t3_cntv央视",
       "name": "cntv央视(hipy_t3)",
