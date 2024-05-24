@@ -2,12 +2,23 @@
     "wallpaper": "https://picsum.photos/1280/720/?blur=2",
     "spider": "./jar/PGspider0521.jar",
     "lives": [
-
-	  {"name":"live_v4","type":0,"url":"https://ghproxy.net/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt"},
-	  {"name":"live_v6","type":0,"url":"./iptv/live_v6.txt"},
-          {"name":"央视频嗅探","ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0","type":0,"timeout": 40,"url":"./iptv/xiutan.m3u"}
-	
-         ],
+    {
+      "name": "直播┃组播",
+      "type": 0,
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.m3u"
+    },
+    {
+      "name": "央视┃嗅探",
+      "type": 0,
+      "url": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/tvlive/ccnt.m3u?ref=master",
+      "playerType": 1,
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "timeout": 40,
+      "boot": false
+    }
+  ],
     "sites": [
 
     {"key":"豆瓣","name":"🐰豆瓣热播|香佬0522🐰","type":3,"api":"csp_Douban","searchable":0},
