@@ -254,6 +254,12 @@
       "api": "https://catbox.n13.club/t4/tuxiaobei.php"
     },
     {
+      "key": "T4-djmv",
+      "name": "音乐-DJMV(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t5/djmv.php"
+    },
+    {
       "key": "T4-iktv",
       "name": "音乐-iktv(T4)",
       "type": 4,
