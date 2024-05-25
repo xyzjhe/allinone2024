@@ -54,7 +54,7 @@
     
    
      {"key":"荐片","name":"荐片","type":3,"api":"csp_JianpianYsc","searchable":1,"changeable":0,"ext":"","jar":"./jar/gao747.jar"}, 
-     {"key":"爱看机器人","name":"爱看机器人","type":3,"api":"csp_Ikanbot","searchable":1,"changeable":0,"timeout":60,"ext":{"site":"https://v.ikanbot.com","danmu":true},"jar":"./jar/gao747.jar"},
+     {"key":"爱看机器人","name":"爱看机器人","type":3,"api":"csp_Ikanbot","searchable":1,"changeable":0,"timeout":60,"ext":{"site":"https://v.aikanbot.com","danmu":true},"jar":"./jar/gao747.jar"},
 	
      {"key":"央视大全","name":"央视大全","type":3,"api":"csp_CCTV","searchable":0,"changeable":0,"jar":"./jar/gao747.jar"},
      {"key":"哔哩哔哩","name":"哔哩哔哩","type":3,"api":"csp_Bili","playerType":2,"searchable":1,"changeable":0,"style":{"type":"rect","ratio":1.7},"jar":"./jar/gao747.jar"},
@@ -66,7 +66,7 @@
        
 	
          {"key":"csp_JianPian","name":"🔨荐片|2K首选","type":3,"api":"csp_JianPian","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://112.124.0.131:20000/"},
-  	 {"key":"csp_Ikanbot","name": "👾Ikanbot|采集大全","type": 3,"api": "csp_Ikanbot","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://v.ikanbot.com"},
+  	 {"key":"csp_Ikanbot","name": "👾Ikanbot|采集大全","type": 3,"api": "csp_Ikanbot","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://v.aikanbot.com"},
 
 	 {"key":"BT天堂","name":"🧲BT天堂｜磁力","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/BT天堂.json"},
 	 {"key":"xyqH_电影港磁力","name":"🧲电影港｜磁力","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":0,"filterable":1,"changeable":0,"playerType":1,"hide":1,"ext":"./XYQHiker/电影港磁力.json"},
