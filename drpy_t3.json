@@ -5,7 +5,7 @@
 	"spider":"https://pan.shangui.cc/f/RMRNUz/pg.jar",
 	"sites": [
 	
-	      {
+	        {
 			"key": "hipy_js_豆瓣[官]",
 			"name": "豆瓣[官](drpy_t3)",
 			"type": 3,
@@ -16,7 +16,7 @@
 			"order_num": 98,
 			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/豆瓣[官].js"
 		},
-	      {
+	        {
 			"key": "hipy_js_iFun",
 			"name": "iFun(drpy_t3)",
 			"type": 3,
@@ -27,7 +27,7 @@
 			"order_num": 98,
 			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/iFun.js"
 		},
-	      {
+	        {
 			"key": "hipy_js_如意影视",
 			"name": "如意影视(drpy_t3)",
 			"type": 3,
