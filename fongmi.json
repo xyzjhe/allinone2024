@@ -79,17 +79,7 @@
       "ext": "./py/cctv_spider.json"
     },
 
-    {"key":"荐片","name":"荐片","type":3,"api":"csp_JianpianYsc","searchable":1,"changeable":0,"ext":"","jar":"./jar/gao747.jar"}, 
-    {"key":"爱看机器人","name":"爱看机器人","type":3,"api":"csp_Ikanbot","searchable":1,"changeable":0,"timeout":60,"ext":{"site":"https://v.ikanbot.com","danmu":true},"jar":"./jar/gao747.jar"},
-	
-    {"key":"央视大全","name":"央视大全","type":3,"api":"csp_CCTV","searchable":0,"changeable":0,"jar":"./jar/gao747.jar"},
-    {"key":"哔哩哔哩","name":"哔哩哔哩","type":3,"api":"csp_Bili","playerType":2,"searchable":1,"changeable":0,"style":{"type":"rect","ratio":1.7},"jar":"./jar/gao747.jar"},
-    {"key":"直播平台","name":"直播平台","type":3,"api":"csp_JustLive","searchable":1,"changeable":0,"style":{"type":"rect","ratio":1.7},"jar":"./jar/gao747.jar"},
-    {"key":"体育直播","name":"体育直播","type":3,"api":"csp_SportsLive","searchable":0,"changeable":0,"style":{"type":"list"},"jar":"./jar/gao747.jar"},
-    {"key":"体育录像","name":"体育录像","type":3,"api":"csp_SportsReplay","searchable":0,"changeable":0,"style":{"type":"list"},"jar":"./jar/gao747.jar"},
-    {"key":"云盘搜索","name":"云盘搜索","type":3,"api":"csp_AliSearch","searchable":1,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/XYQox/alitoken.txt"},"jar":"./jar/gao747.jar"},
-    {"key":"磁力搜索","name":"磁力搜索","type":3,"api":"csp_CiliSearch","searchable":1,"changeable":0,"jar":"./jar/gao747.jar"},
-
+    
     {
       "key": "賤賤",
       "name": "荐片SP┃2K首选",
