@@ -40,15 +40,7 @@
 
 { "key": "js_cntv","name": "CNTV大全┃JS", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/cntv_all_2024.js" },
      
-{"key":"荐片","name":"荐片","type":3,"api":"csp_JianpianYsc","searchable":1,"changeable":0,"ext":"","jar":"./jar/gao747.jar"}, 
-{"key":"爱看机器人","name":"爱看机器人","type":3,"api":"csp_Ikanbot","searchable":1,"changeable":0,"timeout":60,"ext":{"site":"https://v.aikanbot.com","danmu":true},"jar":"./jar/gao747.jar"},
-{"key":"央视大全","name":"央视大全","type":3,"api":"csp_CCTV","searchable":0,"changeable":0,"jar":"./jar/gao747.jar"},
-{"key":"哔哩哔哩","name":"哔哩哔哩","type":3,"api":"csp_Bili","playerType":2,"searchable":1,"changeable":0,"style":{"type":"rect","ratio":1.7},"jar":"./jar/gao747.jar"},
-{"key":"直播平台","name":"直播平台","type":3,"api":"csp_JustLive","searchable":1,"changeable":0,"style":{"type":"rect","ratio":1.7},"jar":"./jar/gao747.jar"},
-{"key":"体育直播","name":"体育直播","type":3,"api":"csp_SportsLive","searchable":0,"changeable":0,"style":{"type":"list"},"jar":"./jar/gao747.jar"},
-{"key":"体育录像","name":"体育录像","type":3,"api":"csp_SportsReplay","searchable":0,"changeable":0,"style":{"type":"list"},"jar":"./jar/gao747.jar"},
-{"key":"云盘搜索","name":"云盘搜索","type":3,"api":"csp_AliSearch","searchable":1,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/XYQox/alitoken.txt"},"jar":"./jar/gao747.jar"},
-{"key":"磁力搜索","name":"磁力搜索","type":3,"api":"csp_CiliSearch","searchable":1,"changeable":0,"jar":"./jar/gao747.jar"},
+
 
 {"key":"玩偶","name":"👽玩偶哥哥┃4K弹幕","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0, "ext": {"aliToken":"http://127.0.0.1:9978/file/XYQox/alitoken.txt","quarkCookie":"http://127.0.0.1:9978/file/XYQTVBox/quark_cookie.txt","from":"4k|auto|fhd","siteUrl":"https://woggapi.333232.xyz/","danMu":"弹"}},
 {"key":"米搜","name":"🦋米搜┃搜索","type":3,"api":"csp_MIPanSo","searchable":1,"quickSearch":1,"changeable":0,"ext": {"pan":"quark","quarkCookie":"http://127.0.0.1:9978/file/XYQTVBox/quark_cookie.txt","from":"4k|auto|fhd"}},
