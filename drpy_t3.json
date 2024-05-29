@@ -41,6 +41,51 @@
 		},
 
 		{
+			"key": "hipy_js_暖光影视",
+			"name": "暖光影视(drpy_t3)",
+			"type": 3,
+			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 98,
+			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/暖光影视.js"
+		},
+		{
+			"key": "hipy_js_相声随身听",
+			"name": "相声随身听(drpy_t3)",
+			"type": 3,
+			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 98,
+			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/相声随身听.js"
+		},
+		{
+			"key": "hipy_js_蚂蚁影视",
+			"name": "蚂蚁影视(drpy_t3)",
+			"type": 3,
+			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 98,
+			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/蚂蚁影视.js"
+		},
+		{
+			"key": "hipy_js_被窝电影",
+			"name": "被窝电影(drpy_t3)",
+			"type": 3,
+			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 98,
+			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/被窝电影.js"
+		},
+
+		{
 			"key": "hipy_js_88看球",
 			"name": "88看球(drpy_t3)",
 			"type": 3,
