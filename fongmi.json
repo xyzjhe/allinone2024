@@ -14,7 +14,7 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "🐝豆瓣sp|蜜蜂线路0531🐝",
+      "name": "🐝豆瓣sp|蜜蜂线路0601儿童节🐝",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -60,13 +60,7 @@
       "jar": "https://pan.shangui.cc/f/XqoNId/PandaQ240505.jar;md5;0e58ee7721c00ae32f0e83280ef8e1b3"
     }, 
 
-    {"key":"黑木耳采集","name":"黑木耳源","type":1,"api":"https://xml.heimuer.tv/api.php/provide/vod/","playUrl":"https://player.heimuer.tv/index.html?url=","searchable":1,"quickSearch": 1,"filterable": 1,"changeable":1},
-		
-    {"key":"量子资源","name":"量子资源","type":1,"api":"https://cj.lzcaiji.com/api.php/provide/vod/","searchable":1,"quickSearch": 1,"filterable": 1,"changeable":1},
-
-    {"key":"非凡采集","name":"非凡采集","type":1,"api":"http://api.ffzyapi.com/api.php/provide/vod/","searchable":1,"quickSearch": 1,"filterable": 1,"changeable":1},	  
-
-     {"key": "js_cntv","name": "CNTV大全┃JS", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/cntv_all_2024.js" },
+    {"key": "js_cntv","name": "CNTV大全┃JS", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/cntv_all_2024.js" },
      
      {
       "key": "hipy_t3_cntv央视1",
@@ -91,6 +85,7 @@
       "ext": "./json/jianpian.json"
     },
 
+	  {"key":"黑木耳采集","name":"黑木耳源","type":1,"api":"https://xml.heimuer.tv/api.php/provide/vod/","playUrl":"https://player.heimuer.tv/index.html?url=","searchable":1,"quickSearch": 1,"filterable": 1,"changeable":1},
 
                 {
 			"key": "hipy_js_黑木耳资源[资]",
@@ -345,9 +340,6 @@
 			"order_num": 13,
 			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/voflix.js"
 		},
-		
-		
-		
 		{
 			"key": "hipy_js_榜一短剧",
 			"name": "榜一短剧(drpy_t3)",
