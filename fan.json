@@ -3,7 +3,8 @@
 "wallpaper":"https://深色壁纸.xxooo.cf/",
 
 "sites":[
-{"key":"豆豆","name":"🌕豆瓣热播┃饭佬plus0531","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
+	
+{"key":"豆豆","name":"🌕豆瓣热播┃饭佬plus0601儿童节","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
 {"key":"csp_XBPQ_预告","name":"🍚预告(XBPQ)","type":3,"api":"csp_XBPQ","playerType":2,"ext":{"首页":"正在热映","图片代理":"","分类url":"https://movie.douban.com/{cateId}/;;aRC","分类":"即将上映$cinema/later#正在热映$cinema/nowplaying","数组":"class=\"item mod &&</ul>||正在热映--class=\"list-item&&</ul>","图片":"src=\"&&\"","标题":"\"intro\">&&</a>","链接":"href=\"&&\"","副标题":"data-score=\"&&\"+class=\"release-date\">&&</li>","播放数组":"<li class=\"video&&</li>","播放列表":"<a&&</a>","播放标题":"alt=\"&&\"","播放链接":"https://m.douban.com+href=\"&&\""}},
 
 {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃备用","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
@@ -19,15 +20,7 @@
       "api": "./LuFei/lf_search3_min.js"
  },
 
-
- {"key":"黑木耳采集","name":"黑木耳源","type":1,"api":"https://xml.heimuer.tv/api.php/provide/vod/","playUrl":"https://player.heimuer.tv/index.html?url=","searchable":1,"quickSearch": 1,"filterable": 1,"changeable":1},
-		
-    {"key":"量子资源","name":"量子资源","type":1,"api":"https://cj.lzcaiji.com/api.php/provide/vod/","searchable":1,"quickSearch": 1,"filterable": 1,"changeable":1},
-
-    {"key":"非凡采集","name":"非凡采集","type":1,"api":"http://api.ffzyapi.com/api.php/provide/vod/","searchable":1,"quickSearch": 1,"filterable": 1,"changeable":1},	  
-	
-    
-   {
+ {
       "key": "hipy_t3_cntv央视",
       "name": "cntv央视(hipy_t3)",
       "type": 3,
@@ -36,9 +29,9 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./py/cctv_spider.json"
-   },
+ },
 
-{ "key": "js_cntv","name": "CNTV大全┃JS", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/cntv_all_2024.js" },
+ {"key": "js_cntv","name": "CNTV大全┃JS", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/cntv_all_2024.js" },
      
 
 
@@ -72,7 +65,10 @@
 {"key":"Auete","name":"🏝奥特┃无广","type": 3,"api":"csp_Auete","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://auete.pro/"}, 
 {"key":"新6V","name":"🧲新6V┃磁力","type":3,"api":"csp_SixV","searchable":1,"quickSearch":1,"changeable":0,"ext": "http://www.xb6v.com/"},
 
-                {
+                
+{"key":"黑木耳采集","name":"黑木耳源","type":1,"api":"https://xml.heimuer.tv/api.php/provide/vod/","playUrl":"https://player.heimuer.tv/index.html?url=","searchable":1,"quickSearch": 1,"filterable": 1,"changeable":1},
+	
+	        {
 			"key": "hipy_js_黑木耳资源[资]",
 			"name": "黑木耳资源[资](drpy_t3)",
 			"type": 3,
