@@ -423,6 +423,17 @@
 			"order_num": 98,
 			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/影搜[搜].js"
 		},
+	        {
+			"key": "hipy_js_易搜[搜]",
+			"name": "易搜[搜](drpy_t3)",
+			"type": 3,
+			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 98,
+			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/易搜[搜].js"
+		},
 		{
 			"key": "hipy_js_小站盘[搜]",
 			"name": "小站盘[搜](drpy_t3)",
