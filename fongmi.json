@@ -40,30 +40,7 @@
       "api": "./LuFei/lf_search3_min.js"
    },
     
-   {
-      "key": "豆瓣",
-      "name": "🐼预告┃XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": 2,
-      "ext": {
-        "首页": "热映预告片",
-        "图片代理": "",
-        "分类url": "https://movie.douban.com/{cateId}/;;aRC",
-        "分类": "即将上映$cinema/later#正在热映$cinema/nowplaying",
-        "数组": "class=\"item mod &&</ul>||正在热映--class=\"list-item&&</ul>",
-        "图片": "src=\"&&\"",
-        "标题": "\"intro\">&&</a>",
-        "链接": "href=\"&&\"",
-        "副标题": "data-score=\"&&\"+class=\"release-date\">&&</li>",
-        "播放数组": "<li class=\"video&&</li>",
-        "播放列表": "<a&&</a>",
-        "播放标题": "alt=\"&&\"",
-        "播放链接": "https://m.douban.com+href=\"&&\""
-      },
-      "jar": "https://pan.shangui.cc/f/XqoNId/PandaQ240505.jar;md5;0e58ee7721c00ae32f0e83280ef8e1b3"
-    }, 
-
+   
     {"key": "js_cntv","name": "CNTV大全┃JS", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/cntv_all_2024.js" },
      
      {
