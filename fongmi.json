@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/FMplus0512.jar",
+  "spider": "./jar/FMplus0603.jar",
   
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
 
@@ -18,7 +18,7 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "🐝豆瓣sp|蜜蜂线路0601儿童节🐝",
+      "name": "🐝豆瓣sp|蜜蜂线路0603🐝",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -92,9 +92,13 @@
 	  {"key":"黑木耳采集","name":"黑木耳源","type":1,"api":"https://xml.heimuer.tv/api.php/provide/vod/","playUrl":"https://player.heimuer.tv/index.html?url=","searchable":1,"quickSearch": 1,"filterable": 1,"changeable":1},
 
 	  {"key":"海外看","name":"海外看","api":"https://haiwaikan.com/api.php/provide/vod/at/xml/?ac=list","playerType":2,"searchable":1,"quickSearch":1,"playUrl":"https://dp.haiwaikan.com/index.html?url="},
+	  
           {"key":"360资源","name":"360","api":"https://360zy.com/api.php/provide/vod/at/xml","playerType":2,"searchable":1,"quickSearch":1,"playUrl":"https://www.360jiexi.com/player/?url="},
+	  
           {"key":"Aymt","name":"Aymt","type":1,"api":"http://124.222.116.5/mb/api.php/provide/vod/?ac=videolist","playerType":2,"searchable":1,"quickSearch":1},
+	  
           {"key":"奥斯卡","name":"奥斯卡18","api":"https://aosikazy.com/api.php/provide/vod/at/xml","playerType":2,"searchable":1,"quickSearch":1,"playUrl":"https://aosikazy11.com/?url="},
+	  
                 {
 			"key": "hipy_js_黑木耳资源[资]",
 			"name": "黑木耳资源[资](drpy_t3)",
@@ -930,19 +934,7 @@
 	{"name":"线路9","type":0,"url":"https://jx.m3u8.tv/jiexi/?url="},
 	{"name":"线路10","type":0,"url":"https://www.ckplayer.vip/jiexi/?url="}],
 
-  "rules":
-	[{"name":"量子广告","hosts":["vip.lz","hd.lz",".cdnlz"],"regex":["17.19","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
-	{"name":"非凡广告","hosts":["vip.ffzy","hd.ffzy"],"regex":["17.99","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.400000,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1170(20|32).*?\\.ts\\s+","#EXTINF.*?\\s+.*?116977.*?\\.ts\\s+"]},
-	{"name":"索尼广告","hosts":["suonizy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:1\\.000000,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?p1ayer.*?\\.ts\\s+","#EXTINF.*?\\s+.*?\\/video\\/original.*?\\.ts\\s+"]},
-	{"name":"暴风广告","hosts":["bfzy","bfbfvip"],"regex":["#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+"]},
-	{"name":"星星广告","hosts":["aws.ulivetv.net"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
-	{"name":"快看广告","hosts":["kuaikan"],"regex":["#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:2\\.4,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
-	{"name":"磁力广告","hosts":["magnet"],"regex":["更多","请访问","example","社 區","x u u","直 播","更 新","社 区","有趣","有 趣","英皇体育","全中文AV在线","澳门皇冠赌场","哥哥快来","美女荷官","裸聊","新片首发","UUE29"]},
-	{"name":"一起看广告","hosts":["yqk88"],"regex":["18.4","15.1666","16.5333","#EXT-X-DISCONTINUITY\\r*\\n*[\\s\\S]*?#EXT-X-CUE-IN"]},
-	{"name":"火山嗅探","hosts":["huoshan.com"],"regex":["item_id="]},
-	{"name":"抖音嗅探","hosts":["douyin.com"],"regex":["is_play_url="]},
-	{"name":"农民嗅探","hosts":["toutiaovod.com"],"regex":["video/tos/cn"]}],
-	
+ 	
   "doh": [
     {
       "name": "OpenDNS",
