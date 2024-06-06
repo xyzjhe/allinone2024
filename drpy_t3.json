@@ -118,7 +118,7 @@
 		},
 		{
 			"key": "hipy_js_Pornhub-z",
-			"name": "Pornhub-z",
+			"name": "Pornhub-z(drpy_t3)",
 			"type": 3,
 			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
 			"searchable": 1,
@@ -150,7 +150,29 @@
 			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/次元城动漫.js"
 		},
 		
+		{
+			"key": "hipy_js_番茄小说[书]",
+			"name": "番茄小说[书](drpy_t3)",
+			"type": 3,
+			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 98,
+			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/番茄小说[书].js"
+		},
 		
+		{
+			"key": "hipy_js_草莓秒播",
+			"name": "草莓秒播(drpy_t3)",
+			"type": 3,
+			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 98,
+			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/草莓秒播.js"
+		},
 		
 		{
 			"key": "hipy_js_笔趣阁[书]",
