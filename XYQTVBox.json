@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://picsum.photos/1280/720/?blur=2",
-    "spider": "./jar/PGspider0602.jar",
+    "spider": "./jar/PGspider0607.jar",
     "lives": [
     {
       "name": "直播┃组播",
