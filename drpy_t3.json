@@ -7,7 +7,7 @@
 	
                  {
 			"key": "hipy_js_豆瓣[官]",
-			"name": "豆瓣[官](drpy_t3)道长0606高考季",
+			"name": "豆瓣[官](drpy_t3)",
 			"type": 3,
 			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
 			"searchable": 1,
@@ -128,6 +128,17 @@
 			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/Pornhub-z.js"
 		},
 		{
+			"key": "hipy_js_草莓秒播",
+			"name": "草莓秒播(drpy_t3)",
+			"type": 3,
+			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 98,
+			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/草莓秒播.js"
+		},
+		{
 			"key": "hipy_js_七色番",
 			"name": "七色番(drpy_t3)",
 			"type": 3,
@@ -150,6 +161,8 @@
 			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/次元城动漫.js"
 		},
 		
+		
+		
 		{
 			"key": "hipy_js_番茄小说[书]",
 			"name": "番茄小说[书](drpy_t3)",
@@ -161,19 +174,17 @@
 			"order_num": 98,
 			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/番茄小说[书].js"
 		},
-		
 		{
-			"key": "hipy_js_草莓秒播",
-			"name": "草莓秒播(drpy_t3)",
+			"key": "hipy_js_7猫小说[书]",
+			"name": "7猫小说[书](drpy_t3)",
 			"type": 3,
 			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 98,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/草莓秒播.js"
+			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/7猫小说[书].js"
 		},
-		
 		{
 			"key": "hipy_js_笔趣阁[书]",
 			"name": "笔趣阁[书](drpy_t3)",
@@ -185,6 +196,7 @@
 			"order_num": 98,
 			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/笔趣阁[书].js"
 		},
+		
 		{
 			"key": "hipy_js_第一韩漫-z",
 			"name": "第一韩漫-z(drpy_t3)",
@@ -206,7 +218,7 @@
 			"filterable": 1,
 			"order_num": 98,
 			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/短剧在线.js"
-		},
+		}, 
 		{
 			"key": "hipy_js_哈皮影视[优]",
 			"name": "哈皮影视[优](drpy_t3)",
