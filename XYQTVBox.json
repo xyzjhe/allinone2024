@@ -2,6 +2,9 @@
     "wallpaper": "https://picsum.photos/1280/720/?blur=2",
     "spider": "./jar/PGspider0607.jar",
     "lives": [
+
+    {"name":"live","type":0,"url":"https://ghproxy.net/https://raw.githubusercontent.com/yoursmile66/TVBox/main/live.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+	    
     {
       "name": "直播┃组播",
       "type": 0,
