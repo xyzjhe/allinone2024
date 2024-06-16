@@ -30,34 +30,13 @@
     {"key":"云盘登录","name":"云盘登录","type":3,"api":"csp_AliYunPan","searchable":0,"quickSearch":0,"filterable":0,"changeable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
     {"key":"csp_XYQHikerAL__ED3000","name":"📀ED3000┃阿里4K","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/ED3000.json"},
 
-    /*{
-      "key": "lf_js_search",
-      "name": "🐵┃路飞影视热搜┃🐵",
-      "type": 3,
-      "searchable": 0,
-      "changeable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "api": "./LuFei/lf_search3_min.js"
-    },*/
-    
-     /*{ "key": "js_cntv","name": "CNTV大全JS┃聚合", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/cntv_all_2024.js" },*/
-     
-     /*{
-      "key": "hipy_t3_cntv央视",
-      "name": "CNTV央视(hipy_T3) | FM",
-      "type": 3,
-      "api": "./py/cctv_spider.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./py/cctv_spider.json"
-    },*/
-
     {"key":"csp_JianPian","name":"🔨荐片|2K首选","type":3,"api":"csp_JianPian","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://112.124.0.131:20000/"},
     {"key":"csp_Ikanbot","name": "👾Ikanbot|采集大全","type": 3,"api": "csp_Ikanbot","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://v.aikanbot.com"},
 
-    {
+
+    
+    
+        {
             "key": "南瓜影视",
             "name": "南瓜影视",
             "type": 3,
@@ -122,6 +101,81 @@
             "filterable": 1
         },
         {
+            "key": "苹果影视",
+            "name": "苹果影视",
+            "type": 3,
+            "api": "csp_LiteApple",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "胖虎影视",
+            "name": "胖虎影视",
+            "type": 3,
+            "api": "csp_Panghu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://physvod.com"
+        },
+        {
+            "key": "剧圈影视",
+            "name": "剧圈影视",
+            "type": 3,
+            "api": "csp_Juqq",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "忍者影视",
+            "name": " 忍者影视",
+            "type": 3,
+            "api": "csp_AppRZ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://rzys.xyz/"
+        },
+        {
+            "key": "毛驴影视",
+            "name": "毛驴影视",
+            "type": 3,
+            "api": "csp_MaoLv",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "可可影视",
+            "name": " 可可影视",
+            "type": 3,
+            "api": "csp_Keke",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "圣城影视",
+            "name": "圣城影视",
+            "type": 3,
+            "api": "csp_SC1080",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "Voflix",
+            "name": " Voflix",
+            "type": 3,
+            "api": "csp_Voflix",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://voflix.fun/"
+        },
+        {
             "key": "兄弟影视",
             "name": "兄弟影视",
             "type": 3,
@@ -154,14 +208,6 @@
             "changeable": 1
         },
         {
-            "key": "韩剧视频",
-            "name": "韩剧视频",
-            "type": 3,
-            "api": "csp_Wexhanjutv",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "文才影视",
             "name": "文才影视",
             "type": 3,
@@ -170,62 +216,92 @@
             "changeable": 1
         },
         {
-            "key": "花漾影视",
-            "name": "花漾影视",
+            "key": "地瓜影视",
+            "name": "地瓜影视",
             "type": 3,
-            "api": "csp_Wexhuayang",
+            "api": "csp_Wexdiguatv",
             "searchable": 1,
             "changeable": 1
         },
         {
-            "key": "佳佳影视",
-            "name": "佳佳影视",
+            "key": "闪电影视",
+            "name": "闪电影视",
             "type": 3,
-            "api": "csp_Wexjiajia",
+            "api": "csp_Wexshandian",
             "searchable": 1,
             "changeable": 1
         },
         {
-            "key": "秒播短剧",
-            "name": "秒播短剧",
+            "key": "啾啾影视",
+            "name": "啾啾影视",
             "type": 3,
-            "api": "csp_Wexduanjuvop",
+            "api": "csp_Wexjiohub",
             "searchable": 1,
             "changeable": 1
         },
         {
-            "key": "极品短剧",
-            "name": "极品短剧",
+            "key": "星辰影视",
+            "name": "星辰影视",
             "type": 3,
-            "api": "csp_Wexduanjuvmp",
+            "api": "csp_WexXingchen",
             "searchable": 1,
             "changeable": 1
         },
         {
-            "key": "河马短剧",
-            "name": "河马短剧",
+            "key": "农民影视",
+            "name": "农民影视",
             "type": 3,
-            "api": "csp_Wexduanjuhema",
+            "api": "csp_WexNmys",
             "searchable": 1,
             "changeable": 1
         },
         {
-            "key": "耐看影视",
-            "name": "耐看影视",
+            "key": "利播影视",
+            "name": "利播影视",
             "type": 3,
-            "api": "csp_AppNK",
+            "api": "csp_Wexlibhd",
             "searchable": 1,
-            "changeable": 1,
-            "ext": "wZB2IYYD+8ueQYpVwNaeD9aWApRB50dhdsn0OGaiy7TzSEVFMPaUfP2IAhTWawXLgmBeISnN/ofFRtSAyaR1VuyyMIMe3u73MLA9RoQufYOihJUTbZl+jdef+X40n5RBuTS2EtpQjp5pWeakl4S99w=="
+            "changeable": 1
         },
         {
-            "key": "圣城影视",
-            "name": "圣城影视",
+            "key": "纯享影视",
+            "name": "纯享影视",
             "type": 3,
-            "api": "csp_AppNK",
+            "api": "csp_WexF4kvm",
             "searchable": 1,
-            "changeable": 1,
-            "ext": "mDw3UhvpqIkZ5UdXklz/4Il9zM5cNjB0mlRRZ9AJtWoDBppZXY/MdmoGXv//uRgRP2GmDU4DQ0dtJ3TOynvDwm+Yb2YXjCzfj0qmrCIfLeBniWNTsTxzfA32PGyymnWql5B8DHQxKbHgDEgJ6j4L4w=="
+            "changeable": 1
+        },
+        {
+            "key": "两个磁力",
+            "name": "两个磁力",
+            "type": 3,
+            "api": "csp_Wexbttwo",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "骚火影视",
+            "name": "骚火影视",
+            "type": 3,
+            "api": "csp_Wexsaohuo",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "在线之家",
+            "name": "在线之家",
+            "type": 3,
+            "api": "csp_Wexzxzj",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "精品短剧",
+            "name": "精品短剧",
+            "type": 3,
+            "api": "csp_Wexduanjuvip",
+            "searchable": 1,
+            "changeable": 1
         },
         {
             "key": "看看影视",
@@ -244,29 +320,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0
-        },
-       {
-            "key": "南坊追剧",
-            "name": "南坊追剧",
-            "type": 3,
-            "api": "csp_WebNF",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "https://www.nfzj.fun"
-        },
-       {
-            "key": "八八影视",
-            "name": "八八影视",
-            "type": 3,
-            "api": "csp_AppEight",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": {
-                "siteUrl": "https://api.kpyun6.cn",
-                "deviceId": "b0d43379a488e74d"
-            }
         },
         {
             "key": "星芽短剧",
@@ -295,8 +348,8 @@
             "searchable": 1,
             "changeable": 1
         },
-
-	{
+        
+        {
             "key": "稀饭动漫",
             "name": "稀饭动漫",
             "type": 3,
@@ -697,7 +750,31 @@
         {"key": "csp_Yj1211","name": "📡JustLive","type": 3,"api": "csp_Yj1211","playerType":1,"searchable": 1,"quickSearch": 1,"filterable": 1},
         {"key":"DRJS_虎牙","name":"虎牙直播(JS)","type":3,"api":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/虎牙直播.js","searchable": 0,"quickSearch": 0,"filterable": 0},
         {"key": "csp_XYQHiker_虎牙直播","name": "🐯虎牙直播(XYQH)","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": "./XYQHiker/虎牙直播.json"}
-       
+
+	/*{
+      "key": "lf_js_search",
+      "name": "🐵┃路飞影视热搜┃🐵",
+      "type": 3,
+      "searchable": 0,
+      "changeable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "api": "./LuFei/lf_search3_min.js"
+    },*/
+    
+     /*{ "key": "js_cntv","name": "CNTV大全JS┃聚合", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/cntv_all_2024.js" },*/
+     
+     /*{
+      "key": "hipy_t3_cntv央视",
+      "name": "CNTV央视(hipy_T3) | FM",
+      "type": 3,
+      "api": "./py/cctv_spider.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./py/cctv_spider.json"
+    },*/
+
         
     ],
   
