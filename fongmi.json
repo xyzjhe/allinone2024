@@ -18,7 +18,7 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "🐝豆瓣sp|蜜蜂线路0615🐝",
+      "name": "🐝豆瓣sp|蜜蜂线路0616🐝",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -29,32 +29,7 @@
    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃备用","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
    
       
-   {
-      "key": "lf_js_search",
-      "name": "🐵┃路飞影视热搜┃🐵",
-      "type": 3,
-      "searchable": 0,
-      "changeable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "api": "./LuFei/lf_search3_min.js"
-   },
-    
-   
-    {"key": "js_cntv","name": "CNTV大全┃JS", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/cntv_all_2024.js" },
-     
-     {
-      "key": "hipy_t3_cntv央视1",
-      "name": "cntv央视(hipy_T3)",
-      "type": 3,
-      "api": "./py/cctv_spider.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./py/cctv_spider.json"
-    },
-
-    
+      
     {
       "key": "賤賤",
       "name": "荐片SP┃2K首选",
@@ -166,83 +141,7 @@
 			"order_num": 26,
 			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/博看听书.js"
 		},
-		{
-			"key": "hipy_js_玩偶哥哥[盘]",
-			"name": "玩偶哥哥[盘](drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 72,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/玩偶哥哥[盘].js"
-		},
-		{
-			"key": "hipy_js_影搜[搜]",
-			"name": "影搜[搜](drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 98,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/影搜[搜].js"
-		},
-	        {
-			"key": "hipy_js_易搜[搜]",
-			"name": "易搜[搜](drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 98,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/易搜[搜].js"
-		},
-		{
-			"key": "hipy_js_小站盘[搜]",
-			"name": "小站盘[搜](drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 98,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/小站盘[搜].js"
-		},
-		{
-			"key": "hipy_js_狗狗盘[搜]",
-			"name": "狗狗盘[搜](drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 98,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/狗狗盘[搜].js"
-		},
-		{
-			"key": "hipy_js_阿里土豆[盘]",
-			"name": "阿里土豆[盘](drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 103,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/阿里土豆[盘].js"
-		},
-		{
-			"key": "hipy_js_云盘资源网",
-			"name": "云盘资源网(drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 17,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/云盘资源网.js"
-		},
+		
 		{
 			"key": "hipy_js_好趣网",
 			"name": "好趣网(drpy_t3)",
