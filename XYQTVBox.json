@@ -751,7 +751,7 @@
         {"key":"DRJS_虎牙","name":"虎牙直播(JS)","type":3,"api":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/虎牙直播.js","searchable": 0,"quickSearch": 0,"filterable": 0},
         {"key": "csp_XYQHiker_虎牙直播","name": "🐯虎牙直播(XYQH)","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": "./XYQHiker/虎牙直播.json"}
 
-	/*{
+   /*{
       "key": "lf_js_search",
       "name": "🐵┃路飞影视热搜┃🐵",
       "type": 3,
@@ -760,7 +760,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "api": "./LuFei/lf_search3_min.js"
-    },*/
+     },*/
     
      /*{ "key": "js_cntv","name": "CNTV大全JS┃聚合", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/cntv_all_2024.js" },*/
      
