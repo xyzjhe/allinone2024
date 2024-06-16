@@ -28,7 +28,7 @@
 {"key": "rarbt","name": "🇹┃rarbt┃秒播","type": 3,"api": "csp_XBPQ","searchable": 1,"ua": "okhttp/3.15","quickSearch": 1,"filterable": 1,
 	"ext":{
                 "主页url": "https://www.rarbt.fun/",
-                "副标题": "SHG影视+pic-text text-right\">&&</b>",
+                "副标题": "rarbt影视+pic-text text-right\">&&</b>",
                 "搜索模式": "1",
                 "搜索url": "https://www.rarbt.fun/vod/search.html?wd={wd}",
                 "图片": "data-original=\"&&\"",
