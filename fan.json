@@ -1,5 +1,5 @@
 {
-"spider":"./jar/Yoursmile0615.jar",
+"spider":"./jar/Yoursmile0616.jar",
 "wallpaper":"https://深色壁纸.xxooo.cf/",
 
 "sites":[
@@ -79,7 +79,7 @@
 {"key":"比特","name":"🍄比特┃秒播","type":3,"api":"csp_Bttwoo","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"南瓜","name":"🎃南瓜┃多线","type":3,"api":"csp_NanGua","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 
-{"key":"Lib","name": "🌟立播┃不卡","type": 3,"api": "csp_Libvio","timeout":15,"searchable": 1,"quickSearch": 1,"changeable":1,"ext":"https://www.libvio.pw/"},
+{"key":"Lib","name": "🌟立播┃不卡","type": 3,"api": "csp_Libvio","timeout":15,"searchable": 1,"quickSearch": 1,"changeable":1,"ext":"https://www.libvio.cc/"},
 {"key":"Auete","name":"🏝奥特┃无广","type": 3,"api":"csp_Auete","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://auete.pro/"}, 
 
 {"key":"新6V","name":"🧲新6V┃磁力","type":3,"api":"csp_SixV","searchable":1,"quickSearch":1,"changeable":0,"ext": "http://www.xb6v.com/"},
