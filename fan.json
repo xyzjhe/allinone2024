@@ -4,7 +4,7 @@
 
 "sites":[
 	
-{"key":"豆豆","name":"🌕豆瓣热播┃饭佬plus0615🌕","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
+{"key":"豆豆","name":"🌕豆瓣热播┃饭佬plus0616🌕","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
 
 {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃备用","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
 
@@ -49,29 +49,6 @@
 {"key":"短视频","name":"☘️短视频","type":3,"api":"csp_XBPQ","searchable":0,"quickSearch":0,"filterable":1,"ext":{"主页url":"http://www.sharenice.net","直接播放":"1","嗅探词":".m3u8#m3u8?#.mp4#mp4?#ixigua#.czspp#.flv#.mp3#.m4a#?item/video#is_play_url=1#play/?#qianpailive","分类":"抖音&快手&微视&火山&场库&美拍&秒拍&全民&梨&好兔&开眼&美女&搞笑&社会&音乐&娱乐&影视&正能量&生活&动漫&萌系&美食&体育&游戏&明星&旅游&时尚","分类值":"douyin&kuaishou&weishi&huoshan&changku&meipai&miaopai&quanmin&lishipin&haotu&kaiyan&t-576O5aWz&t-5pCe56yR&t-56S+5Lya&t-6Z+z5LmQ&t-5aix5LmQ&t-5b2x6KeG&t-5q2j6IO96YeP&t-55Sf5rS7&t-5Yqo5ryr&t-6JCM57O7&t-576O6aOf&t-5L2T6IKy&t-5ri45oiP&t-5piO5pif&t-5peF5ri4&t-5pe25bCa","分类url":"http://www.sharenice.net/{cateId}?page={catePg}","二次截取":"class=\"item-box\">&&</ul>","数组":"<li&&</li>","图片":"data-original=\"&&\"","标题":"title=\"&&\"","链接":"href=\"&&\""}},
 {"key":"酷奇MV","name":"🎸酷奇MV","type":3,"api":"csp_XBPQ","searchable":0,"quickSearch":0,"filterable":1,"ext":{"主页url":"https://www.kuqimv.com","直接播放":"1","短视频":"1","分类":"华语高清$1#日韩精选$2#欧美MV$3#高清现场$4#影视MV$5#夜店视频$6#车模视频$7#热舞视频$8#美女写真$9#美女打碟$10","分类url":"https://www.kuqimv.com/play/{cateId}_{catePg}.html;;z","数组":"<li>&&</li>","标题":"title=\"&&\"","副标题":"target=\"play\">&&<","搜索模式":"1","搜索url":"https://www.kuqimv.com/search.php?key={wd}"}},
 
-{
-      "key": "lf_js_search",
-      "name": "🐵┃路飞影视热搜┃🐵",
-      "type": 3,
-      "searchable": 0,
-      "changeable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "api": "./LuFei/lf_search3_min.js"
- },
-
- {
-      "key": "hipy_t3_cntv央视",
-      "name": "cntv央视(hipy_t3)",
-      "type": 3,
-      "api": "./py/cctv_spider.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./py/cctv_spider.json"
- },
-
-{"key": "js_cntv","name": "CNTV大全┃JS", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/cntv_all_2024.js" },
      
 {"key":"玩偶","name":"👽玩偶哥哥┃4K弹幕","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0, "ext": {"aliToken":"http://127.0.0.1:9978/file/XYQox/alitoken.txt","quarkCookie":"http://127.0.0.1:9978/file/XYQTVBox/quark_cookie.txt","from":"4k|auto|fhd","siteUrl":"https://woggapi.333232.xyz/","danMu":"弹"}},
 {"key":"米搜","name":"🦋米搜┃搜索","type":3,"api":"csp_MIPanSo","searchable":1,"quickSearch":1,"changeable":0,"ext": {"pan":"quark","quarkCookie":"http://127.0.0.1:9978/file/XYQTVBox/quark_cookie.txt","from":"4k|auto|fhd"}},
@@ -223,83 +200,8 @@
 			"order_num": 26,
 			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/博看听书.js"
 		},
-		{
-			"key": "hipy_js_玩偶哥哥[盘]",
-			"name": "玩偶哥哥[盘](drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 72,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/玩偶哥哥[盘].js"
-		},
-		{
-			"key": "hipy_js_影搜[搜]",
-			"name": "影搜[搜](drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 98,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/影搜[搜].js"
-		},
-	        {
-			"key": "hipy_js_易搜[搜]",
-			"name": "易搜[搜](drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 98,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/易搜[搜].js"
-		},
-		{
-			"key": "hipy_js_小站盘[搜]",
-			"name": "小站盘[搜](drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 98,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/小站盘[搜].js"
-		},
-		{
-			"key": "hipy_js_狗狗盘[搜]",
-			"name": "狗狗盘[搜](drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 98,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/狗狗盘[搜].js"
-		},
-		{
-			"key": "hipy_js_阿里土豆[盘]",
-			"name": "阿里土豆[盘](drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 103,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/阿里土豆[盘].js"
-		},
-		{
-			"key": "hipy_js_云盘资源网",
-			"name": "云盘资源网(drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 17,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/云盘资源网.js"
-		},
+		
+		
 		{
 			"key": "hipy_js_好趣网",
 			"name": "好趣网(drpy_t3)",
