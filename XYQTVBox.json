@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://picsum.photos/1280/720/?blur=2",
-    "spider": "./jar/PGspider0616.jar",
+    "spider": "./jar/PGspider0617.jar",
     "lives": [
 
     {"name":"live","type":0,"url":"https://ghproxy.net/https://raw.githubusercontent.com/yoursmile66/TVBox/main/live.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
@@ -134,7 +134,7 @@
         },
         {
             "key": "忍者影视",
-            "name": " 忍者影视",
+            "name": "忍者影视",
             "type": 3,
             "api": "csp_AppRZ",
             "searchable": 1,
@@ -153,7 +153,7 @@
         },
         {
             "key": "可可影视",
-            "name": " 可可影视",
+            "name": "可可影视",
             "type": 3,
             "api": "csp_Keke",
             "searchable": 1,
@@ -171,7 +171,7 @@
         },
         {
             "key": "Voflix",
-            "name": " Voflix",
+            "name": "Voflix",
             "type": 3,
             "api": "csp_Voflix",
             "searchable": 1,
@@ -300,8 +300,64 @@
             "changeable": 1
         },
         {
+            "key": "愉悦影视",
+            "name": "愉悦影视",
+            "type": 3,
+            "api": "csp_Wexyuyueys",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "花蕊影视",
+            "name": "花蕊影视",
+            "type": 3,
+            "api": "csp_Wexhuaruitv",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "甲子影视",
+            "name": "甲子影视",
+            "type": 3,
+            "api": "csp_Wexjiazitv",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "秒播短剧",
+            "name": "秒播短剧",
+            "type": 3,
+            "api": "csp_Wexduanjuvop",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "仙品短剧",
+            "name": "仙品短剧",
+            "type": 3,
+            "api": "csp_Wexduanjuhema",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "极品短剧",
+            "name": "极品短剧",
+            "type": 3,
+            "api": "csp_Wexduanjuvmp",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "精品短剧",
             "name": "精品短剧",
+            "type": 3,
+            "api": "csp_Wexvipduanju",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "良品短剧",
+            "name": "良品短剧",
             "type": 3,
             "api": "csp_Wexduanjuvip",
             "searchable": 1,
