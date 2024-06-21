@@ -36,6 +36,17 @@
     {"key":"csp_JianPian","name":"🔨荐片|2K首选","type":3,"api":"csp_JianPian","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://112.124.0.131:20000/"},
     {"key":"csp_Ikanbot","name": "👾Ikanbot|采集大全","type": 3,"api": "csp_Ikanbot","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://v.aikanbot.com"},
 
+	 {
+            "key": "hipy_js_采集之王",
+            "name": "采集之王(drpy_t3)",
+            "type": 3,
+            "api": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "order_num": 142,
+            "ext": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/采集之王[合].js?type=url&params=https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/json/采集静态.json"
+        },	
+
         {
             "key": " 影探VIP",
             "name": " 影探VIP",
