@@ -876,7 +876,7 @@
             "ext": "./XYQHiker/我的小站.json"
         },
 
-	{"key": "csp_XYQHikerAL_阿里苏苏","name": "📀阿里苏苏臻享4K[XYQH]","type": 3,"api": "csp_XYQHikerAL","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./XYQHiker/alisusu.json"},
+	{"key": "csp_XYQHikerAL_阿里苏苏","name": "📀阿里苏苏臻享4K[XYQH]","type": 3,"api": "csp_XYQHikerAL","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./XYQHiker/阿里苏苏.json"},
 	    
         {"key": "csp_XYQBiu_小米搜","name": "📀小米搜(XYQB)","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./XYQBiu/小米搜0521.json"},
         {"key": "csp_XYQBiu_盘搜","name": "📀盘搜(XYQB)","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./XYQBiu/盘搜0521.json"},
