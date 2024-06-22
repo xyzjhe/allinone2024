@@ -40,6 +40,8 @@
                 "分类": "电影$movie#电视剧$Series#动漫$cartoon#综艺$variety#短剧$duanju",
                 "分类url": "https://www.rarbt.fun/vod/show/area/{area}/class/{class}/id/{cateId}/page/{catePg}/lang/{lang}/letter/{letter}/year/{year}.html"
             }},
+{"key": "皮皮影视吧","name": "皮皮影视┃4K","type": 3,"api": "csp_XBPQ","playerType": "2","ext": "./XBPQ/皮皮影视吧.json"},
+{"key":"云播","name":"云播[XBPQ]","type":3,"api":"csp_XBPQ", "searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/云播.json"},
 
 	 {
             "key": "hipy_js_采集之王",
