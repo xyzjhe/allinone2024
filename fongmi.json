@@ -52,17 +52,9 @@
             "ext": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/采集之王[合].js?type=url&params=https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/json/采集静态.json"
           },	
 
-	  {"key": "heimuer","name": "采集┃黑木耳资源","type": 0,"api": "https://xml.heimuer.tv/api.php/provide/vod/at/xml", "playUrl": "https://player.heimuer.tv/index.html?url=","searchable": 1,"quickSearch": 1,"categories": ["剧情","动作","冒险","同性","喜剧","奇幻","恐怖","悬疑","惊悚","灾难","爱情","犯罪","动画电影","科幻","歌舞","战争","经典","网络电影","其它","国产剧","港剧","韩剧","日剧","泰剧","台剧","欧美剧","新马剧","其他剧","国产综艺","韩国综艺","日本综艺","欧美综艺","港台综艺","新马泰综艺","其他综艺","古装","虐恋","逆袭","悬疑","神豪","重生","复仇","穿越","甜宠","强者","萌宝","其它","国产","欧美","日本","韩国","港台","新马泰","其它"]},
+	   {"key":"黑木耳采集","name":"黑木耳源","type":1,"api":"https://xml.heimuer.tv/api.php/provide/vod/","playUrl":"https://player.heimuer.tv/index.html?url=","searchable":1,"quickSearch": 1,"filterable": 1,"changeable":1},
 
-	  {"key":"黑木耳采集","name":"黑木耳源","type":1,"api":"https://xml.heimuer.tv/api.php/provide/vod/","playUrl":"https://player.heimuer.tv/index.html?url=","searchable":1,"quickSearch": 1,"filterable": 1,"changeable":1},
 
-	  {"key":"海外看","name":"海外看","api":"https://haiwaikan.com/api.php/provide/vod/at/xml/?ac=list","playerType":2,"searchable":1,"quickSearch":1,"playUrl":"https://dp.haiwaikan.com/index.html?url="},
-	  
-          {"key":"360资源","name":"360","api":"https://360zy.com/api.php/provide/vod/at/xml","playerType":2,"searchable":1,"quickSearch":1,"playUrl":"https://www.360jiexi.com/player/?url="},
-	  
-          {"key":"Aymt","name":"Aymt","type":1,"api":"http://124.222.116.5/mb/api.php/provide/vod/?ac=videolist","playerType":2,"searchable":1,"quickSearch":1},
-	  
-          {"key":"奥斯卡","name":"奥斯卡18","api":"https://aosikazy.com/api.php/provide/vod/at/xml","playerType":2,"searchable":1,"quickSearch":1,"playUrl":"https://aosikazy11.com/?url="},
 	  
                 {
 			"key": "hipy_js_黑木耳资源[资]",
@@ -285,12 +277,18 @@
 			"order_num": 98,
 			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/短剧天堂.js"
 		},
-               
 
-    {"key":"drpy_js_荐片","name":"荐片[js]┃2K首选","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/荐片.js"},
-    {"key":"drpy_js_爱看机器人1","name":"爱看|机器v1[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/爱看机器人.js"},
-    {"key":"drpy_js_爱看机器人2","name":"爱看|机器v2[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot2.js"},
-    {"key":"drpy_js_爱看机器人3","name":"爱看|机器v3[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot3.js"},
+	  /*{"key": "heimuer","name": "采集┃黑木耳资源","type": 0,"api": "https://xml.heimuer.tv/api.php/provide/vod/at/xml", "playUrl": "https://player.heimuer.tv/index.html?url=","searchable": 1,"quickSearch": 1,"categories": ["剧情","动作","冒险","同性","喜剧","奇幻","恐怖","悬疑","惊悚","灾难","爱情","犯罪","动画电影","科幻","歌舞","战争","经典","网络电影","其它","国产剧","港剧","韩剧","日剧","泰剧","台剧","欧美剧","新马剧","其他剧","国产综艺","韩国综艺","日本综艺","欧美综艺","港台综艺","新马泰综艺","其他综艺","古装","虐恋","逆袭","悬疑","神豪","重生","复仇","穿越","甜宠","强者","萌宝","其它","国产","欧美","日本","韩国","港台","新马泰","其它"]},*/
+          /*{"key":"海外看","name":"海外看","api":"https://haiwaikan.com/api.php/provide/vod/at/xml/?ac=list","playerType":2,"searchable":1,"quickSearch":1,"playUrl":"https://dp.haiwaikan.com/index.html?url="},*/
+	  /*{"key":"360资源","name":"360","api":"https://360zy.com/api.php/provide/vod/at/xml","playerType":2,"searchable":1,"quickSearch":1,"playUrl":"https://www.360jiexi.com/player/?url="},*/
+	  /*{"key":"Aymt","name":"Aymt","type":1,"api":"http://124.222.116.5/mb/api.php/provide/vod/?ac=videolist","playerType":2,"searchable":1,"quickSearch":1},*/
+	  /*{"key":"奥斯卡","name":"奥斯卡18","api":"https://aosikazy.com/api.php/provide/vod/at/xml","playerType":2,"searchable":1,"quickSearch":1,"playUrl":"https://aosikazy11.com/?url="},*/
+	  
+
+    /*{"key":"drpy_js_荐片","name":"荐片[js]┃2K首选","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/荐片.js"},*/
+    /*{"key":"drpy_js_爱看机器人1","name":"爱看|机器v1[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/爱看机器人.js"},*/
+    /*{"key":"drpy_js_爱看机器人2","name":"爱看|机器v2[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot2.js"},*/
+    /*{"key":"drpy_js_爱看机器人3","name":"爱看|机器v3[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot3.js"},*/
     
     {"key":"csp_SixV","name":"🧲新6V电影网[磁]","type":3,"api":"csp_SixV","searchable":1,"playerType":1,"timeout":120,"jar":"./jar/zhixc0521.jar"},
     {"key":"csp_DyGang","name":"🧲电影港[磁]","type":3,"api":"csp_DyGang","searchable":1,"playerType":1,"timeout":120,"jar":"./jar/zhixc0521.jar"},
@@ -312,14 +310,7 @@
     {"key":"MGTV","name":"📺MGTV[影视]","type":3,"api":"csp_MGTV","searchable":1,"jar":"./jar/zhixc0521.jar"},
     {"key":"农民","name":"📺农民[影视]","type":3,"api":"csp_NongMing","searchable":1,"jar":"./jar/zhixc0521.jar"},
 
-    {"key":"dr_py磁力熊","name":"🐮磁力熊[磁]","type":3,"api":"https://gitee.com/jahom1009/dr_py/raw/main/libs/drpy2.min.js","ext":"https://gitee.com/jahom1009/dr_py/raw/main/js/磁力熊[磁].js","playerType":1,"timeout":120},
-    {"key":"dr_py荐片","name":"🐮荐片[磁]","type":3,"api":"https://gitee.com/jahom1009/dr_py/raw/main/libs/drpy2.min.js","ext":"https://gitee.com/jahom1009/dr_py/raw/main/js/荐片.js","playerType":1,"timeout":30},
-    {"key":"dr_py我的哔哩","name":"🐮我的哔哩[合集]","type":3,"api":"https://gitee.com/jahom1009/dr_py/raw/main/libs/drpy2.min.js","ext":"https://gitee.com/jahom1009/dr_py/raw/main/js/我的哔哩.js"},
-    {"key":"dr_py厂长","name":"🐮厂长[影视]","type":3,"api":"https://gitee.com/jahom1009/dr_py/raw/main/libs/drpy2.min.js","ext":"https://gitee.com/jahom1009/dr_py/raw/main/js/厂长资源.js"},
-    {"key":"dr_py低端","name":"🐮低端[影视]","type":3,"api":"https://gitee.com/jahom1009/dr_py/raw/main/libs/drpy2.min.js","ext":"https://gitee.com/jahom1009/dr_py/raw/main/js/ddys.js"},
-    {"key":"dr_py两个BT","name":"🐮两个BT[影视]","type":3,"api":"https://gitee.com/jahom1009/dr_py/raw/main/libs/drpy2.min.js","ext":"https://gitee.com/jahom1009/dr_py/raw/main/js/两个BT.js"},
-    {"key":"dr_py怡萱动漫","name":"🐮怡萱[动漫]","type":3,"api":"https://gitee.com/jahom1009/dr_py/raw/main/libs/drpy2.min.js","ext":"https://gitee.com/jahom1009/dr_py/raw/main/js/怡萱动漫.js"},
-
+    
     {"key":"push_agent","name":"⏫推送(播放页链接或磁力)","type":3,"api":"csp_PushAgent","searchable":0,"playerType":1, "timeout":60},
 
     
