@@ -213,6 +213,42 @@
             "filterable": 1
         },
         {
+            "key": "视觉影视",
+            "name": "视觉影视",
+            "type": 3,
+            "api": "csp_Xinsj",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "疯狗影视",
+            "name": "疯狗影视",
+            "type": 3,
+            "api": "csp_FengGo",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "耐看影视",
+            "name": "耐看影视",
+            "type": 3,
+            "api": "csp_Nkdy",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "FreeOK",
+            "name": "FreeOK",
+            "type": 3,
+            "api": "csp_FreeOK",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "Voflix",
             "name": "Voflix",
             "type": 3,
@@ -696,6 +732,17 @@
 		},
        
 	//阿里资源区1
+
+        {
+            "key": "我的小站",
+            "name": "📀云盘｜我的小站",
+            "type": 3,
+            "api": "csp_XYQHikerAL",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/我的小站.json"
+        },
 	    
         {"key": "csp_XYQBiu_小米搜","name": "📀小米搜(XYQB)","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./XYQBiu/小米搜0521.json"},
         {"key": "csp_XYQBiu_盘搜","name": "📀盘搜(XYQB)","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./XYQBiu/盘搜0521.json"},
