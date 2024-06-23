@@ -886,7 +886,7 @@
 	{"key":"土豆网盘","name":"📀云盘｜土豆网盘","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/土豆网盘.json"},    
 	{"key":"天天开心","name":"📀云盘｜天天开心","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/天天开心.json"},
 	{"key":"多多影音","name":"📀云盘｜多多影音","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/多多影音.json"},
-	{"key":"csp_Zhaozy","name":"📀找资源(搜索)｜阿里4K","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"filterable":0, "ext": "{\"username\":\"zzygll2\",\"password\":\"zzy555555\",\"searchurl\":\"https://zhaoziyuan1.cc/so?filename={wd}\"}"},
+	{"key":"csp_Zhaozy","name":"📀找资源(搜索)｜阿里4K","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"filterable":0, "ext": "{\"username\":\"zzygll3\",\"password\":\"zzy555555\",\"searchurl\":\"https://zhaoziyuan1.cc/so?filename={wd}\"}"},
 	{"key": "csp_XYQHikerAL_云盘资源","name":"📀云盘｜云盘资源(搜索)","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/云盘资源.json"},
 	{"key": "csp_XYQHikerAL_阿里苏苏","name": "📀云盘｜阿里苏苏[XYQH]","type": 3,"api": "csp_XYQHikerAL","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./XYQHiker/阿里苏苏.json"},
 	
