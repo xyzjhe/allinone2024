@@ -24,7 +24,7 @@
   ],
     "sites": [
 
-    {"key":"豆瓣","name":"🐰豆瓣热播|香佬0621夏至🐰","type":3,"api":"csp_Douban","searchable":0},
+    {"key":"豆瓣","name":"🐰豆瓣热播|香佬0623🐰","type":3,"api":"csp_Douban","searchable":0},
     {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃备用","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
 	    
     {"key":"云盘登录","name":"云盘登录","type":3,"api":"csp_AliYunPan","searchable":0,"quickSearch":0,"filterable":0,"changeable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
@@ -876,8 +876,7 @@
             "ext": "./XYQHiker/我的小站.json"
         },
 
-	{"key": "csp_XYQHikerAL_阿里苏苏","name": "📀阿里苏苏臻享4K[XYQH]","type": 3,"api": "csp_XYQHikerAL","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./XYQHiker/阿里苏苏.json"},
-	    
+	{"key":"csp_Gitcafe","name":"📀云盘｜小纸条","type":3,"api":"csp_Gitcafe","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},    
         {"key": "csp_XYQBiu_小米搜","name": "📀小米搜(XYQB)","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./XYQBiu/小米搜0521.json"},
         {"key": "csp_XYQBiu_盘搜","name": "📀盘搜(XYQB)","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./XYQBiu/盘搜0521.json"},
 	{"key": "csp_XYQHiker_影搜","name":"📀影搜(XYQH)｜阿里4K","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/影搜.json"},
@@ -889,6 +888,7 @@
 	{"key":"多多影音","name":"📀云盘｜多多影音","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/多多影音.json"},
 	{"key":"csp_Zhaozy","name":"📀找资源(搜索)｜阿里4K","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"filterable":0, "ext": "{\"username\":\"zzygll2\",\"password\":\"zzy555555\",\"searchurl\":\"https://zhaoziyuan1.cc/so?filename={wd}\"}"},
 	{"key": "csp_XYQHikerAL_云盘资源","name":"📀云盘资源(搜索)","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/云盘资源.json"},
+	{"key": "csp_XYQHikerAL_阿里苏苏","name": "📀阿里苏苏臻享4K[XYQH]","type": 3,"api": "csp_XYQHikerAL","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./XYQHiker/阿里苏苏.json"},
 	
 	 //阿里资源区2
         {"key":"csp_AliPS","name":"📀喵狸盘搜(搜索)","type":3,"api":"csp_AliPS","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
