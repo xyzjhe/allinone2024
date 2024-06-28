@@ -1,0 +1,37 @@
+[
+  {
+    "name": "GitHub",
+    "url": "https://ghproxy.net/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt",
+    "img": "http://www.weibomn.com/uploadfile/image/20240622/5bf3ad336af04dc36b49ecd4a909882c.jpg"
+  },
+  {
+    "name": "饭太硬",
+    "url": "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/饭太硬/lives/live.txt",
+    "img": ""
+  },
+  {
+    "name": "南风",
+    "url": "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/南风/lives/live.txt",
+    "img": ""
+  },
+  {
+    "name": "综合4",
+    "url": "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/王二小/lives/综合4.txt",
+    "img": ""
+  },
+  {
+    "name": "肥猫",
+    "url": "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/天天开心/lives/live.txt",
+    "img": ""
+  },
+  {
+    "name": "开心频道",
+    "url": "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/天天开心/lives/开心频道.txt",
+    "img": ""
+  },
+  {
+    "name": "CNTV",
+    "url": "./live_cntv.txt",
+    "img": ""
+  }
+]
