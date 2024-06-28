@@ -53,6 +53,73 @@
             "ext": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/采集之王[合].js?type=url&params=https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/json/采集静态.json"
         },	
 
+                {
+			"key": "hipy_js_采集之王[合]0",
+			"name": "采集之王[合](drpy_t3)|用于海阔easybox相关",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 193,
+			"ext": "./drpy_js/采集之王[合].js?type=url&params=../json/采集静态.json"
+		},
+		{
+			"key": "hipy_js_采集之王[合]1",
+			"name": "采集之王[合](drpy_t3)|用于box相关",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 193,
+			"ext": "./drpy_js/采集之王[合].js?type=url&params=./json/采集静态.json"
+		},
+		{
+			"key": "hipy_js_密王[合]0",
+			"name": "密王[合](drpy_t3)|用于海阔easybox相关",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 193,
+			"ext": "./drpy_js/采集之王[合].js?type=url&params=../json/采集[密]静态.json"
+		},
+		{
+			"key": "hipy_js_密王[合]1",
+			"name": "密王[合](drpy_t3)|用于box相关",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 193,
+			"ext": "./drpy_js/采集之王[合].js?type=url&params=./json/采集[密]静态.json"
+		},
+		{
+			"key": "hipy_js_直播转点播[合]0",
+			"name": "直播转点播[合](drpy_t3)|用于海阔easybox相关",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 193,
+			"ext": "./drpy_js/直播转点播[合].js?type=url&params=../json/live2cms.json"
+		},
+		{
+			"key": "hipy_js_直播转点播[合]1",
+			"name": "直播转点播[合](drpy_t3)|用于box相关",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 193,
+			"ext": "./drpy_js/直播转点播[合].js?type=url&params=./json/live2cms.json"
+		},
+	    
         {
             "key": " 影探VIP",
             "name": " 影探VIP",
