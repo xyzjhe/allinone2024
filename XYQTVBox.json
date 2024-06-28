@@ -119,6 +119,36 @@
 			"order_num": 193,
 			"ext": "./drpy_js/直播转点播[合].js?type=url&params=./json/live2cms.json"
 		},
+	       	{
+                 "key": "hipy_t3_cntv央视[py]",
+                 "name": "cntv央视[py](hipy_t3)",
+                 "type": 3,
+                 "api": "./drpy_py/cntv央视.py",
+                 "searchable": 1,
+                 "quickSearch": 0,
+                 "filterable": 1,
+                 "ext": "./drpy_py/cntv央视.json"
+               },
+               {
+                "key": "hipy_t3_厂长资源[py]",
+                "name": "厂长资源[py](hipy_t3)",
+                "type": 3,
+                "api": "./drpy_py/厂长资源.py",
+                "searchable": 1,
+                "quickSearch": 0,
+                "filterable": 1,
+                "ext": ""
+               },
+               {
+                "key": "hipy_t3_新浪资源[py]",
+                "name": "新浪资源[py](hipy_t3)",
+                "type": 3,
+                "api": "./drpy_py/新浪资源.py",
+                "searchable": 1,
+                "quickSearch": 0,
+                "filterable": 1,
+                "ext": ""
+               },
 	    
         {
             "key": " 影探VIP",
