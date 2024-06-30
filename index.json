@@ -4,9 +4,22 @@
 	"homeLogo": "./img/logo500x200-1.png",
 	"spider": "./jar/pg.jar?md5=7633f8ea346c082b7aa163be58aed023",
 	"sites": [
+	
+	       {
+			"key": "hipy_js_豆瓣[官]",
+			"name": "豆瓣[官](drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./drpy_js/豆瓣[官].js"
+		},
+	
 		{
 			"key": "hipy_js_360影视[官]",
-			"name": "360影视[官](drpy_t3)|更新同步于0629",
+			"name": "360影视[官](drpy_t3)|更新同步于0630",
 			"type": 3,
 			"api": "./drpy_libs/drpy2.min.js",
 			"searchable": 1,
@@ -894,17 +907,7 @@
 			"order_num": 0,
 			"ext": "./drpy_js/斗鱼直播[官].js"
 		},
-		{
-			"key": "hipy_js_豆瓣[官]",
-			"name": "豆瓣[官](drpy_t3)",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "./drpy_js/豆瓣[官].js"
-		},
+		
 		{
 			"key": "hipy_js_豆角网",
 			"name": "豆角网(drpy_t3)",
@@ -2049,6 +2052,50 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/人人影视.js"
+		},
+		{
+			"key": "hipy_js_360吧[球]",
+			"name": "360吧[球](drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./drpy_js/360吧[球].js"
+		},
+		{
+			"key": "hipy_js_看了么",
+			"name": "看了么(drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./drpy_js/看了么.js"
+		},
+		{
+			"key": "hipy_js_童趣[儿]",
+			"name": "童趣[儿](drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./drpy_js/童趣[儿].js"
+		},
+		{
+			"key": "hipy_js_笔趣阁13[书]",
+			"name": "笔趣阁13[书](drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./drpy_js/笔趣阁13[书].js"
 		},
 		{
 			"key": "hipy_js_如意影视",
@@ -3362,15 +3409,26 @@
 			"ext": "./drpy_js/script直播[飞].js"
 		},
 		{
-			"key": "hipy_js_ss直播",
-			"name": "ss直播(drpy_t3)",
+			"key": "hipy_js_36直播[密]",
+			"name": "36直播(drpy_t3)",
 			"type": 3,
 			"api": "./drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./drpy_js/ss直播.js"
+			"ext": "./drpy_js/36直播[密].js"
+		},
+		{
+			"key": "hipy_js_路漫漫[漫]",
+			"name": "路漫漫[漫](drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./drpy_js/路漫漫[漫].js"
 		},
 		{
 			"key": "hipy_js_TVB云播",
