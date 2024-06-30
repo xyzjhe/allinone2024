@@ -24,7 +24,7 @@
   ],
     "sites": [
 
-    {"key":"豆瓣","name":"🐰豆瓣热播|香佬0628🐰","type":3,"api":"csp_Douban","searchable":0},
+    {"key":"豆瓣","name":"🐰豆瓣热播|香佬0701🐰","type":3,"api":"csp_Douban","searchable":0},
     {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃备用","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
 
     {"key":"csp_JianPian","name":"🔨荐片|2K首选","type":3,"api":"csp_JianPian","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://112.124.0.131:20000/"},
