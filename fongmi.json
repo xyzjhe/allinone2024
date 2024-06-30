@@ -18,7 +18,7 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "🐝豆瓣sp|蜜蜂线路0628🐝",
+      "name": "🐝豆瓣sp|蜜蜂线路0701🐝",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -40,7 +40,258 @@
       "playerType":1,
       "ext": "./json/jianpian.json"
     },
-	  //夸克资源区
+	  
+	  
+	 
+
+	        {
+			"key": "hipy_js_采集之王[合]0",
+			"name": "采集之王[合](drpy_t3)|用于海阔easybox相关",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 193,
+			"ext": "./drpy_js/采集之王[合].js?type=url&params=../json/采集静态.json"
+		},
+		{
+			"key": "hipy_js_采集之王[合]1",
+			"name": "采集之王[合](drpy_t3)|用于box相关",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 193,
+			"ext": "./drpy_js/采集之王[合].js?type=url&params=./json/采集静态.json"
+		},
+		
+		{
+			"key": "hipy_js_直播转点播[合]0",
+			"name": "直播转点播[合](drpy_t3)|用于海阔easybox相关",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 193,
+			"ext": "./drpy_js/直播转点播[合].js?type=url&params=../json/live2cms.json"
+		},
+		{
+			"key": "hipy_js_直播转点播[合]1",
+			"name": "直播转点播[合](drpy_t3)|用于box相关",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 193,
+			"ext": "./drpy_js/直播转点播[合].js?type=url&params=./json/live2cms.json"
+		},
+	       	{
+                 "key": "hipy_t3_cntv央视[py]",
+                 "name": "cntv央视[py](hipy_t3)",
+                 "type": 3,
+                 "api": "./drpy_py/cntv央视.py",
+                 "searchable": 1,
+                 "quickSearch": 0,
+                 "filterable": 1,
+                 "ext": "./drpy_py/cntv央视.json"
+               },
+               {
+                "key": "hipy_t3_厂长资源[py]",
+                "name": "厂长资源[py](hipy_t3)",
+                "type": 3,
+                "api": "./drpy_py/厂长资源.py",
+                "searchable": 1,
+                "quickSearch": 0,
+                "filterable": 1,
+                "ext": ""
+               },
+               {
+                "key": "hipy_t3_新浪资源[py]",
+                "name": "新浪资源[py](hipy_t3)",
+                "type": 3,
+                "api": "./drpy_py/新浪资源.py",
+                "searchable": 1,
+                "quickSearch": 0,
+                "filterable": 1,
+                "ext": ""
+               },
+
+	  
+
+	   {"key":"黑木耳采集","name":"黑木耳源","type":1,"api":"https://xml.heimuer.tv/api.php/provide/vod/","playUrl":"https://player.heimuer.tv/index.html?url=","searchable":1,"quickSearch": 1,"filterable": 1,"changeable":1},
+
+
+	  
+                {
+			"key": "hipy_js_黑木耳资源[资]",
+			"name": "黑木耳资源[资](drpy_t3)",
+			"type": 3,
+			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 98,
+			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/黑木耳资源[资].js"
+		},
+		{
+			"key": "hipy_js_爱看机器人[虫]",
+			"name": "爱看机器人[虫](drpy_t3)",
+			"type": 3,
+			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 70,
+			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/爱看机器人[虫].js"
+		},
+		{
+			"key": "hipy_js_荐片[优]",
+			"name": "荐片[优](drpy_t3)",
+			"type": 3,
+			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 91,
+			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/荐片[优].js"
+		},
+		{
+			"key": "hipy_js_爱看农民[优]",
+			"name": "爱看农民[优](drpy_t3)",
+			"type": 3,
+			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 98,
+			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/爱看农民[优].js"
+		},
+		{
+			"key": "hipy_js_爱看农民2[优]",
+			"name": "爱看农民2[优](drpy_t3)",
+			"type": 3,
+			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 98,
+			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/爱看农民2[优].js"
+		},
+		{
+			"key": "hipy_js_厂长资源",
+			"name": "厂长资源(drpy_t3)",
+			"type": 3,
+			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 29,
+			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/厂长资源.js"
+		},
+		{
+			"key": "hipy_js_南瓜影视[优]",
+			"name": "南瓜影视[优](drpy_t3)",
+			"type": 3,
+			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 25,
+			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/南瓜影视[优].js"
+		},
+		{
+			"key": "hipy_js_博看听书",
+			"name": "博看听书(drpy_t3)",
+			"type": 3,
+			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 26,
+			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/博看听书.js"
+		},
+		
+		
+		{
+			"key": "hipy_js_freeok",
+			"name": "freeok(drpy_t3)",
+			"type": 3,
+			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 8,
+			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/freeok.js"
+		},
+		{
+			"key": "hipy_js_HDmoli",
+			"name": "HDmoli(drpy_t3)",
+			"type": 3,
+			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 9,
+			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/HDmoli.js"
+		},
+		{
+			"key": "hipy_js_LIBVIO[优]",
+			"name": "LIBVIO[优](drpy_t3)",
+			"type": 3,
+			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 10,
+			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/LIBVIO[优].js"
+		},
+		{
+			"key": "hipy_js_ok资源[资]",
+			"name": "ok资源[资](drpy_t3)",
+			"type": 3,
+			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 11,
+			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/ok资源[资].js"
+		},
+		{
+			"key": "hipy_js_TVB云播",
+			"name": "TVB云播(drpy_t3)",
+			"type": 3,
+			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 12,
+			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/TVB云播.js"
+		},
+		{
+			"key": "hipy_js_voflix",
+			"name": "voflix(drpy_t3)",
+			"type": 3,
+			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 13,
+			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/voflix.js"
+		},
+		
+
+	  
+
+   
+    
+    {"key":"push_agent","name":"⏫推送(播放页链接或磁力)","type":3,"api":"csp_PushAgent","searchable":0,"playerType":1, "timeout":60},
+
+
+     //夸克资源区
 	    
 	
 	{
@@ -163,497 +414,7 @@
             },
             "jar": "./jar/danmu0628.jar"
         },    
-
-	  {
-			"key": "hipy_js_采集之王[合]0",
-			"name": "采集之王[合](drpy_t3)|用于海阔easybox相关",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 193,
-			"ext": "./drpy_js/采集之王[合].js?type=url&params=../json/采集静态.json"
-		},
-		{
-			"key": "hipy_js_采集之王[合]1",
-			"name": "采集之王[合](drpy_t3)|用于box相关",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 193,
-			"ext": "./drpy_js/采集之王[合].js?type=url&params=./json/采集静态.json"
-		},
-		{
-			"key": "hipy_js_密王[合]0",
-			"name": "密王[合](drpy_t3)|用于海阔easybox相关",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 193,
-			"ext": "./drpy_js/采集之王[合].js?type=url&params=../json/采集[密]静态.json"
-		},
-		{
-			"key": "hipy_js_密王[合]1",
-			"name": "密王[合](drpy_t3)|用于box相关",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 193,
-			"ext": "./drpy_js/采集之王[合].js?type=url&params=./json/采集[密]静态.json"
-		},
-		{
-			"key": "hipy_js_直播转点播[合]0",
-			"name": "直播转点播[合](drpy_t3)|用于海阔easybox相关",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 193,
-			"ext": "./drpy_js/直播转点播[合].js?type=url&params=../json/live2cms.json"
-		},
-		{
-			"key": "hipy_js_直播转点播[合]1",
-			"name": "直播转点播[合](drpy_t3)|用于box相关",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 193,
-			"ext": "./drpy_js/直播转点播[合].js?type=url&params=./json/live2cms.json"
-		},
-	       	{
-                 "key": "hipy_t3_cntv央视[py]",
-                 "name": "cntv央视[py](hipy_t3)",
-                 "type": 3,
-                 "api": "./drpy_py/cntv央视.py",
-                 "searchable": 1,
-                 "quickSearch": 0,
-                 "filterable": 1,
-                 "ext": "./drpy_py/cntv央视.json"
-               },
-               {
-                "key": "hipy_t3_厂长资源[py]",
-                "name": "厂长资源[py](hipy_t3)",
-                "type": 3,
-                "api": "./drpy_py/厂长资源.py",
-                "searchable": 1,
-                "quickSearch": 0,
-                "filterable": 1,
-                "ext": ""
-               },
-               {
-                "key": "hipy_t3_新浪资源[py]",
-                "name": "新浪资源[py](hipy_t3)",
-                "type": 3,
-                "api": "./drpy_py/新浪资源.py",
-                "searchable": 1,
-                "quickSearch": 0,
-                "filterable": 1,
-                "ext": ""
-               },
-
-	  {
-            "key": "hipy_js_采集之王",
-            "name": "采集之王(drpy_t3)",
-            "type": 3,
-            "api": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "order_num": 142,
-            "ext": "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/采集之王[合].js?type=url&params=https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/json/采集静态.json"
-          },	
-
-	   {"key":"黑木耳采集","name":"黑木耳源","type":1,"api":"https://xml.heimuer.tv/api.php/provide/vod/","playUrl":"https://player.heimuer.tv/index.html?url=","searchable":1,"quickSearch": 1,"filterable": 1,"changeable":1},
-
-
-	  
-                {
-			"key": "hipy_js_黑木耳资源[资]",
-			"name": "黑木耳资源[资](drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 98,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/黑木耳资源[资].js"
-		},
-		{
-			"key": "hipy_js_爱看机器人[虫]",
-			"name": "爱看机器人[虫](drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 70,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/爱看机器人[虫].js"
-		},
-		{
-			"key": "hipy_js_荐片[优]",
-			"name": "荐片[优](drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 91,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/荐片[优].js"
-		},
-		{
-			"key": "hipy_js_爱看农民[优]",
-			"name": "爱看农民[优](drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 98,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/爱看农民[优].js"
-		},
-		{
-			"key": "hipy_js_爱看农民2[优]",
-			"name": "爱看农民2[优](drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 98,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/爱看农民2[优].js"
-		},
-		{
-			"key": "hipy_js_厂长资源",
-			"name": "厂长资源(drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 29,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/厂长资源.js"
-		},
-		{
-			"key": "hipy_js_南瓜影视[优]",
-			"name": "南瓜影视[优](drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 25,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/南瓜影视[优].js"
-		},
-		{
-			"key": "hipy_js_博看听书",
-			"name": "博看听书(drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 26,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/博看听书.js"
-		},
-		
-		{
-			"key": "hipy_js_好趣网",
-			"name": "好趣网(drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 98,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/好趣网.js"
-		},
-		{
-			"key": "hipy_js_相声随身听",
-			"name": "相声随身听(drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 98,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/相声随身听.js"
-		},
-		{
-			"key": "hipy_js_广播迷FM",
-			"name": "广播迷FM(drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 98,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/广播迷FM.js"
-		},
-		{
-			"key": "hipy_js_freeok",
-			"name": "freeok(drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 8,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/freeok.js"
-		},
-		{
-			"key": "hipy_js_HDmoli",
-			"name": "HDmoli(drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 9,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/HDmoli.js"
-		},
-		{
-			"key": "hipy_js_LIBVIO[优]",
-			"name": "LIBVIO[优](drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 10,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/LIBVIO[优].js"
-		},
-		{
-			"key": "hipy_js_ok资源[资]",
-			"name": "ok资源[资](drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 11,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/ok资源[资].js"
-		},
-		{
-			"key": "hipy_js_TVB云播",
-			"name": "TVB云播(drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 12,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/TVB云播.js"
-		},
-		{
-			"key": "hipy_js_voflix",
-			"name": "voflix(drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 13,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/voflix.js"
-		},
-		{
-			"key": "hipy_js_榜一短剧",
-			"name": "榜一短剧(drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 63,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/榜一短剧.js"
-		},
-		{
-			"key": "hipy_js_短剧TV网",
-			"name": "短剧TV网(drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 79,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/短剧TV网.js"
-		},
-		{
-			"key": "hipy_js_短剧天堂",
-			"name": "短剧天堂(drpy_t3)",
-			"type": 3,
-			"api": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 98,
-			"ext": "https://mirror.ghproxy.com/raw.githubusercontent.com/hjdhnx/hipy-server/master/app/t4/files/drpy_js/短剧天堂.js"
-		},
-
-	  /*{"key": "heimuer","name": "采集┃黑木耳资源","type": 0,"api": "https://xml.heimuer.tv/api.php/provide/vod/at/xml", "playUrl": "https://player.heimuer.tv/index.html?url=","searchable": 1,"quickSearch": 1,"categories": ["剧情","动作","冒险","同性","喜剧","奇幻","恐怖","悬疑","惊悚","灾难","爱情","犯罪","动画电影","科幻","歌舞","战争","经典","网络电影","其它","国产剧","港剧","韩剧","日剧","泰剧","台剧","欧美剧","新马剧","其他剧","国产综艺","韩国综艺","日本综艺","欧美综艺","港台综艺","新马泰综艺","其他综艺","古装","虐恋","逆袭","悬疑","神豪","重生","复仇","穿越","甜宠","强者","萌宝","其它","国产","欧美","日本","韩国","港台","新马泰","其它"]},*/
-          /*{"key":"海外看","name":"海外看","api":"https://haiwaikan.com/api.php/provide/vod/at/xml/?ac=list","playerType":2,"searchable":1,"quickSearch":1,"playUrl":"https://dp.haiwaikan.com/index.html?url="},*/
-	  /*{"key":"360资源","name":"360","api":"https://360zy.com/api.php/provide/vod/at/xml","playerType":2,"searchable":1,"quickSearch":1,"playUrl":"https://www.360jiexi.com/player/?url="},*/
-	  /*{"key":"Aymt","name":"Aymt","type":1,"api":"http://124.222.116.5/mb/api.php/provide/vod/?ac=videolist","playerType":2,"searchable":1,"quickSearch":1},*/
-	  /*{"key":"奥斯卡","name":"奥斯卡18","api":"https://aosikazy.com/api.php/provide/vod/at/xml","playerType":2,"searchable":1,"quickSearch":1,"playUrl":"https://aosikazy11.com/?url="},*/
-	  
-
-    /*{"key":"drpy_js_荐片","name":"荐片[js]┃2K首选","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/荐片.js"},*/
-    /*{"key":"drpy_js_爱看机器人1","name":"爱看|机器v1[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/爱看机器人.js"},*/
-    /*{"key":"drpy_js_爱看机器人2","name":"爱看|机器v2[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot2.js"},*/
-    /*{"key":"drpy_js_爱看机器人3","name":"爱看|机器v3[js]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot3.js"},*/
     
-    {"key":"csp_SixV","name":"🧲新6V电影网[磁]","type":3,"api":"csp_SixV","searchable":1,"playerType":1,"timeout":120,"jar":"./jar/zhixc0521.jar"},
-    {"key":"csp_DyGang","name":"🧲电影港[磁]","type":3,"api":"csp_DyGang","searchable":1,"playerType":1,"timeout":120,"jar":"./jar/zhixc0521.jar"},
-    {"key":"csp_Xunlei8","name":"🧲迅雷吧[磁]","type":3,"api":"csp_Xunlei8","searchable":1,"playerType":1,"timeout":120,"changeable":0,"jar":"./jar/zhixc0521.jar"},
-    {"key":"PiaoHua","name":"🧲新飘花电影网[磁]","type":3,"api":"csp_PiaoHua","searchable":1,"playerType":1,"timeout":120,"jar":"./jar/zhixc0521.jar"},
-    {"key":"Douban","name":"🔍豆瓣[搜索]","type":3,"api":"csp_Douban","ext":"./json/douban.json","searchable":0,"jar":"./jar/zhixc0521.jar"},
-    {"key":"星易影","name":"🔍星易影[搜索]","type":3,"api":"csp_XingYiYing","searchable":1,"jar":"./jar/zhixc0521.jar"},
-    {"key":"本地","name":"📃本地文件","type":3,"api":"csp_LocalFileV2","searchable":0,"playerType":1,"jar":"./jar/zhixc0521.jar"},
-    {"key":"本地2","name":"📃本地文件[不显示隐藏文件]","type":3,"api":"csp_LocalFileV2","ext": "showAllFile=false","searchable":0,"playerType":1,"jar":"./jar/zhixc0521.jar"},
-    {"key":"巴士","name":"🌸巴士[动漫]","type":3,"api": "csp_Dm84","searchable":1,"jar":"./jar/zhixc0521.jar"},
-    {"key":"Anime1","name":"🌸Anime1[动漫]","type":3,"api":"csp_Anime1","searchable":1,"jar":"./jar/zhixc0521.jar"},
-    {"key":"Voflix","name":"📺Voflix[影视]","type":3,"api":"csp_Voflix","searchable":1,"ext": "siteUrl=https://www.voflix.vip$$$rulesUrl=https://fastly.jsdelivr.net/gh/zhixc/CatVodTVSpider@main/other/json/rules.json","jar":"./jar/zhixc0521.jar"},
-    {"key":"Live2Vod","name":"电视[直播]","type":3,"api":"csp_Live2Vod","searchable":0,"changeable":0, "ext":"南风$https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/yoursmile66/TVBox/main/live.txt#yuanzl77$https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/yuanzl77/IPTV/main/live.txt&&&https://img1.dd.ci/file/08b8a048adf5d333c6030.png" ,"jar":"./jar/zhixc0521.jar"},
-    {"key":"Live2Vod2","name":"电视直播(远程版)","type":3,"api":"csp_Live2Vod","ext":"./other/json/live.json","searchable":0,"changeable":0,"jar":"./jar/zhixc0521.jar"},
-    {"key":"Yj1211","name":"综合直播","type":3,"api":"csp_Yj1211","searchable":1,"changeable":0,"jar":"./jar/zhixc0521.jar"},
-    {"key":"V2_cokemv","name":"📺cokemv[V2]","type":3,"api":"csp_AppYsV2","searchable":1,"ext":"https://cokemv.co/xgapp.php/v2/"},
-    {"key":"360","name":"📺360[影视]","type":3,"api":"csp_SP360","searchable":1,"jar":"./jar/zhixc0521.jar"},
-    {"key":"IQIYI","name":"📺IQIYI[影视]","type":3,"api":"csp_IQIYI","searchable":1,"jar":"./jar/zhixc0521.jar"},
-    {"key":"MGTV","name":"📺MGTV[影视]","type":3,"api":"csp_MGTV","searchable":1,"jar":"./jar/zhixc0521.jar"},
-    {"key":"农民","name":"📺农民[影视]","type":3,"api":"csp_NongMing","searchable":1,"jar":"./jar/zhixc0521.jar"},
-
-    
-    {"key":"push_agent","name":"⏫推送(播放页链接或磁力)","type":3,"api":"csp_PushAgent","searchable":0,"playerType":1, "timeout":60},
-
-    
-    {
-      "key": "土豆阿里",
-      "name": "🎯土豆阿里【搜索】|4K",
-      "type": 3,
-      "api": "csp_Tudou",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
-        }
-    },
-    {
-      "key": "玩偶表哥",
-      "name": "🎯玩偶表哥【搜索】|4K",
-      "type": 3,
-      "api": "csp_Wobg",
-      "searchable": 1,
-      "changeable": 0,
-       "ext": {
-        "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
-        }
-    },
-    {
-      "key": "玩我哥哥",
-      "name": "🎯玩我哥哥【天天开心】|4K",
-      "type": 3,
-      "api": "csp_Wwgg",
-      "searchable": 1,
-      "changeable": 0,
-     "ext": {
-        "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
-        }
-    },
-    {
-      "key": "玩你老哥",
-      "name": "🎯玩你老哥【多多搜索】|4K",
-      "type": 3,
-      "api": "csp_Wnlg",
-      "searchable": 1,
-      "changeable": 0,
-       "ext": {
-        "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
-        }
-    },
-    {
-      "key": "玩偶哥哥",
-      "name": "🎯玩偶哥哥|4K",
-      "type": 3,
-      "api": "csp_Wogg",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-        "filter": "./json/wogg.json"
-      }
-    },
-    {
-      "key": "盤搜索",
-      "name": "🎯盘搜索|4K",
-      "type": 3,
-      "api": "csp_PanSearch",
-      "searchable": 1,
-      "changeable": 0,
-      "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt" 
-    },
-    {
-      "key": "找資源",
-      "name": "🎯找资源|4K",
-      "type": 3,
-      "api": "csp_Zhaozy",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt$$$zzygll3$$$zzy555555"
-    },
-    {
-      "key": "雲搜",
-      "name": "🎯云搜|4K",
-      "type": 3,
-      "api": "csp_UpYun",
-      "searchable": 1,
-      "changeable": 0,
-      "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
-    },
-    {
-      "key": "盤搜",
-      "name": "🎯盘搜|4K",
-      "type": 3,
-      "api": "csp_PanSou",
-      "searchable": 1,
-      "changeable": 0,
-      "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
-    },
-    {
-      "key": "七夜",
-      "name": "🎯七夜|4K",
-      "type": 3,
-      "api": "csp_Dovx",
-      "searchable": 1,
-      "changeable": 0,
-      "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
-    },
-    {
-      "key": "易搜",
-      "name": "🎯易搜|4K",
-      "type": 3,
-      "api": "csp_YiSo",
-      "searchable": 1,
-      "changeable": 0,
-      "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt$$$satoken=1aee2366-2ff4-4436-b321-a14db23e8294"
-    },
-    
-    {
-      "key": "紙條搜",
-      "name": "🎯纸条搜|4K",
-      "type": 3,
-      "api": "csp_XiaoZhiTiao",
-      "searchable": 1,
-      "changeable": 0,
-      "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
-    },
     
     {
       "key": "索尼资源",
