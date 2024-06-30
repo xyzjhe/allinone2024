@@ -1,12 +1,12 @@
 [
   {
     "name": "GitHub-TXT",
-    "url": "https://ghproxy.net/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt",
+    "url": "https://cf.ghproxy.cc/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt",
     "img": "http://www.weibomn.com/uploadfile/image/20240622/5bf3ad336af04dc36b49ecd4a909882c.jpg"
   },
   {
     "name": "GitHub-M3U",
-    "url": "https://ghproxy.net/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.m3u",
+    "url": "https://cf.ghproxy.cc/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.m3u",
     "img": "http://www.weibomn.com/uploadfile/image/20240622/5bf3ad336af04dc36b49ecd4a909882c.jpg"
   },
   {
@@ -21,7 +21,7 @@
   },
   {
     "name": "范明明-V6",
-    "url": "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/饭太硬/lives/IPV6.txt",
+    "url": "https://cf.ghproxy.cc/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/饭太硬/lives/IPV6.txt",
     "img": "./lives.jpg"
   },
   {
@@ -31,32 +31,32 @@
   },
   {
     "name": "饭太硬",
-    "url": "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/饭太硬/lives/live.txt",
+    "url": "https://cf.ghproxy.cc/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/饭太硬/lives/live.txt",
     "img": "./lives.jpg"
   },
   {
     "name": "fanmingming",
-    "url": "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/OK/lives/fanmingming.txt",
+    "url": "https://cf.ghproxy.cc/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/OK/lives/fanmingming.txt",
     "img": "./lives.jpg"
   },
   {
     "name": "南风",
-    "url": "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/南风/lives/live.txt",
+    "url": "https://cf.ghproxy.cc/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/南风/lives/live.txt",
     "img": "./lives.jpg"
   },
   {
     "name": "综合4",
-    "url": "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/王二小/lives/综合4.txt",
+    "url": "https://cf.ghproxy.cc/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/王二小/lives/综合4.txt",
     "img": "./lives.jpg"
   },
   {
     "name": "肥猫",
-    "url": "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/肥猫/lives/live.txt",
+    "url": "https://cf.ghproxy.cc/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/肥猫/lives/live.txt",
     "img": "./lives.jpg"
   },
   {
     "name": "开心频道",
-    "url": "https://ghproxy.net/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/天天开心/lives/开心频道.txt",
+    "url": "https://cf.ghproxy.cc/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/天天开心/lives/开心频道.txt",
     "img": "./lives.jpg"
   }
 ]
