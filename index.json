@@ -6,7 +6,7 @@
 	"sites": [
 		{
 			"key": "hipy_js_豆瓣[官]",
-			"name": "豆瓣[官](drpy_t3)|影视热搜",
+			"name": "豆瓣[官](drpy_t3)|影视热搜0702",
 			"type": 3,
 			"api": "./drpy_libs/drpy2.min.js",
 			"searchable": 1,
@@ -15,6 +15,32 @@
 			"order_num": 0,
 			"ext": "./drpy_js/豆瓣[官].js"
 		},
+
+
+               {
+			"key": "hipy_js_世纪DJ音乐网[听]",
+			"name": "世纪DJ音乐网[听](drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./drpy_js/世纪DJ音乐网[听].js"
+		},
+		{
+			"key": "hipy_js_老白故事[听]",
+			"name": "老白故事[听](drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./drpy_js/老白故事[听].js"
+		},
+		
+		
 		{
 			"key": "hipy_js_360影视[官]",
 			"name": "360影视[官](drpy_t3)|更新同步于0630",
