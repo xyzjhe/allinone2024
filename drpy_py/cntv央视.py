@@ -1,6 +1,7 @@
 # coding=utf-8
 # !/usr/bin/python
 import os.path
+import random
 import sys
 
 sys.path.append('..')
@@ -816,6 +817,21 @@ class Spider(BaseSpider):  # 元类 默认的元类 type
         txt = soup.sub('', txt)
         return txt.replace("&nbsp;", " ")
 
+    def hookM3u8(self, url):
+        """
+        https://www.52pojie.cn/thread-1932358-1-1.html
+        JavaScript:$.ajaxSettings.async = false; var s = ""; let a = $.get(vodh5player.playerList[0].ads.contentSrc); for (var m = 0; m < a.responseText.match(/asp.*?m3u8/g).length; m++) { s = s + "https://hls.cntv.myalicdn.com//asp" + a.responseText.match(/asp.*?m3u8/g)[m].slice(7) + "\n\n" }; var blob = new Blob([s], { type: "text/plain" }); var url = URL.createObjectURL(blob); window.open(url);
+        @param url:
+        @return:
+        """
+        url = url or ''
+        hook1 = lambda x: x.replace('asp/', 'asp//', 1)
+        hook2 = lambda x: x.replace('hls/', 'hls//', 1)
+        hook3 = lambda x: x.replace('https://newcntv.qcloudcdn.com', 'https://hls.cntv.myalicdn.com/', 1)
+        hooks = [hook1, hook2, hook3]
+        hook = random.choice(hooks)
+        return hook(url)
+
     # 取m3u8
     def get_m3u8(self, urlTxt):
         """
@@ -854,6 +870,7 @@ class Spider(BaseSpider):  # 元类 默认的元类 type
         hdRsp = self.TestWebPage(urlStr=hdUrl, header=self.header)
         if hdRsp == 200:
             url = hdUrl.split('?')[0]
+            url = self.hookM3u8(url)
             self.log(f'视频链接: {url}')
         else:
             url = ''
@@ -1031,7 +1048,7 @@ if __name__ == '__main__':
     print(vod_play_from, vod_play_url)
     _url = vod_play_url.split('#')[0].split('$')[1]
     print(_url)
-    print('vod_play_from:',vod_play_from,' vod_play_url:',_url)
+    print('vod_play_from:', vod_play_from, ' vod_play_url:', _url)
     play = spider.playerContent(vod_play_from, _url, None)
     print(play)
 
